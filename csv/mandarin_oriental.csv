@@ -1,0 +1,951 @@
+﻿title,score,positive,negative,guestName,travellerType,room,nightsStay,date,country,countryCode,photos
+Exceptional,10,,,Anonymous,Couple,,1,"8, 2022",,,[List]
+Exceptional,10,,,Anonymous,Couple,,4,"15, 2020",Switzerland,ch,[List]
+Exceptional,10,,,Anonymous,Couple,,2,"7, 2020",Japan,jp,[List]
+Exceptional,10,,,Anonymous,Couple,,5,"3, 2020",Belgium,be,[List]
+Exceptional,10,,,Anonymous,Couple,,2,"25, 2020",Spain,es,[List]
+Exceptional,9.6,,,Anonymous,Couple,,3,"18, 2020",Chile,cl,[List]
+Exceptional,9.6,,,Anonymous,Couple,,2,"11, 2020",Sweden,se,[List]
+Exceptional,10,,,Anonymous,Couple,,5,"11, 2020",Germany,de,[List]
+Wonderful,9,,,Anonymous,Couple,,2,"18, 2019",Sweden,se,[List]
+Good,7.5,,,Anonymous,Family,,4,"19, 2019",Singapore,sg,[List]
+Bad,1,,,Byeongchang,Couple,Marina Bay View Room King,3,"19, 2022",South Korea,kr,[List]
+Good,7,,,Wei,Couple,Premier King Room,5,"10, 2022",Taiwan,tw,[List]
+Good,7,,,Sakura,Couple,Ocean View Room King,5,"18, 2022",Singapore,sg,[List]
+Very Poor,2,,,Tang,Family,Ocean View Room King,2,"20, 2022",Hong Kong,hk,[List]
+Fair,5,,,Ota,Family,City Suite Twin,1,"27, 2022",Singapore,sg,[List]
+Pleasant,6,,,Patrick,Couple,Marina Bay Suite King,2,"19, 2021",France,fr,[List]
+Pleasant,6,,,Chuanle,Couple,City Suite King,1,"10, 2021",Singapore,sg,[List]
+Poor,3,,,Mineko,Family,Ocean Grand Twin,1,"5, 2021",Japan,jp,[List]
+Good,7,,,기범,Group,Ocean View Room Twin,1,"29, 2020",Singapore,sg,[List]
+Pleasant,6,,,Yi,Group,Marina Bay View Room Twin,1,"28, 2020",Singapore,sg,[List]
+Good,7,,,Franco,Family,Ocean View Room Twin,2,"29, 2020",Chile,cl,[List]
+Good,7,,,Reiko,Group,Club Marina Bay Twin,1,"3, 2020",Japan,jp,[List]
+Pleasant,6,,,Jong,Couple,Marina Bay View Room King,2,"28, 2020",South Korea,kr,[List]
+Fair,5.4,,,Jung,Family,Ocean View Room King,3,"26, 2019",Indonesia,id,[List]
+Poor,3,,,Lizhou,Couple,Marina Bay View Room King,3,"23, 2019",Sri Lanka,lk,[List]
+Good,7,,,Masayo,Group,Marina Bay View Room Twin,1,"14, 2019",Japan,jp,[List]
+Good,7.1,,,Hidehiro,Family,Marina Bay View Room King,1,"27, 2019",Japan,jp,[List]
+Pleasant,6.7,,,Sandra,Couple,Marina Bay View Room King,4,"8, 2019",Switzerland,ch,[List]
+Exceptional,10,,,Anonymous,Couple,,5,"23, 2022",South Korea,kr,[List]
+Exceptional,10,,,Anonymous,Couple,,5,"23, 2022",South Korea,kr,[List]
+Exceptional,10,,,Anonymous,Solo traveler,,6,"23, 2022",South Korea,kr,[List]
+Exceptional,10,,,Anonymous,Solo traveler,,6,"23, 2022",South Korea,kr,[List]
+Exceptional,10,,,Anonymous,Couple,,6,"23, 2022",South Korea,kr,[List]
+Exceptional,10,,,Anonymous,Couple,,5,"17, 2022",South Korea,kr,[List]
+Exceptional,10,,,Anonymous,Couple,,2,"12, 2022",Germany,de,[List]
+Exceptional,9.6,,,Sonja,Couple,Ocean View Room King,1,"20, 2019",Netherlands,nl,[List]
+Exceptional,10,,,Youngmin,Couple,Marina Bay View Room King,2,"30, 2019",South Korea,kr,[List]
+Wonderful,9,,,Anders,Couple,Club Marina Bay King,5,"18, 2019",Sweden,se,[List]
+Wonderful,9,,,Hiroshi,Family,City Suite Twin,3,"13, 2019",Japan,jp,[List]
+Wonderful,9.2,,,José,Couple,Ocean View Room Twin,6,"12, 2019",Portugal,pt,[List]
+Wonderful,9,,,Ernst,Solo traveler,Marina Bay View Room King,4,"11, 2019",Switzerland,ch,[List]
+Wonderful,9,,,Jean-claude,Couple,Marina Bay View Room King,3,"11, 2019",Switzerland,ch,[List]
+Good,7.5,,,Giulio,Solo traveler,Club Marina Bay King,5,"28, 2019",Italy,it,[List]
+Exceptional,9.6,,,Sehee,Family,Club Marina Bay Twin,5,"28, 2019",South Korea,kr,[List]
+Exceptional,10,,,Konstantin,Couple,Ocean View Room King,2,"23, 2019",Russia,ru,[List]
+Exceptional,10,,,Koichiro,Couple,Club Marina Bay King,1,"17, 2019",Japan,jp,[List]
+Exceptional,10,,,Y,Family,Marina Bay View Room Twin,4,"17, 2019",Japan,jp,[List]
+Exceptional,10,,,Claudia,Solo traveler,Ocean View Room King,3,"14, 2019",Colombia,co,[List]
+Exceptional,9.5,,,Zhengui,Group,Ocean View Room King,1,"10, 2019",China,cn,[List]
+Exceptional,9.6,,,Janthawan,Solo traveler,Marina Bay View Room King,1,"5, 2019",Malaysia,my,[List]
+Good,7,,,Hodohara,Couple,City Suite King,2,"12, 2022",Japan,jp,[List]
+Pleasant,6,,,Patrick,Family,City Suite Twin,1,"10, 2022",France,fr,[List]
+Good,7,,,Jesus,Family,Marina Bay View Room King,3,"10, 2022",Spain,es,[List]
+Good,7,,,Irene,Family,City Suite King,2,"6, 2022",Spain,es,[List]
+Disappointing,4,,,Hanh,Group,Ocean View Room King,1,"4, 2022",United States of America,us,[List]
+Good,7,,,Martin,Family,City Suite King,4,"20, 2022",Germany,de,[List]
+Fair,5,,,Giuseppe,Family,City Suite King,3,"18, 2022",Italy,it,[List]
+Very Poor,2,,,Soohyun,Family,Deluxe Room Twin,1,"14, 2022",South Korea,kr,[List]
+Poor,3,,,Benjamin,Family,City Suite King,3,"8, 2022",France,fr,[List]
+Pleasant,6,,,Romy,Couple,Ocean Grand King,3,"5, 2022",Germany,de,[List]
+Wonderful,9,,,Pål,Solo traveler,Ocean View Room Twin,3,"1, 2020",Norway,no,[List]
+Very Good,8,,,Canan,Family,Marina Bay View Room King,5,"28, 2020",Turkey,tr,[List]
+Good,7.5,,,Bart,Couple,Premier King Room,2,"25, 2020",Belgium,be,[List]
+Very Good,8,,,Hagkyu,Family,Marina Bay View Room King,3,"25, 2020",South Korea,kr,[List]
+Wonderful,9,,,Ighadwi,Solo traveler,Deluxe Room King,7,"21, 2020",Qatar,qa,[List]
+Very Good,8,,,Ivan,Family,Ocean View Room King,2,"19, 2020",France,fr,[List]
+Wonderful,9,,,Raphael,Couple,Ocean View Room King,2,"18, 2020",Switzerland,ch,[List]
+Wonderful,9,,,Jean-louis,Solo traveler,Deluxe Room King,4,"17, 2020",France,fr,[List]
+Very Good,8,,,Alain,Couple,Marina Bay View Room King,2,"14, 2020",France,fr,[List]
+Exceptional,10,,,Azusa,Family,Club City Room Twin,1,"11, 2020",Japan,jp,[List]
+Exceptional,10,,,אנונימי,Solo traveler,Club Marina Bay King,4,"10, 2020",Israel,il,[List]
+Exceptional,9.6,,,Vera,Couple,Ocean View Room King,3,"3, 2020",Russia,ru,[List]
+Exceptional,10,,,Aoi,Couple,Marina Bay View Room King,2,"2, 2020",Japan,jp,[List]
+Exceptional,10,,,Jeong,Couple,Marina Bay View Room King,3,"28, 2020",South Korea,kr,[List]
+Exceptional,10,,,Michael,Family,Marina Bay View Room King,4,"23, 2020",Hong Kong,hk,[List]
+Exceptional,10,,,Ken,Couple,Marina Bay View Room King,2,"20, 2020",Canada,ca,[List]
+Very Good,8,,,11058508,Group,Marina Bay View Room King,1,"19, 2020",South Korea,kr,[List]
+Very Good,8,,,Cedric,Family,Ocean View Room Twin,3,"17, 2020",France,fr,[List]
+Exceptional,9.6,,,Marcos,Couple,Marina Bay View Room King,1,"14, 2020",Brazil,br,[List]
+Exceptional,9.6,,,은지,Group,Marina Bay View Room Twin,1,"12, 2020",South Korea,kr,[List]
+Exceptional,10,,,Ingrid,Couple,Club Marina Bay Twin,3,"5, 2020",Austria,at,[List]
+Excellent,8.8,,,Nakazawa,Solo traveler,Marina Bay View Room King,4,"4, 2020",Japan,jp,[List]
+Very Good,8,,,Abdelouahab,Family,Ocean View Room Twin,5,"29, 2019",France,fr,[List]
+Exceptional,9.6,,,Foglio,Couple,Ocean View Room King,2,"29, 2019",Italy,it,[List]
+Exceptional,9.6,,,Ａkiko,Couple,Ocean View Room King,2,"28, 2019",Japan,jp,[List]
+Wonderful,9,,,Albert,Group,Ocean View Room King,6,"24, 2022",Germany,de,[List]
+Exceptional,10,,,Sohyun,Couple,Marina Bay View Room King,2,"21, 2022",South Korea,kr,[List]
+Exceptional,10,,,Rosanna,Family,Marina Bay View Room Twin,2,"21, 2022",New Caledonia,nc,[List]
+Exceptional,10,,,Benjamin,Couple,Ocean View Room King,1,"18, 2022",France,fr,[List]
+Exceptional,10,,,Wongmekiat,Family,Marina Bay View Room King,1,"16, 2022",Thailand,th,[List]
+Wonderful,9,,,Songhee,Couple,Marina Bay View Room King,2,"14, 2022",South Korea,kr,[List]
+Very Good,8,,,Camille,Family,City Suite King,1,"9, 2022",France,fr,[List]
+Exceptional,10,,,석규,Family,City Suite Twin,1,"31, 2022",United States of America,us,[List]
+Exceptional,10,,,Oghyang,Family,Marina Bay View Room King,4,"29, 2022",South Korea,kr,[List]
+Exceptional,10,,,Wenyuan,Family,City Suite King,2,"25, 2022",France,fr,[List]
+Exceptional,10,,,Wenyuan,Family,City Suite King,3,"25, 2022",France,fr,[List]
+Very Good,8,,,Shiho,Family,Premier Twin Room,4,"23, 2022",Japan,jp,[List]
+Exceptional,10,,,Karsten,Family,City Suite Twin,3,"19, 2022",Germany,de,[List]
+Exceptional,10,,,Stefan,Family,City Suite King,4,"15, 2022",Switzerland,ch,[List]
+Exceptional,10,,,Yuta,Solo traveler,Marina Bay View Room King,3,"14, 2022",Japan,jp,[List]
+Very Good,8,,,Dora,Group,Premier King Room,3,"13, 2022",Taiwan,tw,[List]
+Wonderful,9,,,Seeun,Couple,Ocean View Room King,1,"11, 2022",South Korea,kr,[List]
+Wonderful,9,,,Axel,Family,Ocean View Room King,1,"6, 2022",France,fr,[List]
+Wonderful,9,,,Axel,Family,Ocean View Room Twin,2,"6, 2022",France,fr,[List]
+Wonderful,9,,,Marcio,Couple,Marina Bay View Room King,2,"1, 2022",Brazil,br,[List]
+Exceptional,10,,,Hyuk,Family,Premier Twin Room,2,"28, 2022",South Korea,kr,[List]
+Wonderful,9,,,Minna,Solo traveler,Ocean View Room King,2,"27, 2022",Denmark,dk,[List]
+Very Good,8,,,Tiago,Couple,City Suite King,2,"24, 2022",Portugal,pt,[List]
+Wonderful,9,,,Nicole,Solo traveler,Ocean Grand King,3,"23, 2022",Switzerland,ch,[List]
+Very Good,8,,,Esther,Family,Marina Bay Suite King,3,"21, 2022",Singapore,sg,[List]
+Exceptional,10,,,Vincent,Solo traveler,Ocean View Room King,4,"20, 2022",Belgium,be,[List]
+Exceptional,10,,,Kang,Family,Marina Bay View Room King,3,"19, 2022",South Korea,kr,[List]
+Very Good,8,,,Jürgen,Solo traveler,Ocean View Room King,1,"13, 2022",Germany,de,[List]
+Very Good,8,,,Eunkyung,Family,Marina Bay View Room Twin,3,"7, 2022",South Korea,kr,[List]
+Wonderful,9,,,Bomba,Family,City Suite King,3,"6, 2022",Philippines,ph,[List]
+Very Good,8,,,Liang,Solo traveler,Marina Bay View Room King,8,"1, 2022",Singapore,sg,[List]
+Exceptional,10,,,Habaib,Couple,Ocean View Room King,7,"31, 2022",France,fr,[List]
+Wonderful,9,,,Eunjin,Couple,Marina Bay View Room King,3,"28, 2022",South Korea,kr,[List]
+Exceptional,10,,,Jaehyung,Family,Marina Bay View Room King,5,"23, 2022",South Korea,kr,[List]
+Exceptional,10,,,Langpape,Family,Premier Twin Room,3,"21, 2022",Germany,de,[List]
+Very Good,8,,,가영,Group,Premier King Room,2,"21, 2022",South Korea,kr,[List]
+Wonderful,9,,,Aamae,Family,City Suite Twin,2,"18, 2022",Malaysia,my,[List]
+Exceptional,10,,,Muslim,Family,Marina Bay Suite Twin,1,"15, 2022",Indonesia,id,[List]
+Very Good,8,,,Rutger,Couple,Deluxe Room King,2,"13, 2022",Netherlands,nl,[List]
+Exceptional,10,,,Siew,Family,City Suite King,2,"7, 2022",Malaysia,my,[List]
+Exceptional,10,,,Min,Family,Marina Bay View Room King,6,"4, 2022",Australia,au,[List]
+Exceptional,10,,,Omer,Couple,Marina Bay View Room King,3,"3, 2022",Turkey,tr,[List]
+Wonderful,9,,,Malin,Couple,Marina Bay View Room King,2,"4, 2022",Sweden,se,[List]
+Wonderful,9,,,Yukiko,Family,Marina Bay View Room King,1,"21, 2022",Singapore,sg,[List]
+Exceptional,10,,,Sherin,Couple,Ocean View Room King,2,"10, 2021",Singapore,sg,[List]
+Exceptional,10,,,Mike,Family,Ocean Grand King,2,"2, 2021",Japan,jp,[List]
+Exceptional,10,,,Wei,Family,Ocean View Room Twin,1,"13, 2021",China,cn,[List]
+Exceptional,10,,,Rita,Group,Ocean View Room Twin,3,"12, 2020",Germany,de,[List]
+Exceptional,10,,,Angela,Couple,Club Marina Bay King,4,"10, 2020",Switzerland,ch,[List]
+Exceptional,10,,,Sabine,Couple,Marina Bay View Room King,7,"4, 2020",Germany,de,[List]
+Wonderful,9,,,Anonymous,Couple,,2,"11, 2020",Singapore,sg,[List]
+Very Good,8,,,Anonymous,Couple,,1,"29, 2020",Singapore,sg,[List]
+Exceptional,10,,,Anonymous,Couple,,2,"11, 2020",Italy,it,[List]
+Wonderful,9.2,,,Anonymous,Couple,,3,"27, 2020",Canada,ca,[List]
+Exceptional,10,,,Anonymous,Solo traveler,,1,"15, 2020",Singapore,sg,[List]
+Exceptional,10,,,Anonymous,Solo traveler,,1,"15, 2020",Singapore,sg,[List]
+Exceptional,10,,,Anonymous,Family,,4,"2, 2020",Australia,au,[List]
+Exceptional,10,,,Anonymous,Family,,5,"23, 2020",South Africa,za,[List]
+Wonderful,9,,,Anonymous,Couple,,7,"13, 2020",United Kingdom,gb,[List]
+Exceptional,9.6,,,Anonymous,Couple,,4,"26, 2019",Singapore,sg,[List]
+Exceptional,10,,,Anonymous,Couple,,3,"15, 2019",Sri Lanka,lk,[List]
+Exceptional,10,,,Anonymous,Couple,,2,"20, 2019",United Kingdom,gb,[List]
+Exceptional,9.6,,,Anonymous,Couple,,3,"22, 2019",United States of America,us,[List]
+Disappointing,4,,,Anonymous,Couple,,3,"24, 2021",Singapore,sg,[List]
+Good,7.1,,,Anonymous,Family,,3,"31, 2019",United Kingdom,gb,[List]
+Okay,5.8,,,Anonymous,Couple,,4,"14, 2019",Israel,il,[List]
+Very Good,8,,,Jongseok,Couple,Marina Bay View Room King,1,"12, 2022",South Korea,kr,[List]
+Exceptional,10,,,Keira,Solo traveler,Marina Bay View Room King,1,"11, 2022",Taiwan,tw,[List]
+Very Good,8,,,Markus,Family,Premier King Room,4,"11, 2022",Germany,de,[List]
+Exceptional,10,,,宸妤,Family,City Suite Twin,2,"9, 2022",Taiwan,tw,[List]
+Exceptional,10,,,Yongxin,Couple,Marina Bay View Room King,6,"8, 2022",Singapore,sg,[List]
+Wonderful,9,,,Torsten,Family,Marina Bay View Room Twin,2,"29, 2022",Germany,de,[List]
+Exceptional,10,,,Takayuki,Family,Marina Bay Suite King,2,"27, 2022",Malaysia,my,[List]
+Wonderful,9,,,Blaferrere,Couple,Marina Bay View Room King,2,"26, 2022",France,fr,[List]
+Very Good,8,,,Gabriel,Couple,Marina Bay View Room King,3,"25, 2022",Switzerland,ch,[List]
+Fair,5,,,Charlie,Family,City Suite King,2,"14, 2022",Australia,au,[List]
+Fair,5,,,Liang,Group,Ocean Grand King,2,"10, 2022",Malaysia,my,[List]
+Good,7,,,Kurt,Family,City Suite Twin,3,"30, 2022",South Africa,za,[List]
+Fair,5,,,Baran,Group,Marina Bay View Room King,3,"20, 2022",China,cn,[List]
+Pleasant,6,,,Peter,Solo traveler,Marina Bay View Room Twin,1,"7, 2022",Germany,de,[List]
+Good,7,,,Mei,Couple,Deluxe Room King,2,"24, 2022",Singapore,sg,[List]
+Good,7,,,Ellyz,Family,Deluxe Room King,1,"16, 2021",Singapore,sg,[List]
+Good,7,,,Mark,Family,City Suite King,2,"13, 2021",Singapore,sg,[List]
+Good,7,,,Julia,Couple,Marina Bay View Room King,1,"25, 2021",Singapore,sg,[List]
+Pleasant,6,,,Ahumairah,Family,Ocean View Room Twin,1,"10, 2021",Singapore,sg,[List]
+Good,7,,,Ernest,Couple,Marina Bay View Room King,2,"20, 2020",Singapore,sg,[List]
+Good,7,,,Lee,Couple,Ocean View Room King,1,"14, 2020",Malaysia,my,[List]
+Disappointing,4,,,Juyoung,Family,City Suite Twin,2,"10, 2020",Singapore,sg,[List]
+Good,7,,,Orlie,Group,Deluxe Room Twin,1,"2, 2020",Singapore,sg,[List]
+Poor,3,,,Imene,Solo traveler,City Suite Twin,2,"21, 2020",Singapore,sg,[List]
+Okay,5.8,,,Alexander,Solo traveler,Club Marina Bay Suite King,3,"30, 2019",Russia,ru,[List]
+Pleasant,6,,,Sophie,Couple,City Suite King,1,"17, 2019",Switzerland,ch,[List]
+Good,7.1,,,Saeed,Solo traveler,Ocean View Room King,2,"26, 2019",United Arab Emirates,ae,[List]
+Wonderful,9,,,Anonymous,Family,,3,"22, 2022",Australia,au,[List]
+Wonderful,9,,,Anonymous,Couple,,3,"30, 2022",Australia,au,[List]
+Wonderful,9,,,Anonymous,Family,,1,"23, 2022",Singapore,sg,[List]
+Exceptional,10,,,Anonymous,Family,,2,"14, 2022",Singapore,sg,[List]
+Wonderful,9,,,Anonymous,Couple,,1,"1, 2021",Singapore,sg,[List]
+Very Good,8,,,Anonymous,Couple,,2,"1, 2021",United States of America,us,[List]
+Exceptional,10,,,Anonymous,Couple,,1,"18, 2020",Singapore,sg,[List]
+Exceptional,10,,,Brian,Couple,Marina Bay View Room King,2,"1, 2020",United Kingdom,gb,[List]
+Exceptional,10,,,Yoneo,Couple,Deluxe Room Twin,3,"31, 2019",Japan,jp,[List]
+Excellent,8.8,,,Saran,Solo traveler,Ocean View Room King,3,"28, 2019",Malaysia,my,[List]
+Good,7.9,,,Alex,Couple,Marina Bay View Room King,2,"23, 2019",United Kingdom,gb,[List]
+Good,7.9,,,Yuehhan,Couple,Ocean View Room King,4,"22, 2019",Philippines,ph,[List]
+Very Good,8,,,Henry,Family,Ocean View Room King,1,"18, 2019",United States of America,us,[List]
+Wonderful,9.2,,,Bram,Couple,Marina Bay View Room King,2,"18, 2019",South Africa,za,[List]
+Exceptional,10,,,Ben,Couple,Club Marina Bay King,7,"10, 2019",Australia,au,[List]
+"Excellent location, rooms and breakfast.",10,,,Misha,Family,Marina Bay View Room Twin,3,"3, 2019",United States of America,us,[List]
+Exceptional,10,,,Jacqueline,Couple,Club Marina Bay King,2,"17, 2019",Australia,au,[List]
+Good,7.5,,,Imran,Solo traveler,Marina Bay View Room King,4,"1, 2019",Pakistan,pk,[List]
+Wonderful,9.2,,,James,Solo traveler,Ocean View Room King,2,"29, 2019",United Kingdom,gb,[List]
+Wonderful,9.2,,,Diamantino,Group,Marina Bay View Room King,1,"27, 2019",South Africa,za,[List]
+Exceptional,10,,,Chris,Couple,Ocean View Room King,2,"23, 2019",United Kingdom,gb,[List]
+Exceptional,10,,,Guido,Couple,Ocean View Room King,4,"22, 2019",Italy,it,[List]
+Exceptional,9.6,,,Vadim,Solo traveler,Premier King Room,4,"22, 2019",United States of America,us,[List]
+Exceptional,10,,,Jenny,Solo traveler,Ocean View Room King,1,"18, 2019",United Kingdom,gb,[List]
+Exceptional,9.6,,,Marc,Solo traveler,City Suite King,3,"18, 2019",Switzerland,ch,[List]
+Exceptional,9.6,,,James,Group,Club Marina Bay King,3,"14, 2019",United Kingdom,gb,[List]
+Very Good,8.3,,,Mohammadreza,Solo traveler,Deluxe Room Twin,2,"4, 2019",United Arab Emirates,ae,[List]
+amaging,9.2,,,Noriaki,Family,City Suite Twin,1,"24, 2019",Japan,jp,[List]
+Good,7.5,,,Panom,Solo traveler,Ocean View Room King,2,"23, 2019",Australia,au,[List]
+Good,7,,,Chitrakala,Family,Ocean View Room Twin,2,"22, 2022",Malaysia,my,[List]
+Pleasant,6,,,Ahmed,Family,City Suite Twin,6,"29, 2022",Bahrain,bh,[List]
+Good,7,,,Omar,Family,City Suite King,10,"22, 2022",United Arab Emirates,ae,[List]
+Good,7.5,,,Wai,Family,Ocean View Room Twin,3,"23, 2020",Hong Kong,hk,[List]
+Wonderful,9.2,,,Dawn,Couple,Marina Bay View Room King,2,"18, 2020",United Kingdom,gb,[List]
+Exceptional,10,,,Ivan,Couple,Marina Bay View Room King,3,"10, 2020",Colombia,co,[List]
+Exceptional,10,,,Matthew,Couple,Ocean View Room King,2,"5, 2020",United States of America,us,[List]
+Exceptional,10,,,David,Couple,Club Marina Bay King,4,"4, 2020",Australia,au,[List]
+Exceptional,10,,,Geoffrey,Couple,Ocean View Room King,3,"30, 2020",United Kingdom,gb,[List]
+Exceptional,10,,,Leonid,Couple,Club Marina Bay King,1,"28, 2020",Singapore,sg,[List]
+Exceptional,10,,,Jon,Couple,Club City Room Twin,3,"28, 2020",Australia,au,[List]
+Exceptional,10,,,Natasha,Group,Marina Bay View Room Twin,2,"27, 2020",United Kingdom,gb,[List]
+Wonderful,9,,,Tsz,Family,Ocean View Room Twin,4,"25, 2020",Hong Kong,hk,[List]
+Wonderful,9.2,,,Louise,Family,Marina Bay View Room King,3,"25, 2020",Australia,au,[List]
+Exceptional,10,,,Apaspong,Family,Marina Bay View Room King,3,"23, 2020",Thailand,th,[List]
+Very Good,8.3,,,Fivos,Solo traveler,Deluxe Room King,2,"19, 2020",United Kingdom,gb,[List]
+Exceptional,10,,,Karen,Solo traveler,Ocean View Room King,1,"19, 2020",Uganda,ug,[List]
+Exceptional,10,,,Damir,Couple,Marina Bay View Room King,1,"18, 2020",United Kingdom,gb,[List]
+Exceptional,9.6,,,Sumayah,Family,Ocean View Room Twin,4,"17, 2020",Saudi Arabia,sa,[List]
+Exceptional,10,,,Henri,Solo traveler,Marina Bay View Room King,4,"13, 2020",Switzerland,ch,[List]
+Exceptional,10,,,Suresh,Solo traveler,Ocean View Room Twin,1,"12, 2020",Malaysia,my,[List]
+Wonderful,9,,,Augustino,Group,Deluxe Room King,2,"11, 2020",Vietnam,vn,[List]
+Exceptional,10,,,Ali,Family,Ocean View Room King,1,"9, 2020",Singapore,sg,[List]
+Exceptional,10,,,Thayakorn,Group,Ocean View Room King,2,"7, 2020",Thailand,th,[List]
+Exceptional,9.6,,,Alaeldeen,Family,Marina Bay View Room King,1,"6, 2020",Malaysia,my,[List]
+Exceptional,9.6,,,Rajan,Couple,Premier King Room,1,"4, 2020",Kenya,ke,[List]
+Exceptional,10,,,Nancy,Couple,Marina Bay View Room King,1,"4, 2020",Australia,au,[List]
+Exceptional,10,,,Victoria,Family,Deluxe Room King,7,"2, 2020",Japan,jp,[List]
+Wonderful,9,,,Louise,Couple,Ocean View Room King,3,"4, 2021",Singapore,sg,[List]
+Wonderful,9,,,Risa,Couple,Ocean View Room King,3,"24, 2021",Singapore,sg,[List]
+Wonderful,9,,,Leng,Couple,Ocean View Room King,1,"13, 2021",Singapore,sg,[List]
+Exceptional,10,,,Abdillah,Couple,Ocean View Room King,2,"20, 2021",Singapore,sg,[List]
+Wonderful,9,,,Nur,Solo traveler,Marina Bay View Room King,2,"28, 2021",Singapore,sg,[List]
+Wonderful,9,,,Raihana,Family,City Suite King,2,"26, 2021",Singapore,sg,[List]
+Exceptional,10,,,Takumi,Family,Ocean Grand King,2,"22, 2021",Japan,jp,[List]
+Wonderful,9,,,Ksg,Couple,Marina Bay View Room King,2,"3, 2021",Singapore,sg,[List]
+Exceptional,10,,,Mohammed,Solo traveler,Marina Bay View Room King,1,"30, 2020",Singapore,sg,[List]
+Exceptional,10,,,Elena,Family,Premier Twin Room,2,"28, 2020",Singapore,sg,[List]
+Exceptional,10,,,Tow,Couple,Marina Bay View Room King,1,"14, 2020",Singapore,sg,[List]
+Exceptional,10,,,Rabiahtul,Couple,Marina Bay View Room King,1,"10, 2020",Singapore,sg,[List]
+Very Good,8,,,Piat,Family,Premier King Room,1,"29, 2020",Singapore,sg,[List]
+Wonderful,9,,,Haruka,Couple,Ocean View Room King,1,"23, 2020",Singapore,sg,[List]
+Exceptional,10,,,Rafidah,Couple,Ocean View Room King,1,"19, 2020",Singapore,sg,[List]
+Wonderful,9,,,Ain,Family,Ocean Grand King,1,"13, 2020",Singapore,sg,[List]
+Wonderful,9,,,Frederic,Family,Marina Bay View Room King,1,"10, 2020",Singapore,sg,[List]
+Exceptional,10,,,Paula,Couple,Marina Bay View Room Twin,2,"30, 2020",Singapore,sg,[List]
+Very Good,8,,,Siti,Family,Ocean View Room King,1,"10, 2020",Singapore,sg,[List]
+Exceptional,9.6,,,David,Couple,Ocean View Room King,5,"6, 2020",Australia,au,[List]
+Exceptional,10,,,Ellen,Couple,Marina Bay View Room King,3,"3, 2020",United Kingdom,gb,[List]
+Wonderful,9,,,Christine,Couple,Marina Bay View Room King,2,"2, 2020",United Kingdom,gb,[List]
+Very Good,8,,,Ryo,Family,Marina Bay View Room Twin,2,"29, 2020",Japan,jp,[List]
+Exceptional,10,,,Ricardo,Family,Marina Bay View Room Twin,4,"28, 2020",Macau,mo,[List]
+Exceptional,9.6,,,Nurjuhadjinah,Group,Marina Bay View Room King,1,"23, 2020",Singapore,sg,[List]
+Very Good,8,,,Jintana,Family,City Suite King,2,"7, 2022",Thailand,th,[List]
+Wonderful,9,,,Kunal,Solo traveler,Ocean View Room King,2,"5, 2022",United Arab Emirates,ae,[List]
+Very Good,8,,,Christian,Couple,Marina Bay View Room King,3,"3, 2022",United Kingdom,gb,[List]
+Very Good,8,,,Mengjie,Family,Marina Bay Suite King,1,"2, 2022",Singapore,sg,[List]
+Wonderful,9,,,Vicky,Family,Ocean Grand King,4,"1, 2022",Australia,au,[List]
+Exceptional,10,,,Naman,Couple,Marina Bay View Room King,3,"1, 2022",India,in,[List]
+Exceptional,10,,,Ban,Couple,Marina Bay View Room King,4,"31, 2022",Australia,au,[List]
+Exceptional,10,,,Martin,Solo traveler,Marina Bay Suite King,1,"30, 2022",United Kingdom,gb,[List]
+Very Good,8,,,Yvonne,Group,City Suite King,1,"20, 2022",Malaysia,my,[List]
+Very Good,8,,,Craig,Solo traveler,Marina Bay View Room King,5,"19, 2022",South Africa,za,[List]
+Wonderful,9,,,Yeong,Family,Deluxe Room King,1,"16, 2022",Singapore,sg,[List]
+Very Good,8,,,Ritesh,Family,City Suite Twin,8,"14, 2022",India,in,[List]
+Exceptional,10,,,Cindy,Solo traveler,Marina Bay View Room King,3,"13, 2022",Taiwan,tw,[List]
+Very Good,8,,,Sara,Group,Marina Bay View Room King,7,"12, 2022",United Arab Emirates,ae,[List]
+Wonderful,9,,,Nour,Group,Marina Bay View Room King,3,"12, 2022",Turkey,tr,[List]
+Very Good,8,,,Sarah,Family,Ocean View Room Twin,1,"11, 2022",United Kingdom,gb,[List]
+Exceptional,10,,,Hayeong,Couple,Marina Bay View Room King,4,"8, 2022",South Korea,kr,[List]
+Exceptional,10,,,Fumika,Group,Marina Bay View Room Twin,2,"7, 2022",Japan,jp,[List]
+Very Good,8,,,Orhan,Solo traveler,Marina Bay Suite King,3,"28, 2022",China,cn,[List]
+Exceptional,10,,,Benjamin,Group,Premier Twin Room,5,"27, 2022",Australia,au,[List]
+Exceptional,10,,,Kyoko,Family,Marina Bay View Room Twin,5,"26, 2022",Singapore,sg,[List]
+Wonderful,9,,,Rizwan,Solo traveler,Deluxe Room King,2,"25, 2022",India,in,[List]
+Exceptional,10,,,Tan,Family,Premier King Room,1,"24, 2022",Singapore,sg,[List]
+Very Good,8,,,Md,Group,Premier Twin Room,4,"24, 2022",Bangladesh,bd,[List]
+Wonderful,9,,,Rizwan,Solo traveler,Deluxe Room King,1,"23, 2022",India,in,[List]
+Wonderful,9,,,Rebecca,Couple,Marina Bay View Room King,3,"14, 2022",Australia,au,[List]
+Wonderful,9,,,Jaekyn,Family,Premier Twin Room,2,"12, 2022",South Korea,kr,[List]
+Wonderful,9,,,Namik,Solo traveler,City Suite King,3,"10, 2022",Switzerland,ch,[List]
+Exceptional,10,,,Henri,Couple,Marina Bay View Room King,4,"3, 2022",Switzerland,ch,[List]
+Very Good,8,,,Yee,Family,City Suite Twin,5,"1, 2022",United Kingdom,gb,[List]
+Very Good,8,,,Saidatul,Family,Premier King Room,2,"27, 2022",Singapore,sg,[List]
+Exceptional,10,,,Ayiz,Couple,Ocean View Room King,2,"27, 2022",Singapore,sg,[List]
+Very Good,8,,,Widya,Family,City Suite King,2,"27, 2022",Singapore,sg,[List]
+Wonderful,9,,,Nurjulianah,Family,City Suite King,2,"1, 2022",Singapore,sg,[List]
+Exceptional,10,,,Lydia,Family,City Suite King,2,"20, 2022",Singapore,sg,[List]
+Exceptional,10,,,Laura,Couple,Ocean Grand King,1,"12, 2022",Singapore,sg,[List]
+Wonderful,9,,,Low,Family,City Suite Twin,2,"7, 2022",Singapore,sg,[List]
+Wonderful,9,,,Linda,Family,City Suite Twin,2,"2, 2022",Singapore,sg,[List]
+Exceptional,10,,,Charis,Group,City Suite King,2,"29, 2022",Singapore,sg,[List]
+Exceptional,10,,,Michelle,Couple,Marina Bay View Room King,6,"28, 2022",Australia,au,[List]
+Exceptional,10,,,Selvam,Family,Premier King Room,2,"10, 2022",Singapore,sg,[List]
+Wonderful,9,,,Avis,Family,Ocean Grand King,2,"2, 2022",Singapore,sg,[List]
+Very Good,8,,,Indhu,Family,City Suite King,1,"23, 2021",Singapore,sg,[List]
+Very Good,8,,,Anson,Family,City Suite King,2,"17, 2021",Singapore,sg,[List]
+Exceptional,10,,,Razullah,Family,City Suite King,2,"16, 2021",Singapore,sg,[List]
+Exceptional,10,,,Fazeila,Couple,Deluxe Room Twin,1,"16, 2021",Singapore,sg,[List]
+Very Good,8,,,Ellyz,Family,City Suite Twin,1,"12, 2021",Singapore,sg,[List]
+Wonderful,9,,,Noor,Couple,Marina Bay View Room King,1,"11, 2021",Singapore,sg,[List]
+Very Good,8,,,Rui,Family,Ocean Grand King,1,"10, 2021",Singapore,sg,[List]
+Wonderful,9,,,Christopher,Couple,Marina Bay View Room King,1,"7, 2021",Singapore,sg,[List]
+Exceptional,10,,,Khaveta,Couple,Marina Bay View Room King,3,"17, 2022",Malaysia,my,[List]
+Wonderful,9,,,Abdalla,Couple,Ocean View Room King,2,"15, 2022",United Arab Emirates,ae,[List]
+Exceptional,10,,,Mike,Couple,Marina Bay View Room King,3,"14, 2022",Australia,au,[List]
+Exceptional,10,,,Yu,Group,Ocean Grand King,5,"13, 2022",Australia,au,[List]
+Exceptional,10,,,Hamdan,Couple,Marina Bay View Room King,6,"12, 2022",Israel,il,[List]
+Exceptional,10,,,Stephen,Family,Ocean View Room Twin,2,"11, 2022",United Kingdom,gb,[List]
+Exceptional,10,,,Raied,Couple,Marina Bay View Room King,2,"10, 2022",Saudi Arabia,sa,[List]
+Very Good,8,,,Audrey,Family,Marina Bay Suite King,1,"10, 2022",Singapore,sg,[List]
+Exceptional,10,,,Ingo,Family,City Suite Twin,10,"10, 2022",Saudi Arabia,sa,[List]
+Exceptional,10,,,Ariyo,Family,City Suite King,4,"9, 2022",Australia,au,[List]
+Exceptional,10,,,Nur,Couple,Marina Bay View Room King,3,"5, 2022",Australia,au,[List]
+Wonderful,9,,,Marina,Family,Premier King Room,3,"4, 2022",Japan,jp,[List]
+Exceptional,10,,,Raied,Couple,Marina Bay View Room King,3,"4, 2022",Saudi Arabia,sa,[List]
+Wonderful,9,,,Chun,Family,City Suite Twin,5,"4, 2022",Australia,au,[List]
+Exceptional,10,,,Mark,Solo traveler,Ocean View Room King,5,"1, 2022",United Kingdom,gb,[List]
+Wonderful,9,,,Khai,Group,City Suite King,1,"25, 2022",Singapore,sg,[List]
+Exceptional,10,,,Sin,Family,City Suite King,3,"22, 2022",United States of America,us,[List]
+Exceptional,10,,,Amit,Family,Marina Bay View Room King,4,"21, 2022",Singapore,sg,[List]
+Very Good,8,,,Priscilla,Couple,Premier Twin Room,2,"19, 2022",Hong Kong,hk,[List]
+Exceptional,10,,,Lesley,Couple,Ocean View Room King,2,"17, 2022",New Zealand,nz,[List]
+Very Good,8,,,Robert,Group,Premier Twin Room,3,"14, 2022",Australia,au,[List]
+Wonderful,9,,,Atifa,Solo traveler,Ocean View Room King,4,"9, 2022",Hong Kong,hk,[List]
+Very Good,8,,,Sudip,Solo traveler,Marina Bay View Room King,3,"9, 2022",India,in,[List]
+Very Good,8,,,Katherine,Couple,Marina Bay View Room King,5,"8, 2022",United Kingdom,gb,[List]
+Very Good,8,,,Jintana,Family,City Suite King,1,"7, 2022",Thailand,th,[List]
+Very Good,8,,,Ai,Family,City Suite Twin,2,"10, 2022",Singapore,sg,[List]
+Wonderful,9,,,Uli,Family,City Suite King,2,"9, 2022",Singapore,sg,[List]
+Wonderful,9,,,Julian,Family,City Suite King,4,"25, 2022",United Kingdom,gb,[List]
+Exceptional,10,,,Amy,Family,City Suite King,3,"19, 2022",Singapore,sg,[List]
+Wonderful,9,,,Amit,Group,Marina Bay View Room Twin,6,"19, 2022",India,in,[List]
+Wonderful,9,,,Laura,Couple,Premier King Room,1,"19, 2022",Singapore,sg,[List]
+Wonderful,9,,,Pamela,Group,Ocean View Room Twin,6,"19, 2022",Australia,au,[List]
+Exceptional,10,,,Debbie,Couple,Ocean View Room King,4,"16, 2022",Australia,au,[List]
+Wonderful,9,,,Ihab,Couple,Marina Bay View Room King,5,"15, 2022",Qatar,qa,[List]
+Exceptional,10,,,Ellyz,Family,Ocean View Room Twin,1,"12, 2022",Singapore,sg,[List]
+Very Good,8,,,Muhammad,Family,Marina Bay View Room King,2,"11, 2022",Singapore,sg,[List]
+Exceptional,10,,,Candice,Couple,Marina Bay View Room King,2,"11, 2022",Malaysia,my,[List]
+Wonderful,9,,,Peter,Couple,Ocean View Room King,2,"5, 2022",Australia,au,[List]
+Very Good,8,,,Jenny,Family,Ocean View Room Twin,4,"4, 2022",Hong Kong,hk,[List]
+Very Good,8,,,Richard,Couple,Marina Bay View Room King,2,"3, 2022",United Kingdom,gb,[List]
+Wonderful,9,,,Verapol,Couple,Marina Bay View Room King,1,"1, 2022",Thailand,th,[List]
+Exceptional,10,,,Muhammad,Family,City Suite King,1,"31, 2022",Singapore,sg,[List]
+Wonderful,9,,,Pimnida,Group,City Suite King,1,"31, 2022",Thailand,th,[List]
+Very Good,8,,,Paul,Couple,Marina Bay View Room King,1,"31, 2022",Australia,au,[List]
+Wonderful,9,,,Mr,Couple,Ocean View Room King,3,"31, 2022",Hong Kong,hk,[List]
+Exceptional,10,,,Soravis,Family,City Suite King,1,"29, 2022",Thailand,th,[List]
+Exceptional,10,,,Ricky,Family,Ocean View Room King,4,"24, 2022",United Kingdom,gb,[List]
+Very Good,8,,,Sharon,Family,City Suite King,1,"23, 2022",Singapore,sg,[List]
+Great hotel with excellent staff,10,,,Vikas,Family,Ocean View Room King,3,"20, 2022",United States of America,us,[List]
+Wonderful,9,,,Hamish,Solo traveler,Ocean View Room King,3,"20, 2022",United Kingdom,gb,[List]
+Hay que mejorar,6,"El poco personal que hay muy atento y amable, el desayuno muy bueno., aunque con zumos industriales.","Falta de personal , un hotel que ya no ofrece los servicios que ofrecía hace algunos años, lo noto muy descuidado y vacío.",Cesar,Solo traveler,Premier King Room,1,"5, 2022",Spain,es,[List]
+Bad,1,ความสะอาด ทำเลใกล้ที่เที่ยว,ค่ามัดจำไม่คืนให้ทันทีที่เช็คเอ้าท,Siriluk,Family,City Suite King,3,"4, 2022",Thailand,th,[List]
+Fair,5,"la vue des chambres cote baie
+le service","les chambres ont vraiment besoin de renovation.
+Mauvais rapport qualite - prix
+petit dejeuner moyen",Antoine,Family,Marina Bay View Room King,2,"30, 2022",France,fr,[List]
+Good,7,"propreté, infrastructures, localisation","rapport qualité prix, tout était très cher, verre de vin servi à moitié",Matthieu,Couple,Marina Bay View Room King,1,"26, 2022",Belgium,be,[List]
+Mandarin Oriental wird den Anspruch an ein 5-Sterne Hotel nicht gerecht,3,"Zimmer entsprechen den Erwartungen an ein 5 Sterne Hotel weitestgehend, Zimmer hatte keine Kaffeemaschine.","Bedienung und Service bleibt weit hinter den Erwartungen an ein 5 Sterne Hotel zurück. 
+Beim Einchecken erhält man eine beidseitig vollkpierten Seite Papier  mit einer Vielzahl von 2D Matrix codes für die einzelnen Services. 
+Die links führen immer wieder ins Leere. 
+WiFi ist schwach. Wenn das Hotel die Kunden auf Digitalisierung umerziehen möchte, dann muss die Technik einem 5-Sterne Hotel entsprechend erstklassig sein. Wirklich enttäuschend. 
+Schade auch, dass der SPA an den Tagen unseres Aufenthalts wegen Ruhetagen geschlossen war. So viel kann man im Hotel ja nicht machen, zumal der tägliche Poolbesuch zeitlich stark eingeschränkt ist.
+Die Infos in der Servicemappe zu Öffnungszeiten der Restaurants und den SPA Ruhetagen im Zimmer passen nicht zu den Infos in den Links.",Ayumi,Couple,Marina Bay View Room King,1,"25, 2021",Singapore,sg,[List]
+Fair,5.4,オーシャンビューだと、マリーナベイサンズとフライヤーが両方眺望できる。,日本語ができるスタッフがいない。朝食が約50Sドルと高く、チェックインの際に十分な説明が無かった。,ヨシ,Solo traveler,Ocean View Room King,3,"24, 2020",Japan,jp,[List]
+-,7,"Frühstück und Lage, Top. Ruhig",Preis/Leistung an oberer Grenze,Jack,Solo traveler,Deluxe Room King,1,"19, 2020",Switzerland,ch,[List]
+夜景は最高,7,部屋から見る昼夜問わずの景観は最高でした。　ショッピングモールまで歩いても近いので何かと楽でした。,"ソフトドリンクやアルコール類が冷蔵庫に入っているが、皆、良い値段で飲む気になれなかった。　　
+スナック菓子まで有料とはビックリでした。テーブルの上にも洒落た飲み物が2本置いてあったが、無料なのか有料なのか判断が着かず飲まなかった。フリーで気兼ねなく飲めたのはミネラルウォーターだけでした。ハッキリ言って良かったのは部屋から見える夜景だけでしたね。",Akira,Couple,Marina Bay View Room King,3,"7, 2020",Japan,jp,[List]
+コストパフォーマンスにもう少し期待します,7,部屋の清潔さ、シャワーの水量、メルトのサンデーブランチの料理の質、プールスタッフの対応,"ラウンジをよく利用しましたが、混んでいたせいかどうか分かりませんが注文した料理が来るのが遅い、なかなか注文を取りに来てくれない事が少々ありました。改善を期待します。
+またブールサイドでホテルWiFiを使用しましたが、他のホテルの、WiFiの電波が邪魔してかなかなか繋がらなかった。",Masahito,Family,Club Marina Bay Twin,2,"3, 2020",Japan,jp,[List]
+Good,7,"위치는 최고였습니다.
+마리내베이 샌즈 및 주변 지역을 다니기가 너무 좋은 위치였습니다.","명성만큼 직원들이 친절하지 않았습니다.
+출입문에 서 있는 직원의 경우 웃는 얼굴을 보지 못했습니다.",Kunyoung,Group,Marina Bay View Room King,3,"17, 2019",South Korea,kr,[List]
+Singapore を楽しめた。,6,部屋が広くてよかった。,朝食の各コーナーがわかりにくかった。,Hideaki,Family,City Suite Twin,2,"8, 2019",Japan,jp,[List]
+スタッフがとても良かった,5,"日本人のスタッフ、山中さんや、高橋さんの
+親切な対応で感謝しています。
+朝食は、品数が多く最後な食事で満足でした。
+立派も最高でした。","シャンプーや、リンスなどは、使い回しのような品で、もう少し品物ねグレードを高くしないとお部屋の値段とつりあっていないと思いました。
+アメニティが余り揃っていないようです。
+ミネラルウォーターが少なかったです。",由実子,Couple,Marina Bay View Room Twin,2,"16, 2019",Japan,jp,[List]
+交通方便，四星硬件，五星服务,5,晚餐在Cafe解决，经理非常热情，给宝宝准备了画笔和图片画画。我们点的餐没上来前，送了宝宝奶油汤和面包，送了大人海鲜汤。用餐结束，又送了招牌甜品，文华东方巧克一如既往的赞，,早餐，递来的咖啡杯和盘居然是油的，大早上就让人心情不好。房间打扫不彻底，只做了表面，浴缸泡澡袋也没清理，湿答答放在浴缸边，卫生真的没有香港广州等等地卫生做的全面细致。,Xiao,Family,Ocean View Room King,3,"8, 2019",China,cn,[List]
+ENHIY YOUR STAY,10,Hervorragendes Hotel mit sehr aufmerksamen Personal. Perfekt.,,Anonymous,Family,,4,"15, 2022",Germany,de,[List]
+적극 추천,8,마리나베이 뷰로 예약했는데 뷰가 아주 좋았습니다. 수영장도 꽤 크고 마리나베이가 보여서 이용하기 좋았구요. 직원들은 매우 친절하고 왓츠앱으로 소통해서 편리했습니다.,트윈베드로 예약했고 채크인 때도 확인했는데 방에 들어가보니 트윈을 붙혀서 시트도 하나로 되어 있었음. 전화로 이 방이 트윈이 맞는지 시트가 하나라고 얘기했으나 계속 트윈이 맞다고만 했음. 결국 사진찍어서 프론트데스크에 보여줬더니 미안하다고 다시 분리하고 시트 두개로 세팅해 준다고 했음. 전화했을 때 자기들이 와서 확인해 줬으면 좋았을 텐데.. 엘리베이터도 느린데 왔다갔다 해야 해서 불편했음,Anonymous,Family,,2,"9, 2022",South Korea,kr,[List]
+Wonderful,9,チャイニーズニューイヤーの花火が部屋の窓から楽しめました。,,Anonymous,Family,,4,"18, 2020",Japan,jp,[List]
+素晴らしいホテルです。,8,スタッフが心温まるおもてなしでした。バスローブが裏ネルで最高に気持ち良かった。今までのホテルの中でナンバーワンでした。,ベッドと枕が柔らかすぎて自分には合わなかった。眠れなかった。硬い枕をリクエストすれば良かったです。,Anonymous,Couple,,1,"24, 2020",Japan,jp,[List]
+Excellent,8.8,Konumu,Sigara yasağı,Anonymous,Couple,,4,"13, 2020",Germany,de,[List]
+最高でした。,10,マリーナベイの景色が最高でした。クラブフロアも落ち着いていて良かったです。ちょっとした休憩に何回も利用させていただきました。,クラブフロアの利用は一律にゴム草履の利用が禁止されていますが、今は高価でお洒落なものもあるので認めてくれてもいいのにな、と思いました。,Anonymous,Family,,2,"2, 2020",Japan,jp,[List]
+Tolles Hotel,10,"Sehr freundlicher Service,  tolle Aussicht vom Zimmer auf die Marina Bay, schöner Pool",,Anonymous,Couple,,2,"23, 2019",Austria,at,[List]
+住过最差的文化酒店,4,地理位置好,员工素质太差，没有礼貌，办理退房的员工从头到尾没有笑脸，没有敬语，态度差。最基本的礼貌都不具备！,Anonymous,Family,,5,"20, 2022",Germany,de,[List]
+無料でカントダウン花火を見るなら、ここに泊まろう！,7,大晦日のカウトダウン花火が見たくて宿泊しました。部屋からは見れませんでしたが、プールサイドからは真っ正面で遮る物もほぼ無く、間近で見れました。一時間以上続く花火は、忘れられない感動の一時でした。,日本語が出来るスタッフが居らず、英会話能力の低い私達は、チェックインからチェックアウトまで、全てにおいて苦労しました。自分の勉強不足を恥じてもいます。,Anonymous,Family,,3,"29, 2020",Japan,jp,[List]
+Very Good,8,,,Gerard,Family,Premier King Room,3,"18, 2022",Philippines,ph,[List]
+Exceptional,10,,,Sandra,Family,City Suite Twin,2,"17, 2022",United States of America,us,[List]
+Very Good,8,,,Prasanna,Family,City Suite Twin,2,"10, 2022",Sri Lanka,lk,[List]
+Wie immer top,10,Bestes Hotel in Singapore,,Mitja,Couple,Marina Bay View Room King,2,"27, 2019",Germany,de,[List]
+リフレッシュ,8,こちらの要望にしっかり対応してもらったこと。,お部屋のクオリティに対して宿泊費用が少し割高,Daisuke,Family,City Suite King,2,"22, 2019",Vietnam,vn,[List]
+Exceptional,10,Las vistas. Hotel increíble.,Todo ok,Tonety´s,Couple,Marina Bay View Room King,2,"21, 2019",Poland,pl,[List]
+大人のラグジュアリーホテル,9.6,"ロビーは落ち着いた色遣いのオリエンタルな
+雰囲気。
+子供連れの客をほとんど見かける事がなく
+まさに大人のラグジュアリーホテル。
+客室からはマリーナベイが一望できて
+素晴らしいロケーションを楽しめた。
+また、5階にある屋外プールから見上げる
+マリーナベイサンズ がとても素晴らしい。","シャワーブースの掃除が今ひとつ行き届いて
+いなかった。",Tmgn,Couple,Marina Bay View Room King,3,"7, 2019",Japan,jp,[List]
+최고의 뷰,9.6,"오션 뷰 객실에서 가든스바이더베이, 마리나베이샌즈, 플라이어까지 다 보여서 낮에도 밤에도 뷰가 정말 멋졌습니다. 큰 창으로 싱가폴의 명소들이 한 눈에 보이니 나가기가 싫더라고요. 방도 넓고 욕실도 넓어서 편했습니다. 직원 분들도 다들 친절하시고, 수영장도 깨끗하고 방갈로를 자유롭게 사용할 수 있어 좋았습니다. 싱가포르에 다시 가게 된다면 꼭 다시 방문하고 싶어요.",딱히 없었다.,유니스30,Family,Ocean View Room Twin,1,"23, 2019",South Korea,kr,[List]
+Wonderful,9.2,"위치가 좋아요 
+호텔직원들 모두 친절해서 기분좋았습니다
+싱가폴에 간다면 또 오리엔탈을 이용할생각이에요",수영장 물에서 약품냄세가  심했어요,Eunkyung,Family,Club Marina Bay Twin,3,"23, 2019",South Korea,kr,[List]
+Wonderful,9.2,"Läget var perfekt.
+Rummet var stort med bekväm säng.
+Frukosten var riklig och mycket bra.
+Återkommer gärna till detta hotell.",,Lars,Couple,Deluxe Room King,3,"22, 2019",Sweden,se,[List]
+Fantastisches Hotel in bester Lage,10,"Die Lage ist super, egal, wohin man in der Stadt will.
+Das Personal ist unglaublich nett.
+Das Frühstücksbuffett ist unbeschreiblich- von asiat. bis  europ. Frühstück ist alles in Hülle und Fülle vorhanden.
+Der Pool ist traumhaft mit daybeds und Blick über die skyline👍
+Komme wieder👍",,Antje,Group,Ocean View Room Twin,6,"20, 2019",Germany,de,[List]
+Excellent,8.8,落ち着いた感じが好きです。,トイレにウオッシュレットも他の国でよくあるハンドシャワーみたいな物もなく、日本人には辛い。トイレが昔過ぎ。,Koichi,Solo traveler,Club City Room King,1,"19, 2019",Japan,jp,[List]
+Wonderful,9,ロケーション,"部屋の狭さ
+部屋の暗さ",Haruta,Family,Ocean View Room Twin,4,"19, 2019",Japan,jp,[List]
+싱가포르에 다시가고싶게 하는 호텔!,9.6,전체적으로 고급스럽고 편안한 느낌이 좋았습니다. 조식서비스도 섬세하고 맛있었습니다.,지하철역이 조금 떨어져있지만 마리나베이샌즈몰로 연결돼있어 더위를피해 다닐수있었습니다.,Ashley,Solo traveler,Ocean View Room Twin,1,"17, 2019",South Korea,kr,[List]
+Totalmente espetacular!,10,Localização e vista do meu quarto para a Marina Foram esoetaculares! Serviço impecável e a decoração e o estilo asiático respeitoso e silencioso ganharam muitos pontos além da minha expectativa. Fora o café da manhã fartíssimo e delicioso e água chá e café a vontade como cortesia!,Preços dos restaurantes eram muito caros comparados com os dos outros hotéis estrelados na vizinhança.,Maria,Couple,Marina Bay View Room King,2,"16, 2019",Brazil,br,[List]
+Wonderful,9.2,God beliggenhet og service i toppklasse! The Mo bar har et nivå på service som er helt i særklasse. Veldig hyggelig stab på hotellet. Flott bassengområde. Rakk ikke å prøve frokosten. Anbefales som hotell i øvre sjikt om en skal til Singapore. Noen av de mer kjente hotellene er ‘bomaskiner’ til sammenligning. Det er ikke MO!,,Ivar,Family,Marina Bay View Room King,4,"11, 2019",Norway,no,[List]
+싱가포르 최고의 호텔중 하나임,9.2,"굉장히 훌륭한 시스템을 갖춘 호텔 / 친절한 직원과 훌륭한 서비스 / 멋진 수영장과 안락하고 깨끗한 객실 / 위치도 좋음
+/ 싱가폴리안 친구가 최고라고 추천해준 호텔이며 실제로도 최고임 / 다양하고 맛있는 조식",MRT역과는 약간 거리가 있어서 아이를 데리고 MRT를 이용하기에는 약간 불편할 수도 있음.,은표,Family,Marina Bay View Room King,3,"8, 2019",South Korea,kr,[List]
+Exceptional,10,"地理位置超方便，步行就可以到鱼尾狮公园，酒店旁边直接通marina square, 购物吃饭都超级方便。",,Jlovesummer,Family,City Suite Twin,2,"8, 2019",China,cn,[List]
+Exceptional,9.6,"Die Lage ist sensationell und der Poolbereich der Hammer. Man kann bis 22 Uhr den Pool benutzen, was wir auch genutzt haben mit Blick auf die Skyline und das Marina Bay Sands Hotel.",,Dr,Couple,Marina Bay View Room King,3,"6, 2019",Germany,de,[List]
+Exceptional,10,早班飞机抵达，没有额外收费就给办理了early checkin😀,,Lei,Family,Marina Bay View Room Twin,4,"6, 2019",China,cn,[List]
+Very Good,8.3,직원들의 서비스와 시설은 청결하고 좋았습니다.,버스타고 나갈때 많이걸어야합니다. 마리나배인샌즈 뷰로 선택을 했는데 창가 모서리에서만 보여서 추가금액을 낼정도로 만족하진않았습니다. 조식도 짠느낌이들어 아쉬웠습니다.,Do,Couple,Marina Bay View Room King,1,"28, 2019",South Korea,kr,[List]
+費用対効果を考えるなら、高くついた。マンダリンだからいいということはなかった。,5,マリーナベイサンズに行くのであれば、場所は良かった。,設備が古い。リノベーションしたっぽいが、コンセントプラグのカバーが外れやすかったり、シャワーが固定しかなかったりと不便が多かった。,K,Family,Premier King Room,4,"11, 2022",Thailand,th,[List]
+"한국인들에게 평가가 좋고 유명한 곳이지만, 다른 대안도 많아 보임.",5,"조식과 피트니스 센터 정도만 괜찮았어요.
+그리고 조용한 것?","1. 한국인이 너무 많음.
+2. 청소하는 분들이 말이 안 통함. 조식먹으러 나가는데 청소하는 분이 청소하러 들어오려고 하길래
+나중에 청소 하라고 이야기 했고, 혹시나 해서 Do not disturb 버튼까지 눌러 두었음에도 멋대로 청소 하러 들어가서 시간 꼬임.
+웃긴건 휴지통은 또 안 비워 놨길래, 일정 중간에 호텔에 전화해서 휴지통 비워놓으라고 요청했음. 알겠다고 전달하겠다고 했는데 돌아오니 아무것도 안 되어 있음..
+3.
+호텔 와이파이 객실번호랑 이름 적으면 사용 가능하다고 했는데 입력해도 안되어서 로비로 내려가니 따로 패스워드 줌..
+4.
+샴푸, 컨디셔너, 바디워시가 1회용이 아니고 벽에 벌크로 붙어있는데.. 이건 그래도 이해함.
+5.
+개인 물품 도난이 의심되는 사건도 있었는데, 이건 심증이고 결국 물건을 찾았기 때문에 자세히 적지는 않겠음.
+6.
+마리나 베이 뷰 1박당 세금 포함 조식포함 800SGD가 넘는 가격이었는데
+아무리 싱가포르라지만 호텔 컨디션도 좀 오래되었고, 
+서비스도 생각 외로 매끄럽지 못해서.. 이 가격을 주고 숙박할 만한 가치가 있는지는 모르겠음.
+7.
+뷰는 나쁘진 않지만 엄청난 환상을 가질 정도도 아님. 뷰는 밖에서 보는 게 훨씬 멋있음.",Jh,Solo traveler,Marina Bay View Room King,2,"19, 2022",South Korea,kr,[List]
+Buen hotel pero no excelente,7,"Las vistas magníficas desde la habitación y la ubicación, en plena Marina, a un paso del downtown, del Merlion y del Lou Pa Sat","La calidad de los productos de desayuno era mejorable. La limpieza era buena pero no excelente (había una tirita pegada en el suelo de nuestra planta 3 días), y las habitaciones están bien pero requieren renovarse",Carlos,Couple,Marina Bay View Room King,3,"10, 2022",Spain,es,[List]
+最悪,2,朝食が美味しかった。,ハウスキーピングと他のスタッフのコミュニケーションが取れていないのか、部屋に泊まる人数を把握せず、アメニティーやタオルを毎日少なく置いていき、バスタブは洗っていない、使用済みグラスを下げない、ドライヤーが何度も壊れる、タクシーを呼ぶボーイの態度が悪く(1人だけ)、待っている私たちを無視して次の客を乗せたり、文句を言うと自分が正しいと言い張ったり。とにかく最悪。結構高い宿泊料でこのサービスはあり得ない。,万実,Family,Marina Bay View Room Twin,2,"8, 2022",Japan,jp,[List]
+最悪,3,朝食が美味しかった。バラエティもあり、朝食としては最高でした。,"ハウスキーピングの仕事が雑すぎる。
+設備が古いのか、ドライヤーもすぐに壊れて何度も取り替えてもらったり、バスタブを掃除していない、使用済みのグラスを下げていかない、タオルを人数分置いていかない(毎日)など、あげるとキリがないほど。
+おまけにタクシーを呼ぶボーイが、私たちを無視して次の客にタクシーを先に回したり。
+ここのホテルは2度と泊まりません。",万実,Family,Premier Twin Room,2,"8, 2022",Japan,jp,[List]
+refelijk goed,6,ontbijt,te weinig feeling van het personeel,Albert,Couple,Premier King Room,2,"8, 2022",Netherlands,nl,[List]
+Hotel in zentraler Lage. Am Service haperts!,7,zentrale Lage,"Beherrscht keine Krisensituation. Innenstadt war sehr voll nach einer Veranstaltung. Wir bekamen durch das Hotel kein Taxi bestellt! Hier fehlt der gute Service, für den das Mandarin Oriental bekannt war!",Norbert,Couple,City Suite King,3,"12, 2022",Germany,de,[List]
+Wonderful,9.2,Ein gutes Hotel in guter Lage mit schönem Pool,,Roland,Family,Ocean View Room Twin,2,"27, 2020",Germany,de,[List]
+"하드웨어, 소프트웨어 모두 합격이지만....",8,"전반적인 하드웨어는 마음에 들었으나, 업그레이드가 필요한 것 같습니다. 연식이 좀 된 호텔이긴 하지만 관리는 잘 되어 있습니다.","조식은 스케일이 크지만 딱히 추천하지는 않습니다. 사람이 너무 많아요. 그럼에도 불구하고 오퍼레이트는 완벽해서 마음에 들었지만, 두번 가라면 안갈 것 같아요.",Kyounghee,Solo traveler,Ocean View Room Twin,3,"26, 2020",South Korea,kr,[List]
+Wonderful,9.2,"Sehr schönes Hotel an hervorragender Lage mit Sicht auf die Marina Bay. Moderne Poolanlage mit gutem Restaurant. Ausgezeichnetes, reichhaltiges Frühstücksbuffet, das keinen Wunsch offen lässt. Sehr freundliches, zuvorkommendes Personal, das einen exzellenten Service bietet und damit wesentlich dazu beiträgt, dass man sich in diesem Haus rundum wohl fühlt.",,Barbara,Solo traveler,Ocean View Room King,1,"21, 2020",Switzerland,ch,[List]
+满意的服务,8,服务态度很好,,芝麻士,Family,Ocean View Room King,3,"21, 2020",China,cn,[List]
+Excellent,8.8,"日本人スタッフに限らずスタッフの対応が良い
+プールBARが素敵
+静か
+ターンダウンや清掃も良い",MRTで移動するには駅までの距離が微妙だがタクシー移動すれば問題無し,Hisae,Group,City Suite Twin,2,"18, 2020",Japan,jp,[List]
+Exceptional,9.6,開放感あるプール、フレンドリーなスタッフ、満足感かなり高めの朝食,,Taka,Family,Marina Bay View Room Twin,1,"16, 2020",Japan,jp,[List]
+Exceptional,10,航班很早就到了，带了小朋友。在酒店办理入住时询问是否可以提前入住，前台小哥非常认真负责的在电脑里查询，虽然等了一会儿，但还是给了我们两间房，同层楼，提前入住。非常开心，很好的一个小哥！,,Xuexue,Group,Ocean View Room King,3,"16, 2020",New Zealand,nz,[List]
+Eben ein Mandarin Oriental – hat alles was es braucht,10,"Vom Personal am Shuttle abgeholt und direkt ins Zimmer geführt – ohne Wartezeit am Check-in Desk – perfekt!
+Zimmer sind geräumig und die Aussicht über Bay und Meer einfach herrlich. Der Aussenpool im 5. Stock ist immer gut besucht, aber wir kommen ja nicht zum Sonnenbaden und geniessen dann lieber den Drink an der Poolbar.
+Frühstücksbuffet mit Allem – hier bleibt vermutlich kein Wunsch offen. Auch die diversen Restaurants sind zu empfehlen, auch wenn sie preislich schon sehr gehoben sind.
+Das M.O. ist unser Hotel in Singapore und wird es sicher bleiben.",,Heidrun,Couple,Ocean View Room King,3,"14, 2020",Austria,at,[List]
+Exceptional,10,"뷰가 너무좋았음
+관광지,쇼핑지 접근성도 굿굿",없음,진석,Couple,Marina Bay View Room King,3,"12, 2020",South Korea,kr,[List]
+Wonderful,9,조식 좋네요 ~,"한식 메뉴없음  똑같은  메뉴 조식으로 매일 나오니 지겨움, 너무 인도 음식에 치우쳐 있음.",Kim,Couple,Marina Bay View Room King,3,"11, 2020",South Korea,kr,[List]
+"Best ever, loistava palaan takaisin <3",9,"Aamiainen oli loistava, paljon eri vaihtoehtoja ja paikallisia erikoisuuksia",,Satu,Family,Club Marina Bay King,4,"8, 2020",Finland,fi,[List]
+Wonderful,9,ラウンジスタッフの接客対応が素晴らしく、気持ちよく宿泊出来ました。,,Tadanori,Family,Club Marina Bay Twin,3,"6, 2020",Japan,jp,[List]
+プール三昧,9,朝食の種類が豊富、ベットの寝心地最高、プールは圧倒的にシンガポールナンバーワンだと思う,特に無し,Sono,Couple,Marina Bay View Room King,2,"5, 2020",Japan,jp,[List]
+Maravilhoso!!,10,Tudo no hotel eh impecável,Gostei de tudo,Juliana,Couple,Ocean View Room King,5,"4, 2020",Brazil,br,[List]
+やっぱりマンダリンオリエンタル,9.6,プールはロケーションも良く、何度宿泊してもここが1番。,老舗ホテルなので、古くなってきた感がある。,Hanako,Group,Club City Room King,8,"3, 2020",Japan,jp,[List]
+I'll be back.,9,Star Island Singapore Countdownの午前0時過ぎの花火イベント終了後、激混みのMRTへの流れを尻目に、逆方向へスイスイと徒歩でホテルに戻れる。,"MRTからホテルへの徒歩アクセスに、Marina Squareの裏口通路を使う動線が良くない。
+バスルーム設備に古さを感じる。",Kami3,Family,Premier King Room,4,"1, 2020",Japan,jp,[List]
+Good,7.9,,和食屋の定員にお茶が英語で通じなくて、奥から日本人の、変なおじいさんが出て来て、だから日本人はバカと、言われるんだとか変な事を言われ、すごく嫌な思いをした。最悪を,Eriko,Family,Marina Bay View Room Twin,3,"1, 2020",Japan,jp,[List]
+Exceptional,9.6,"Location, piscina, breakfast, gentilezza e disponibilità del personale",Nulla,Pier,Couple,Marina Bay View Room King,6,"31, 2019",Italy,it,[List]
+Exceptional,10,Excelente todo !!!! Súper bien el precio y súper ubicado !!! 🤩,,Lizeth,Family,Deluxe Room King,4,"23, 2019",Mexico,mx,[List]
+Exceptional,9.6,,,Abdulrahman,Couple,City Suite King,1,"17, 2019",Qatar,qa,[List]
+Wonderful,9.2,ラウンジのスタッフが言葉も理解出来ない私達にとても親切に対応してくれた。,チェックイン時　日本語の話せるスタッフが居なかった。,Yu,Couple,Club Marina Bay King,2,"17, 2019",Japan,jp,[List]
+Very Good,8.3,Tolle Lage mit fantastischen Ausblick.,,Robert,Family,Marina Bay View Room Twin,1,"12, 2019",Germany,de,[List]
+Exceptional,10,Понравилось все!,,Алуа,Solo traveler,Ocean View Room King,4,"12, 2019",Kazakhstan,kz,[List]
+Zwei Nächte mit viel Extras,8.8,"Wir sind mit dem Schiff nach Singapur gekommen und haben über das Hotel einen Shuttel gebuchT.
+Der Herr mit der weißen Limo war sehr freundlichen hat uns auf dem kurzem Weg ins Hotel gleich ein paar Tipps gegeben. Noch vor der Hoteltür wurden wir von einer freundlichen Dame empfangen und auf unser Zimmer begleitet, zur Erörterung des Zimmern erfolgte gleichzeitig der Check In.
+Unser Zimmer hatte einen Blick auf die Bay und einen Zugang zur Lounge mit allen Vorzügen (19 Etage)",,Thomas,Couple,Club Marina Bay King,2,"29, 2019",Germany,de,[List]
+Luxus Pur in Singapur,10,Wunderschönes Hotel super freundliches hilfsbereites Personal. Super Zimmer mit Blick auf Marina Bay. Grandioses Frühstücksbüffet das seines gleichen sucht,,Ralf,Couple,Marina Bay View Room King,4,"28, 2019",Germany,de,[List]
+最高の眺めでリッチな気持ちになれる,9,"・マリーナベイビューの部屋だったが、期待通り、マーライオンとマリーナベイサンズがどちらも迫力たっぷりに視界に飛び込んでくる素晴らしい眺めだった。
+・バスルーム周りが広かった。シャンプー等のアメニティは壁に備え付けだったが良い香りだった。
+スタッフの対応も素晴らしい。","・バスタブはトイレや洗面台と同じ場所に配置されており、仕切りやドアはなく丸見え状態になるため、誰かが利用している時は他の人は使用しにくい。また、バスタブに入った際には水が溢れないよう注意が必要。
+・シャワーブースのシャワーが、天井固定式なので身体を流すには使いにくい。",Mariko,Family,Marina Bay View Room King,1,"19, 2022",Japan,jp,[List]
+klare Empfehlung!,10,"top location an der bay, alles in der City ind der bay fussläufig erreichbar oder mit kostenlosen rental bikes 🚲 des Hotels. Personal ausgesucht herzlich und zuvorkommend, eine Runde Sache. der deutsche General Manager geht 3x die Woche mit den Gästen joggen. Klasse.","wenig, das Ganze ist hier und da in die Jahre gekommen, stört aber nicht.",Frank,Family,City Suite King,3,"14, 2022",Germany,de,[List]
+sicuramente rifarei la stessa scelta,10,ottima posizione e pulizia,niente,Rosita,Family,City Suite King,5,"11, 2022",New Caledonia,nc,[List]
+Super Hotel,10,"Das Frühstück war fantastisch mit einem äusserst reichhaltigem Angebot. Die Atmosphäre im Speisesaal war sehr angenehm. Die Lage des Hotels ist zentral, in der Nähe der Marina Bay, so dass man gut zu Fuss die Marina Bay und das Financial District erkunden kann.",--,Katharina,Family,Premier King Room,4,"7, 2022",Switzerland,ch,[List]
+Au top,10,"La qualité de l accueil 
+Le service 
+Le petit déjeuner : exceptionnel 
+Le confort des chambres 
+Le point de vue sur la ville de Singapour",,Céline,Family,City Suite King,2,"6, 2022",France,fr,[List]
+Very Good,8,"su ubicación, la atención. el desayuno","seleccionamos una suite para 4 adultos, había dos baños pero solo una ducha y todos tenían que pasar por la habitación principal. Las camas supletorias eran incómodas y una la pusieron dentro de la habitación principal. No es lo que parecía al momento de contratar la habitación. Nos ofrecieron cambiarla pero pagando un cargo extra.",Jose,Family,City Suite King,3,"30, 2022",Spain,es,[List]
+tout était excellent ! c était parfait !,10,le personnel / le service /la propreté/,,Anne-sophie,Couple,Marina Bay View Room King,2,"30, 2022",France,fr,[List]
+Very Good,8,プールから、マリーナエリアを見渡すことができ、マリーナベイサンズも見ることができた。プールの隣にあるバーで夕食を食べたが、夕暮れから夜にかけて変化する景色が素晴らしかった。朝食が種類が多く、どれもおいしかった。ホテルの内装が重厚感があり、独特の雰囲気が素敵だった。スタッフの対応もとても丁寧だった。,設備が全体的に古い感じがして、使いにくいと感じることがあった。例えば、トイレの水を流すボタンが重たかったり、エアコンが冷えすぎると思ったら、あまり効かなかったり、こちらで細かに調整しないといけなかった。,Miho,Family,Premier Twin Room,2,"30, 2022",Japan,jp,[List]
+Exceptional,10,"Locatia e cea mai buna, caci iti permite sa mergi pe jos la anumite puncte de interes, nu esti conditionat de transportul cu masina. Mai ales daca ai un sejur scurt doar de catva zile, in partea stanga mergi spre Marina Bay Sand pe podul Helix , iar in partea dreapta pe faleza ai traseul Esplanade, podul Jubilee, care te ajuta sa ajungi la statuia Merlion. Va recomand sa faceti circuitul acesta de jur imprejurul  bay-ului.","Destul de invechit totul in interior, ar merita o reconditionare. Ma asteptam sa gasesc mai mult lux.",Ela,Family,Premier King Room,2,"29, 2022",Romania,ro,[List]
+シンガポールで初めて泊まったホテル,10,プールからのロケーションが素晴らしかった。部屋はアップグレードしてくれていたのかベイビュー側の角部屋だった。とても部屋が広く清潔で、部屋からの眺望は感動ものでした。あと朝食が凄く美味しかったです。翌日宿泊したマリーナベイサンズは朝食を付けなかったので比較はできませんが、マンダリンオリエンタルは、朝食付きで部屋、眺望、プールが素晴らしかった上に1万程度安かったのでお得に感じました。,,Markun,Family,Ocean Grand King,1,"23, 2022",Japan,jp,[List]
+Wonderful,9,"La ubicación , la habitación con vistas a la bahía y el desayuno",La piscina. El suelo de alrededor estaba muy estropeado y los márgenes de la piscina algo sucios,Maria,Couple,Marina Bay View Room King,3,"15, 2022",Spain,es,[List]
+Wonderful,9,"Reichhaltigkeit des Frückstücks, unglaubliche Freundlichkeit des Personals.",,Peter,Couple,Marina Bay View Room King,15,"12, 2022",Germany,de,[List]
+Exceptional,10,"위치, 시설, 서비스 등 호텔의 모든 요소가 좋았습니다.",,Seoyun,Family,Marina Bay View Room Twin,2,"7, 2022",South Korea,kr,[List]
+Wonderful,9,チェックイン、朝食ブッフェなどの場でのスタッフの対応が、フレンドリーかつ親切丁寧でとてもよいと思った。ロケーションもよく、歩いて川べりや大きなモール、中華街方面にも行ける。,部屋の設備がやや古く、スイッチと電気のつながりが分かりにくい,Yuki,Family,City Suite King,2,"4, 2022",Japan,jp,[List]
+Wonderful,9,とても丁寧な対応,トイレが、逆流何度もしてきた,Yoko,Group,Premier Twin Room,4,"28, 2022",Australia,au,[List]
+Hotel in optimaler Lage mit tollem Blick auf die Marina Bsy,8,die Lage ist für Besichtigungen ideal; zwischen dem alten Singapur und Marina Bay; schöner Poolbereich; direkt neben einem Shoppingcenter mit MRT-Zugang,"das Hotel ist sehr gross; das Frühstück ist daher eine wenig gemütliche Massenveranstaltung; die Auswahl war ausser beim Obst allerdings super; das Hotel ist bei der Einrichtung schon etwas in die Jahre gekommen und noch nicht alles funktionierte (Safe, Wasserhahn). Alles wurde aber immer schnell behoben vin den sehr freundlichen Mitarbeitern.",Stefanie,Couple,Marina Bay View Room Twin,3,"18, 2022",Germany,de,[List]
+Wonderful,9,La vue sur la baie et le calme de la chambre,Pouvoir y rester plus longtemps,Christophe,Family,Marina Bay View Room King,1,"14, 2022",France,fr,[List]
+가성비 좋았던 숙소!,8,"뷰도 좋았고
+아침 식사도 꽤 괜찮았어요!
+가성비 좋았던 숙소~~
+위치도 좋아서 머라이언파크까지 걸어갔네용 ㅋㅋ",단점이 딱히 없었어요~!,Hawon,Family,Marina Bay View Room Twin,2,"6, 2022",South Korea,kr,[List]
+Wonderful,9,"Bonne accueil, serviable, belle piscine, petit déjeuner très varié et complet",Il faudrait le relooker,Olivier,Family,Premier Twin Room,5,"5, 2022",France,fr,[List]
+Wonderful,9,"L’emplacement, la piscine",Un peu vieillissant,Olivier,Family,Premier King Room,5,"5, 2022",France,fr,[List]
+schitterend,9,de vriendelijkheid en behulpzaamheid van het personeel,niets,Isabelle,Solo traveler,Ocean View Room King,4,"27, 2022",Belgium,be,[List]
+最高,8,"ちょうしょくもほうふで美味しかった。
+ジムのスタッフもとても親切。
+スパも素晴らしかった。",,Tomoko,Family,Premier Twin Room,1,"26, 2022",Japan,jp,[List]
+何度も滞在しておりお気に入りのホテルです,9,落ち着いた雰囲気、スタッフの対応等,設備が古い、特にトイレは日本人には少しキツイ,Koichi,Couple,Marina Bay View Room Twin,3,"15, 2022",Japan,jp,[List]
+Wonderful,9,아침식사 좋았고 뷰가 너무 멋져요,,Sanghee,Couple,Marina Bay View Room King,4,"12, 2022",South Korea,kr,[List]
+Very Good,8,立地がよい、サービスがいい、景色がいい,少し古い,Sakura,Group,Marina Bay View Room King,5,"11, 2022",Singapore,sg,[List]
+マリーナベイの眺望と一流のサービスに感動,10,どこに行くにも便利で、話したスタッフは全員とても親切でした。ホテルは静かで落ち着いた大人な雰囲気です。部屋からのマリーナベイの眺めは最高でした。レンタサイクルのサービスで、ガーデンズバイザベイの散歩を楽しむことができました。アメニティもdiptyqueで嬉しかったです。,,Mari,Couple,Marina Bay View Room King,1,"5, 2022",Malaysia,my,[List]
+Ich freue mich jetzt schon auf den nächsten Aufenthalt.,10,"Elegantes Hotel mit überragendem Service.
+Kompetenter und professioneller Front Office Manager Michael P.Sehr freundliches und aufgeschlossenes Personal.
+Spektakulärer Pool mit toller Aussicht auf die Skyline.Sehr engagierte Concierges,mit besten Lokalkenntnissen.",,Joerg,Couple,Premier Twin Room,7,"4, 2022",Germany,de,[List]
+Fantastic!,10,"・とにかくロケーションがいい。
+サンテックシティにそのまま直結でいけること、エスプラネードやマーライオンパーク、ガーデンズバイザベイ、マリーナベイサンズにど主要な観光名所にアクセスが非常によいこと。
+・景色が最高。
+マリーナベイサンズが見える側に泊まったので、毎日ショーが部屋からみえ、景色は最高だった。
+・ホテルのスタッフの対応がいい。
+誰に対応してもらっても対応は基本的によかった。",朝食メニューは毎日一緒なので、少し飽きるかも。また、時間によっては混むので入るまでに列に並ばなくてはならない。,Yk,Family,Marina Bay Suite Twin,4,"3, 2022",Japan,jp,[List]
+古き良き伝統あるホテル,8,高級感のある部屋の内装、プールの景色、レストランバーも素敵でした。,アメニティがほぼ無いので、自分で化粧水、クレンジング、櫛等準備する必要がある。,Rika,Solo traveler,Premier King Room,2,"3, 2022",Japan,jp,[List]
+nói chung là tuyệt,8,"trung tâm, view đẹp","không gian tối, ăn sáng ko được tự lấy",Thị,Couple,Marina Bay View Room King,3,"3, 2022",Vietnam,vn,[List]
+hervorragend,10,tolle Lage. sehr schönes Hotel. super Sicht auf die Marina Bay. freundliches Personal,,Andrea,Couple,Marina Bay View Room King,6,"3, 2022",Germany,de,[List]
+Exceptional,10,"Sehr freundliches und zuvorkommendes Personal. Schöne Zimmer und eine tolle, zentrale Lage. Wir haben uns sehr wohl gefühlt und kommen gerne wieder.",,Veronika,Family,City Suite Twin,10,"18, 2022",Germany,de,[List]
+foi ótima,8,flexibilidade dos funcionários,quarto estava com cheiro de mofo,Plinio,Group,Premier Twin Room,3,"11, 2022",Brazil,br,[List]
+vue exceptionnelle et personnel aux petits soins,9,"l’accueil 
+le fait que la chambre nous ait été laissée jusqu’à 18:00 car notre vol était en soirée.",la piscine interdite aux invités extérieurs !,Nicolas,Couple,Marina Bay View Room King,4,"8, 2022",Guadeloupe,gp,[List]
+Vi var nöjda,8,Frukosten var mycket bra,Restriktionerna var det som ställer till det. 1 Tim pool bara 5 vid bordet och vi var 6. Men sådan är tiden,Joel,Family,Marina Bay View Room King,1,"3, 2022",Sweden,se,[List]
+다시 간다면 여기 가겠습니다ㅠ,10,직원분들이 매우 친절. 위치가 좋음. 잘 관리된 느낌. 세심하게 케어받는 듯한 느낌. 수영장 예쁨. 수영장이 마리나베이뷰라서 좋음. 수영장에 선베드 종류도 매우 다양.,엘레베이터가 느림. 연식은 느껴짐. 수영장물이 차가움,Eun,Solo traveler,Ocean View Room King,3,"18, 2022",South Korea,kr,[List]
+Tolles Hotel an ausgezeichneter Lage mit Renovationsbedarf,8,"Die Lage ist ausgezeichnet direkt am Marina Bay. Das Personal war sehr zuvorkommend, freundlich und hilfsbereit. Die Suite war sehr gut ausgestattet und geräumig. Die Aussicht auf das Marina Bay und die Skyline war unglaublich. Das Frühstück war vielfältig und sehr lecker.","Die Ausstattung des Hotels (Mobiliar) ist recht veraltet und zum Teil abgenutzt. Für den sehr hohen Preis pro Nacht, kann man schon erwarten, dass das Mobiliar in sehr gutem Zustand ist. Die Lobby ist recht dunkel und es fehlen gewisse Details, damit es einladender wirkt. Unserer Meinung nach müsste man in den nächsten Jahren eine Auffrischung machen oder die Preise anpassen. Ist sehr schade für ein so gutes Hotel.",Mirlind,Family,City Suite Twin,1,"16, 2022",Switzerland,ch,[List]
+einfach nur perfekt,10,"seit Jahren ein sehr gutes Hotel, vorallem ein super Service des Personals",,Marc,Solo traveler,Ocean Grand King,2,"9, 2022",Switzerland,ch,[List]
+Exceptional,10,"[이동하기 편함]
+지하로 다 연결되어있어서 이동하기 좋았습니다. 마리나 스퀘어, 에스플러네이드 다 지하로 다닐 수 있어요! 
+[룸 컨디션]
+뷰 끝내줬어요! 침대도 푹신하니 좋았고, 룸클리닝 서비스가 정말 대박..! 물도 양껏 챙겨주시고 좋습니다! 
+[기타 서비스]
+식당 예약에도 도움 많이주셨어요! 마지막날에 유니버셜을 갔다가 새벽비행기 타는거라 체크아웃하고 다시 돌아와서 짐 찾고 씻게 해줬어요^^
+[시설]
+수영 꼭 많이 하세요!좋아요! 
+그리고 안에 돌체 비타 레스토랑도 생각보다 좋습니다!",조식이 생각보다 맛있지 않았어요 ㅠㅠ,Jinran,Couple,Marina Bay View Room King,3,"4, 2022",South Korea,kr,[List]
+Wonderful,9,普段はシンガポールでのサービスはあまり期待していないが、このホテルはサービスが行き届いていた。,,Atsushi,Family,City Suite King,1,"25, 2021",Singapore,sg,[List]
+素晴らしい,9,,朝食付きでこの値段ならお得感がある,ようこ,Family,Premier King Room,1,"28, 2020",Singapore,sg,[List]
+Perfekt,10,"Hatten ein Zimmer mit Meerblick im 20. Stock, super Aussicht auf die Bay und das Marina Bay Sands Hotel. Zimmer immer sauber und mit allem was ein 5 Sterne Hotel bietet aufgefüllt. Hatten ein Upgrade und konnten die Orientellounge im 19. Stock voll geniessen mit guten Köstlichkeiten und zu trinken gabs, was das Herz begehrt. Frühstück inbegriffen. Schwimmbad sehr schön und angenehm. Für mich ein Top Hotel.",,Bettina,Couple,Ocean View Room King,4,"10, 2020",Switzerland,ch,[List]
+Kann das Hotel Mandarin nur weiterempfehlen,10,"Herzlicher Empfang
+Ausgezeichnetes Frühstück
+Flexibilität bei Auschecken - problemlose Verlängerung
+Super Service allgemein",nichts,Gregor,Couple,Ocean View Room King,3,"5, 2020",Switzerland,ch,[List]
+Exceptional,10,Все было на уровне. Отличный завтрак на любой вкус.,,Svetlana,Couple,Ocean View Room King,2,"1, 2020",Russia,ru,[List]
+Exceptional,10,"Отель великолепен по всем параметрам. Завтрак превосходный, есть все и европейская и азиатская кухня. Соки пяти видов, фрукты свежайшие. 
+В отеле два ресторана один японской кухни и Cherry Garden кантонская кухня. Огромное спасибо менеджеру ресторана Cherry Garden господину Sam Ng, за прекрасный подарок и организацию нашего ужина!
+В номере чисто, кровать и постельные принадлежности очень высокого качества. Лучше брать номер на верхних этажах с видом на залив, вид шикарный, особенно вечером.
+Отель удачно расположен, можно пешком дойти и до Мерлиона и до садов Marina Bay Sands.
+Из приятных мелочей, в номере всегда были свежие фрукты:)
+До аэропорта на такси не более 30 минут.
+Можно заказать трансфер отеля, но он значительно дороже.
+Планируем вернуться именно в этот отель.","Бассейн на троечку. Он маловат для такого большого отеля, но это не главное в Сингапуре.",Oxana,Family,Club Marina Bay Twin,4,"27, 2020",Russia,ru,[List]
+Exceptional,9.6,"Alles bestens, ist zu empfehlen, bis auf die schreienden Kinder im Pool, das war schon sehr nervig.",,Germar,Couple,Marina Bay View Room King,1,"18, 2020",Germany,de,[List]
+Good,7.9,"Die Damen an der Rezeption waren sehr hilfreich, im Besonderen Sarequa!",,Marianne,Solo traveler,Deluxe Room Twin,2,"5, 2020",Switzerland,ch,[List]
+Excellent,8.8,,Concierge,Marina,Couple,Ocean View Room King,1,"1, 2020",Brazil,br,[List]
+Relaxation and excitement,9,"「高級感漂うクラブラウンジでの食事やくつろぎの時間」
+「リゾート感たっぷりのプールサイドでのうたた寝の時間」
+「マリーナを一望出来る大きな窓、そしてその夜景」
+「年越しのイベントを涼しい室内から観賞できて感動。これ以上の特等席はおそらく無いだろう！」",日本語スタッフがもう少しいれば尚可。でも、今のままでも特に問題はない。,Yuji,Family,Club City Room Twin,4,"30, 2020",Japan,jp,[List]
+Exceptional,10,"部屋からのロケ－ションも最高でカウントダウンの花火は感動しました。
+また、スタッフも常に笑顔で接していただきとても満足のできる滞在となりました。",,Toshiaki,Couple,Club Marina Bay King,5,"29, 2020",Japan,jp,[List]
+It was pretty much comportable .,5,The staffs are very helpful. It's very good location for the tourists attractions.,The service for checking out was a little bit upsetting. I called the reception couple of times asking to send someone to take our bags downstairs. But no one came up to help us carry our luggage downstairs.,Pamela,Family,Ocean View Room Twin,4,"30, 2019",Philippines,ph,[List]
+Could be better,6.2,"View was good. Room sufficiently spacious. Sumptious breakfast, but as it should be given the price charged.","Carpark has no lift to the property. Check-in and check-out service was slow. Bed mattress was sunken over time giving little back support. We were celebrating our anniversary and had dinner at Cherry Garden but there was nothing provided to make our dinner special despite spending more than $200 for the meal.  Service was very slow - we spent 2 hours for the set dinner to be completely served. Apart from small piece of cake to be shared and a card left in our room, there was nothing compared to other hotels that made us feel special on our annual celebrations despite our spending close to $800 for just one night. Definitely not the place to go if you want to celebrate any special occasion.",Ben,Couple,Ocean View Room King,1,"11, 2019",Singapore,sg,[List]
+Exceptional,10,great location.excellent service and nice breakfast,,Anonymous,Couple,,1,"24, 2022",Singapore,sg,[List]
+Exceptional,10,good location big rooms exceptional service,exterior is dated,Anonymous,Family,,2,"22, 2021",Singapore,sg,[List]
+Exceptional,10,Clean and comfortable!,Nil,Anonymous,Family,,1,"17, 2021",Singapore,sg,[List]
+Very good,8,Location was good and convenient. But breakfast was way too expensive for locals.,Generally OK. Good reception. Easy to request for early check in.,Anonymous,Family,,1,"7, 2021",Singapore,sg,[List]
+Bad booking management but great overall,10,"Staff are friendly, service was beyond expectations and check-in/room service was seamless","Couldn’t make any reservations for gym upon check in for both days I was there. Pool was claimed full on the 2nd day I was there but yet we were allowed entry both in the morning and afternoon. If you stay at MO and they inform you that bookings for facilities are full, just make your way there when you wish cus chances are, it’s not.",Anonymous,Group,,1,"21, 2020",Singapore,sg,[List]
+Exceptional,10,"Breakfast, Pool, Service",,Anonymous,Group,,4,"23, 2020",Germany,de,[List]
+Exceptional,9.6,Fantastic location,Nothing,Anonymous,Couple,,4,"17, 2020",Oman,om,[List]
+Exceptional,10,Everything is good,No,Anonymous,Group,,3,"27, 2020",South Korea,kr,[List]
+Wonderful,9,"The Club amenities were very good, exceptional service and food. The location of the hotel is amazing. The bar by the pool was very good with very good service. The manager downstairs took care of me and got me to check in on the club level 
+in just couple of minutes when he saw me frustrated in the lobby.","On arrival there was nobody to great me or to help me with my bags into the lobby. Check in was a long wait . It was solved  for me by the manager, though. I was leaving the room every day after the end of Club room breakfast, so around 10:30. Every time during breakfast the maid wanted to clean my room and left a note to call them. I think they could have saved the paper and just ask me when I'll leave my room. Plus they have an electric sign by the door ""do not disturb"" and ""clean the room"".",Anonymous,Solo traveler,,4,"26, 2020",United States of America,us,[List]
+Very Good,8,Great location at Marina Bay,,Anonymous,Couple,,4,"12, 2020",Germany,de,[List]
+My stay was better than I expected - both hotel and destination,10,Breakfast was the best I have encountered anywhere. Location is fine if you want a quieter area. Good for walking. The club bar and facilities was a winner. I felt I could have holed up inside the hotel for the whole stay.,Some of the electrical switch controls in the room didnt work. However the staff are excellent - helpful friendly and efficient,Anonymous,Solo traveler,,8,"4, 2020",Australia,au,[List]
+Mandarin Oriental Hotel in Singapore,10,Everything! Especially the staff. Hotel is very elegant,Nothing,Anonymous,Couple,,2,"17, 2019",United States of America,us,[List]
+Wonderful,9.2,Breakfast at its finest in Singapore,A bit old in room facilities,Anonymous,Solo traveler,,2,"10, 2019",Hong Kong,hk,[List]
+Wonderful,9.2,,"Why cut off WiFi in lobby area?
+Lap}",Anonymous,Solo traveler,,1,"30, 2019",Singapore,sg,[List]
+Exceptional,9.6,Excellent service and beautiful pool with views over the city,,Anonymous,Couple,,1,"28, 2019",Australia,au,[List]
+Wonderful,9,Location and professional staff,Old facilities in bath room,Anonymous,Solo traveler,,2,"19, 2019",Australia,au,[List]
+it was ok but not wow,6,location,slow service at the bar,Anonymous,Family,,3,"1, 2022",United Kingdom,gb,[List]
+Fair,5,The view and the daily breakfast were good,"Check in time was given after 3pm but when arrive we were told room in not ready and required to wait. We waited almost 2 hours to go up to our room.that was a 530pm when we received the room card 
+Pillow were too soft that when we lie down it flattens. Ended up having neck pain.",Anonymous,Couple,,2,"19, 2020",Singapore,sg,[List]
+Disappointing,5,Food and Service,"I never found a place to relax and rest, even the room. Hotel lacks comfortable common areas, room AC temp controls were imaginary, bed too soft, ocean view room has furniture oriented all wrong. First and probably last time at a MO. I expected a top of the line experience and it was average at best.",Anonymous,Couple,,3,"4, 2020",Singapore,sg,[List]
+Mandarin Oriental Singapore,5,Very old and no clear instruction for the facilities. Lobby very dark and no visible bar. Rooms clean but old.,Location,Anonymous,Solo traveler,,2,"12, 2019",Italy,it,[List]
+满意,9,送了点心和饮料，很不错,价格稍微贵了点,Yudong,Solo traveler,City Suite Twin,2,"20, 2022",Singapore,sg,[List]
+"Excellent solution pour visiter Singapour, mais des points à améliorer",8,"emplacement
+buffet du petit dej à essayer!
+vu mais prenez une chambre à partir du 18me 
+les cocktail et bouffe du MO Bar, à essayer!","personnel souriant mais pas toujours efficace
+il manque une “changing room” après le Check out
+a 10:35 le fantastique buffet était déjà terminé avec pas mal de monde assis, inacceptable",Giovanni,Couple,Ocean View Room King,1,"23, 2022",France,fr,[List]
+아주친절한스텝  최고의 전망,9,"아주친절한스텝, 훌륭한 조식메뉴와 서비스,조망,
+딸이 생일이라고 예약후 메일을 보내니 아주 맛있고
+귀여운 초코케잌 과 풍선,생실카드를  세팅해놓아주셨어요  그리고 마지막  체크아웃후에  짐을맡겼다가 찾아가는데 KATYA 라는 아주친절한 직원분께서  비행시간까지  시간이 많이남았으면  수영장 썬베드에서 쉬며 시간을 보내다 가도 좋다고  했어요",최신호텔에비해  조금  시설이 오래된거같고  좋은위치에 비해  F1때문에  길을 차단해서  대중교통을 이용하기가 조금 불편했어요,Junhee,Family,Deluxe Room Twin,2,"21, 2022",South Korea,kr,[List]
+Fine,7,"Location is good. 
+If there is a direct lift from car park to hotel lobby will be better. Otherwise customers have to carry the luggage climbing up staircase",Consignment officer is not so polite while we were asking for renting bicycles,Yongming,Solo traveler,City Suite King,2,"1, 2022",Singapore,sg,[List]
+Below expectations,4,"The breakfast spread was ordinary, lack of options like miso soup and rice.","room was on the low floor, buttons for privacy and make-up room NOT working, aircon was not cold at night... bathroom looks very old.",Mary-lynn,Couple,Ocean View Room King,2,"28, 2022",Singapore,sg,[List]
+Nice place if you can afford it.,7,"Good location, near shopping malls. Staff are generally friendly and accomodative.","1) Checked in was delayed till 6pm as apparantly previous occupants probably have not left yet. The UFC 275 was the day before and some of them have not left yet. Was put in a resting room first while waiting for suite. Got locked out from the resting room as we decided to swim while waiting for 6pm. So we waited for 10 mins while still wet for the staff to come up and pass our suite keys.
+2) Once suite was given found that the living room aircon was not cold even set to the lowest temperature. Minimum setting was 18.5 degC. Informed the reception about it and somehow the technician managed to change the settings to 15.5 degC which eventually cools the living room.
+3) Toilet floor was not levelled properly, water on the floor did not flow to the drain properly creating small puddles and gets slippery for kids. Both toilet mats were eventually wet and soaked.
+4) Got locked out from suite after breakfast as 1 of the door lock battery was flat and unable to enter from the other door. 
+5) When request for late check out as part compensation of the late check in, they were able to accomodate BUT move to another room. Hence, that was the 3rd room my family was in throughout my 3 days stay. When asked on the reason, staff mentioned that the room was booked for later. However, I also booked the room 1 month prior but I was still checked in late. It makes you think about the difference in treatment if you are a local. I am not a troublemaker hence I accept this as I want my kids to enjoy their stay.
+6) Went to pool on the 3rd day and noticed that the staff did not attend to me and my kids. Ended up taking the pool towels myself. Upon observation, noticed the staff approaching other guests willingly and assists them accordingly.
+In general, if you are a local, you MAY feel that the treatment is different to foreign guests. But overall it is a great experience as the room is huge.",Muhammad,Family,City Suite King,2,"15, 2022",Singapore,sg,[List]
+Very Poor,2,,We waited for 3 hours for our room,Jefferson,Family,City Suite King,2,"30, 2022",Singapore,sg,[List]
+Pleasant,6,,service is for the first time not up to my expectations,Eugenio,Couple,Marina Bay View Room King,3,"25, 2022",United Arab Emirates,ae,[List]
+expensive,7,"the facility is well located and cleaned, staff very friendly and good customer service.",Too expensive for what you got.,David,Couple,Ocean View Room Twin,1,"25, 2022",United States of America,us,[List]
+staff where rude. booked three nights for our honeymoon. the room was not ready until six pm. no welcome drinks where of,2,the hotel enterance,bedrooms where old and dated,Hassan,Couple,Premier King Room,2,"17, 2022",United Kingdom,gb,[List]
+Disappointing,5,Standards have slipped across the board post CoVid,"Staff, service, recognition, in-room amenities cleanliness all declined",Lee,Solo traveler,Marina Bay View Room King,1,"17, 2022",Hong Kong,hk,[List]
+Great location.,7,Great location,"Breakfast could have been better, the property is old.",Mohammad,Group,Marina Bay View Room Twin,7,"16, 2022",United Arab Emirates,ae,[List]
+Good,7,I like the Breakfast. It's delicious and variety is good,"I did not realize the suite I booked is Twin bedded. I thought it's a king/queen with 2 extra bed, but rather it's 4 twin bed. I requested to change but was informed not available. Waited one hour before the room is ready for check in.",Catherine,Family,City Suite Twin,1,"16, 2022",Singapore,sg,[List]
+Just a standard hotel named Mandarin Oriental,6,"View of the room was amazing. Breakfast, pool area and gym was nice. Location is good it was walking distance to Marina Bay Sands. Also Cherry Garden restaurant inside the hotel was good.",Hotel is old especially the rooms. When I entered to room I felt like I went back to 90s. Staff was average. When you are staying at Mandarin Oriental in any country you want to feel like you are staying at Mandarin Oriental. Unfortunately this wasn't the case in Singapore Mandarin Oriental. One of the biggest issues was in our last day there was water dripping from ceiling and when I informed the reception they said they will take care of it. Unfortunately when I went back to room it was still the same. First they said It was coming from the AC but then they said it wasn't which is confusing. I don't even know what was dripping from above.,Ali,Couple,Ocean Grand King,6,"11, 2022",Turkey,tr,[List]
+good stay apart from the all day dining finished at ten PM and all restaurants stopped their kitchens at ten also.,7,"always liked Mandarin Oriental hotels, good service.","all day dining finished at 22:00, why???",Mark,Solo traveler,Marina Bay View Room King,2,"5, 2022",United Kingdom,gb,[List]
+Good,7,"Supe-friendly and helpful staff, perfect location with fantastic view on the marina bay","The hotel is nearly 35 years old, and the interior design is not on eye-level with modern 5-star-hotels anymore.",Michael,Family,Marina Bay View Room Twin,5,"23, 2022",Switzerland,ch,[List]
+terrible experience,1,nothing,"no clean, very old and dirty room, broken shower, not capable management.",Sergio,Solo traveler,Premier King Room,1,"10, 2022",Hong Kong,hk,[List]
+It was ok but not value for money by any means. we were paying for a view and nothing else.,4,"My impression was that MO is a well established and exclusive hotel but reality is it is a travel lodge with Marina Bay prices. No free wifi, ridiculous cost for breakfast and caters exclusively it seems for local weddings.",inefficient pool and facility booking through WhatsApp which took an age for people to respond to.,Clare,Family,Marina Bay View Room King,5,"15, 2021",Singapore,sg,[List]
+Fair,5,Spectacular views of the Marina Bay,The price was too steep. Value of the room was not worth it. $648 per night without any welcome drinks or even fruits.,Jaclyn,Family,Marina Bay View Room Twin,1,"10, 2021",Singapore,sg,[List]
+Pricey,7,"Great location and staff were friendly, attentive and helpful","Frustrating that the prices are still pretty steep considering the facilities are limited. 
+I know due to Covid the pool facilities is an hour etc but you still pay an expensive rate for the hotel",Jenny,Couple,Ocean View Room King,1,"9, 2021",Singapore,sg,[List]
+Nice atmosphere,7,"1st and 2nd day found files in the powder room.
+We manage to catch it.
+Coffee machine in our room seem  a bit jammed to us till we call for the service. 
+Fyi, it not we do not know how to operate, we have one exactly the same as this.
+Middle of night heard sound coming from the wall (TV station) in the living room.","Staff should behave more friendly and approachable attitude.
+While pressing the lift button for guests to enter,  lift door can't  hold for long and hit one of my member family.",Angies,Family,City Suite Twin,2,"18, 2021",Singapore,sg,[List]
+Good,7,"View, location",Deposit which is being returned in 2 weeks (not what I expect when pay 535 eur per night); requirement to book pool in advance and for 2 hours only,Margaryta,Couple,Ocean Grand King,1,"7, 2021",Ukraine,ua,[List]
+MO Review December 2020,7,"Locations was good.  Staff polite and helpful.  Despite challenges of COVID restrictions hotel and staff make a good effort to help make your stay pleasant. Our room was great, clean, spacious, and a great view","Impact of COVID makes the stay a little tough.  You have to compete with all the other guests for reservations at restaurants, the pool, and gym.  Be aware of this and make reservations early.",Gerald,Couple,Ocean Grand King,5,"29, 2020",Singapore,sg,[List]
+Fair,5,Convience to shopping centre,,Hanizz,Family,Deluxe Room King,1,"26, 2020",Singapore,sg,[List]
+Old property. uncomfortable service.,5,only good thing was swimming pool,Staff who seems manager told lies regarding card deposit. because maybe I am not native English speaker. Service was not comfortable for foreigner. Old hotel.,Jk,Family,Marina Bay View Room King,4,"20, 2020",South Korea,kr,[List]
+Fair,5,,"I found out that the way of how the staff handling the situation wasn't right, when she question me I ans and than she just quite . She supposed to be given a list of the level where to attend for breakfast or snack but there wasn't any. I went to other hotel last week I didn't face such a issued I even felt so great that the staff was so friendly and guide me through out and there is a list for the guest to know which level to attend. Mostly not all the guest will remember there are snack or breakfast that can be consumed. There is no list to see at all.... It really make the guest misleading on it.. I feel that should have a list of tracking like which level to attend for snack and breakfast and other stuff.
+We didn't even want know that the list of form for room service was chargeable thought was included but end up I was told to paid without any choice. 
+I feel I won b coming back again. The experience I get really not satisfied at all. Somemore is 5 star I thought the service would went up to excellent but the feel I didn't get at all.",Stephanie,Couple,Ocean View Room King,1,"13, 2020",Singapore,sg,[List]
+Good but overpriced. Bathrooms need updating,7,Location and friendliness.,How unnecessarily expensive everything was. Room bathroom needed regrouting as mould was visible. Also toiletries should have been to a higher standard.,Russell,Couple,Marina Bay View Room King,3,"5, 2020",United Kingdom,gb,[List]
+Good,7,Comfortable and good facilities,"Lounge areas uninspiring, building fairly nondescript",Samuel,Solo traveler,Deluxe Room King,1,"18, 2019",United Kingdom,gb,[List]
+Good,7.5,,Breakfast buffet was overly crowded and noisy.,Traveller,Couple,Club City Room King,2,"27, 2019",Malaysia,my,[List]
+Extraordinary,9.6,Everything,"Hotel location, city , breakfast,
+Staff",Francisco,Family,City Suite King,2,"25, 2019",United States of America,us,[List]
+Exceptional,9.6,"1. The view! You can see it all without leaving your room. Our room was on the top floor( thanks for the hotel’s arrangement, which was really sweet)
+2. Professional and nice service! The staff were well trained and professional with nice service and respect. The best thing you can experience in this hotel is that every small detail contains thoughtful arrangements and dosing, and it makes you feel really comfortable. That’s what nice luxury hotels should be.
+3. The bed! So comfortable! Love it!
+4. Love the design and style of the hotel.
+5. The pool time was enjoyable! They have nice view, nice facilities and nice service! 
+6. Convenient location! Walking distance to all famous sights and delicious restaurants. The neighborhood was stylish, esp the ruffle street and colonial style buildings.
+7. They have cute guide card in the room to show you where to go.
+8. The whole stay was enjoyable and relax. We have been to Mandarin Oriental hotel in HK and Beijing, and we had great time there too. And I think I would choose Mandarin Oriental again!","1. Maybe the main cafe for breakfast was too loud, busy and crowded, which makes you hard to enjoy your meal especially when you are expecting a cozy and relaxing breakfast during vocation.
+2. Also the night bedding service could have been better. One night when we got back to our room, the beds were still a mess. We thought they forgot to clean our room. But then I saw an extra pillow in the end of my bed, looked like someone put it there casually and left. That is the pillow we asked for during daytime. So they came to our room without making night bed and left....everything lacked was not fulfilled, which was not that important. However, it felt really not good looking at your bed the way you left it - a bit messy.
+3. As a member of Mandarin Oriental, the hotel offers you a free drink ticket ai M bar to their member. But they forgot to give me mine. When I asked during check out, they apologized and offered me one. I had to leave for airport and had no time using it. Kind of a pity since I do love their special made cocktails,haha~
+Anyway, not a big deal!
+Still a very enjoyable stay!",Xin,Family,Ocean View Room Twin,2,"15, 2019",China,cn,[List]
+Relaxing,8,All very good rooms a bit dated and small for the price though,As above,Emma,Group,Ocean View Room Twin,2,"7, 2019",United Kingdom,gb,[List]
+Exceptional,10,"Staff, food, location, washroom",High price,Md,Solo traveler,Club Marina Bay King,2,"6, 2019",Bangladesh,bd,[List]
+Exceptional,9.6,"Kind Staffs , a good breakfast and a cozy swimming pool.",Dusty curtains and a rusty steam iron,Ju,Family,Ocean View Room King,3,"3, 2019",South Korea,kr,[List]
+Exceptional,10,"Location, staff are very helpful, super comfy bed like you dnt really want to wake up.",-,Little,Couple,Marina Bay View Room King,2,"30, 2019",Thailand,th,[List]
+Exceptional,10,"Good view, convenient location",None,Thi,Solo traveler,Deluxe Room King,1,"27, 2019",Vietnam,vn,[List]
+"Overall, our stay was excellent! Looking forward to coming back for more staycations! Love it!",10,"the breakfast was excellent! lots of food variants, European, American, Asian Food etc etc. and it taste absolutely delicious!! I am a FAN of MO!!!
+The staffs were very helpful especially Vanessa in the Breakfast Buffet!","We were celebrating our Anniversary, and its our first time there, we usually spend our special occasion in MBS and during our stay with MBS, they always gave us a small cake to celebrate our special occasion, maybe Mandarin Oriental should do that too, although we could always buy our own but a small cake just to show their appreciation will make guests feel more important and welcomed.",Danilo,Family,Marina Bay View Room King,3,"26, 2019",Philippines,ph,[List]
+Very Good,8.3,Great service attitude by the staff.,Long queue/wait for checkout was a disappointment.,Romesh,Solo traveler,Deluxe Room King,1,"25, 2019",,,[List]
+Excellent hotel and staff in a perfect location,10,Attention to detail is excellent with quality staff to back this up.,Nothing came to notice,Mark,Couple,Marina Bay View Room King,1,"24, 2019",United Kingdom,gb,[List]
+Bad,1,A drunk groom from the hotel threatened to kill me 3 times and was trying to fight.We left hotel as rooms musty and old,Everything at,Matt,Couple,City Suite King,3,"12, 2022",New Zealand,nz,[List]
+Disappointing.,6,Breakfast was very good.,"Frankly, from a well known five-star hotel I was expecting a lot, lot more.
+20 minutes to check-in, 20 minutes to wait for the reception to book us a table for dinner in a Singapore restaurant, WI-FI NOT FREE, unless you access to a membership program, in 2022. That, for the price you pay, is a shame. 
+Room is ok but old, a lot of furniture bears the marks of time.
+There's a lot of work to do guys. Disappointingly not five-star.",Maurizio,Couple,Ocean View Room King,1,"24, 2022",Italy,it,[List]
+it was an average stay. but poor house keeping,6,"location , view","poor housekeeping, rooms were not cleaned everyday, cleaning was very bad. even after giving complain they did not take steps to clean it",Rajaram,Family,Marina Bay View Room Twin,4,"14, 2022",United Kingdom,gb,[List]
+Mandarin Oriental need to 'kick' this location hard and get it up to standard.,5,I am VIP Guest and the staff are excellent,"the bed sheets smelt badly, the towels smelt badly and the room smell was not good. Empty mini bar, bathroom was tired.",Jason,Solo traveler,Deluxe Room Twin,2,"3, 2022",United Kingdom,gb,[List]
+A has been,6,Was once beautiful which we could still imagine,"The hotel is very tired and worn down, and we were very disappointed with it as we had looked forward to a luxurious stay in Singapore for four days. We heavily regretted that we hadn’t book the Shangri-la or one of the other luxury hotels in Singapore. We stayed in the City Suite and all furniture was either damaged or dirty looking from wear and tear. I am sure that they clean it, but when all lacquer is worn off and everything has scratches it just doesn’t look great. Many electrical sockets and installations are also very very old. The breakfast buffet is nice, but the Melt cafe looks like a cantina and didn’t exude any premium atmosphere either. The MO cocktail bar looks great and they serve great drinks.
+In my opinion, the Mandarin Oriental Singapore is not a 5-star-hotel and Mandarin should be ashamed of themselves selling it as such for the condition the hotel is in. We have stayed in far better 4-star-hotels than this, so we recommend travelers to go for an alternative.",Christian,Family,City Suite King,4,"21, 2022",Denmark,dk,[List]
+Good,7,the rooms are in need of refurbishment. obviously not 5 stars,,Vitalijus,Family,Deluxe Room King,3,"17, 2022",Lithuania,lt,[List]
+beautiful Pool,6,loved the pool.,ruined on the last day by the check out process and paying to have a very late check out  also the location is right next to the rehearsals for national day which are loud. but sometimes fun.,Alexandra,Family,Ocean View Room Twin,4,"14, 2022",Hong Kong,hk,[List]
+good…but could be better…,7,professionalism and effociency of the staff…,wifi should be available for all guests who stay…vegetarian food options should be available…,Vasudevan,Solo traveler,Deluxe Room Twin,1,"13, 2022",India,in,[List]
+Fair,5,"Got selection of gluten free breakfast, staffs were polite.","Room cleanliness, lots of dust in the room, suspect never have a proper housekeeping especially at this crucial moment where Covid 19 is all around the world.",Weng,Family,Premier King Room,1,"13, 2022",Singapore,sg,[List]
+Poor,5,Good location,"Housekeeping left dirty cups for 2 days , took my brand new shoes out of my bag and threw them out (apparently) staff were okay but will not stay there anymore as they went through my personal belongings",Dorothy,Family,Marina Bay View Room Twin,7,"8, 2022",Australia,au,[List]
+Good,7,Breakfast was amazing and MO bar was superb,Dated rooms need a refresh,Sabina,Couple,Ocean View Room King,2,"8, 2022",New Zealand,nz,[List]
+"Good stay, excellent location. Rooms maybe becoming dated",7,"Really excellent location, superb views of the marina bay. Exceptional breakfast. Fitness centre and pool very good",I felt like I really overpaid for my stay. The hotel is becoming dated and rooms in need of renovation. My room wasn't the cleanest on arrival,Lee,Solo traveler,Marina Bay View Room King,1,"7, 2022",United Kingdom,gb,[List]
+Pleasant,6,,pool bar and restaurant closed monday and tuesday resp closes early at evening whole week. not ok for a 5 star hotel,Roman,Solo traveler,Marina Bay View Room King,3,"3, 2022",Switzerland,ch,[List]
+Average accommodation. wonderful staff,6,location,Overpriced for what you get. compare with Pathumwan Princess in Bangkok at 1/8 cost and a better place to stay,Richard,Couple,Marina Bay View Room King,1,"1, 2022",Australia,au,[List]
+"wonderful staff, best view, mist comfortable bed and pillows",10,the pool and cabana area,nothing,Kimberley,Couple,Premier King Room,6,"1, 2022",Australia,au,[List]
+MO stay over Christmas,10,Room was a great size with a wonderful view. Breakfast had a great selection.,Cant complain about anything to be honest.,Campbellberry,Couple,Deluxe Room King,1,"24, 2022",Singapore,sg,[List]
+Lovely Staycation.,8,Location is great. Rooms were decent size. the marina bay view was great. Pity there are no windows. Service was good. Nice bar.,The hotel feels a bit understaffed. we were wanting to eat at Melt Cafe and they were sitting customers very slowly as there was only one maitre d.,Yee,Family,Marina Bay View Room King,2,"3, 2022",Singapore,sg,[List]
+Magnificent experiences,9,"The lobby is lovely. Fantastic interior design hypnotise me with its beauty. Not to mention, the bed was very comfortable. That was one of the best sleep in my life!","If you choose to walk from the mall to the hotel, I suggest changing ASAP. It was complicated to find a suitable pathway. They got no information given or any guide provided. I offer you to take a taxi directly. It might be expensive but it is worth it.",Dhanapath,Group,Premier Twin Room,1,"30, 2021",Singapore,sg,[List]
+definately a memorable Christmas Eve experience for the family!,9,"excellent location and stunning view of MBS! the staff is very friendly. the room is quite clean with good facilities, love the bath tub!",,Hongfei,Family,Marina Bay View Room King,1,"25, 2021",Singapore,sg,[List]
+The stay was worth every dollar spent and we regret we could not stay longer,9,"The room was very clean, spacious with a wonderful seaview.  Amenities were generous and unexpected eg. the coffee maker.
+Breakfast provided exceeded expectations with a sumptous spread of western fare and local favourites.  We particularly enjoyed the Egg Station and Nasi Lemak.
+Special mention and gratitude must be accorded to both Melt Cafe where we had our breakfast and a very delicious buffet dinner on 161221 and Cherry Garden Restaurant where we had a ""Michellin""-standard Chinese dinner.  The service and attention given at both venues were very much appreciated.  
+We were made to feel very welcome by hotel staff at every level from the receptionist, concierge, housekeeper manager, general cleaning staff as well as the restaurant staff at both Melt Cafe and Cherry Garden Restaurant.","Honestly, we cannot think of any dislike.",Lau,Couple,Deluxe Room King,2,"19, 2021",Singapore,sg,[List]
+Couple staycation,10,Everything is clean and luxurious,Facilities are a bit small,Jianhao505,Couple,Marina Bay View Room King,1,"19, 2021",Singapore,sg,[List]
+Wonderful,9,Friendly and efficient customer service. They will go an extra length to make your stay comfortable. I love the hotel's effort in introducing environmentally friendly toiletries as well as providing glass bottled water. I had a very relaxing swim in the pool as well.,I had difficulties removing the metal bottle caps of the glass bottles. The hotel might want to provide a bottle opener in the room.,Harliany,Group,Marina Bay View Room Twin,2,"13, 2021",Singapore,sg,[List]
+Very Good,8,The room.,Hotel should serve halal Muslim food.,Ahmad,Family,City Suite Twin,3,"12, 2021",Singapore,sg,[List]
+Good for a night stay,8,Nice view and location,Nil,Joyce,Couple,Ocean Grand King,1,"13, 2021",Singapore,sg,[List]
+Exceptional,10,Love our stay here. The staff are very welcoming and friendly. They even provide welcome gifts and balloon inside the room for the kids. Thank you mandarin oriental!,,Ayu,Family,Marina Bay View Room King,1,"11, 2021",Singapore,sg,[List]
+Birthday stay,8,I loved it especially the view and bath tub! They have bath salt in a pot prepared,"It was awesome to have breakfast in the room, but smoked salmon had a bit of stinky fish smell and the bacon was a bit too hard. Mushroom on the side would be nicer if more seasoning. But overall price is also good",Sw,Couple,Marina Bay View Room King,1,"22, 2021",Singapore,sg,[List]
+Beautiful cosy stay.,8,All staff were so friendly and helpful. Very efficient.,Toilet no bidet. Troublesome if you do a big business if you know what i mean.,Muhammad,Family,Ocean View Room King,1,"22, 2021",Singapore,sg,[List]
+Staycation with a view,10,"We paid a little more for an ocean view room and it was worth it! To top it off, the staff were friendly warm and efficient.",The link to the shopping mall has been closed off and so you can’t access the mall except through the carpark. There is also no way to get from the car park to the hotel without taking the stairs which makes lugging your luggage a bit of a pain.,Traveller,Group,Ocean View Room Twin,2,"14, 2021",Singapore,sg,[List]
+This was a perfect end to a 3-year Singapore life.,10,"We were given a late checkout, so we didn't feel rushed and could partake in the facilities that we may not have been able to otherwise. The bed was so comfortable. The view of the city was amazing that we fell asleep with the curtains wide open. The pool was spacious and areas to lounge in nearby were private. Mo Bar cocktails were well made and the bartenders knowledgeable.","The breakfast was good but not great. Since a lot of the food was pre-made, it was not hot enough.",Rosanna,Couple,Marina Bay View Room King,1,"4, 2021",Singapore,sg,[List]
+Wonderful,9,"The view was great, swimming pool was great, customer service was great, facilities were great too!",Everything was great except that the food is not halal certified,Zak,Group,Ocean View Room Twin,2,"28, 2021",Singapore,sg,[List]
+Exceptional,10,"Simply love their service!!!!! On top of that, An indian staff From the restaurant we had breakfast.. offered to do  scramble egg for us. He's alerted us eventhough its non halal, he offered us to customize our bf.",Breakfast dont serve halal food. A bit disappointed.,Yaty,Couple,Marina Bay View Room King,1,"24, 2021",Singapore,sg,[List]
+Exceptional,10,"Everything was perfect! We celebrated our daughter's birthday. The room was decorated with balloons, there was birthday cake and  fruits. The room (City Suite) was huge, clean and comfortable. I definitely recommend this hotel to my friends!",,Natalia,Group,City Suite King,1,"23, 2021",Singapore,sg,[List]
+Wonderful,9,Excellent location,,Siti,Family,Deluxe Room Twin,2,"14, 2021",Singapore,sg,[List]
+Exceptional,10,Mandarin Oriental provided a really nice surprise for my friend's birthday. Thank you!,,Jia,Group,Deluxe Room Twin,1,"30, 2021",Singapore,sg,[List]
+Great guest service,9,Great service,,Jessica,Group,City Suite Twin,1,"24, 2021",Singapore,sg,[List]
+Nice staycay,8,The staff were wonderful!,,Summer44,Couple,Marina Bay View Room King,1,"20, 2021",Singapore,sg,[List]
+Awesome experience,10,Overall everything was perfect!,Nothing,Sunfiq,Couple,Deluxe Room King,2,"23, 2021",Singapore,sg,[List]
+Exceptional,10,Thoughtfulness of staff and attention to detail,Nothing,Fblue,Couple,Marina Bay View Room King,1,"23, 2021",Singapore,sg,[List]
+Luxury Comfortable Experience,10,Everything is top notch! The team is superb for helping me arrange a surprise for my GF birthday! Nice dining choice as well!,,Pin,Couple,Marina Bay View Room King,1,"11, 2021",Singapore,sg,[List]
+"Overall, we had a great time. Food was great!",8,All went well...,"The beds, were single but were small. Should be super single?",Shamla,Family,City Suite Twin,2,"3, 2021",Singapore,sg,[List]
+Exceptional,10,I had a good view room as requested earlier. Check in early without any problem.,Upset by news that no fireworks at the marina floating bay for the new year celebration.,Ayub,Couple,Ocean View Room King,1,"2, 2021",Singapore,sg,[List]
+A surprise stay cay for my wife and kids...,10,"Truly love it when the staff is so well aware of their surrounding . 
+When the lobby is pack they put in more staff to handle the crowd . 
+When the pool is not full , they allow those who didn't made reservation to enjoy the pool . 
+Even if we were to stay beyond the allocated timing . 
+And when the pool is getting full , They are so well aware of the ground works that they know who have overstayed at the pool and politely request them to leave to allow other have the opportunity to enjoy the pool . 
+The view is fantastic . 
+Be it from the pool or the room . 
+My kids love it so much . 
+They been asking to go there again soon . 
+Even when there issue in the room it is rectified immediately. 
+Well Done to the Hotel Team .","It would made the trip a completely worth it if there is halal kitchen . 
+Yeah its near the Marina Square but there been time where my kids are hungry at night and because its raining , I wish i could just order in house rather have to brave thru the weather to link to the shopping mall . 
+This is not a deal breaker thou . 
+But will be much appreciated if they have a small halal kitchen .",Muhammad,Family,Marina Bay View Room King,2,"30, 2020",Singapore,sg,[List]
+Pleasant but rather pricy.,8,Location is ideal with shopping area and facing the marina bay. Parking facility is adequate.,The bed and pillow are too soft.,Kenny,Family,Marina Bay View Room Twin,2,"28, 2020",Singapore,sg,[List]
+Memorable and comfortable. Worth another visit.,10,The location and the service at breakfast was excellent. Good service and accommodative,Nil..maybe selection of the tv channels.,Harith,Couple,Marina Bay View Room King,1,"23, 2020",Singapore,sg,[List]
+Awesome.,9,Service was excellent. Counter staff was very helpful and friendly. The experience was complete with the efficient staffs.,Bathtub could be more well maintained. Abit rusty. But overall it was ok.,Nur,Couple,Marina Bay View Room King,1,"21, 2020",Singapore,sg,[List]
+Definitely advise others to go to the MO,10,Breakfast was excellent .. staff super helpful and friendly,It was all good!,Michael,Couple,Marina Bay View Room King,3,"18, 2020",Hong Kong,hk,[List]
+5 Star Experience in a great location,9,We stayed in a Premier King room and it was huge - more spacious than your average hotel room. Throughout our stay  - from check in to check out - every member of hotel staff that we came across was exceptional. This stood out in comparison to other hotels that we have stayed at in Singapore in recent months! The staff here are obviously out to create a 5 star experience.,The bed was on the soft side - as were the pillows. But this was a minor complaint in a very well appointed room.,Sarah-jane,Family,Premier King Room,2,"18, 2020",Singapore,sg,[List]
+Exceptional,10,Love this hotel n enjoyable view long waited to stay,,Haidi,Couple,Ocean View Room King,2,"13, 2020",Malaysia,my,[List]
+Wonderful,9,"The facilities really impressive, all the staff are very friendly.",,May,Couple,Ocean View Room Twin,2,"11, 2020",Singapore,sg,[List]
+Fantastic and comfortable and hassle free getaway,10,"The room, spa, pool and Chinese restaurant",Nil,Joyce,Family,Ocean Grand King,2,"6, 2020",Singapore,sg,[List]
+Very Good,8,The outside view from my room especially during the night.,,Ma,Group,Marina Bay View Room King,1,"6, 2020",Singapore,sg,[List]
+Amazing,10,"Once I step foot at the drop-off point till the day I checked-out has been amazing. As it's a special event, the hotel accommodate with my request. Friendly staff and make my visit a worthwhile one. Our guests are amazed with the view from the room. Will definitely recommend this hotel to my family and friends. The hotel do take pride in ensuring the comfort and pleasant experience during the stay. Kudos team. Keep up the good work.",None,Saffyrin,Couple,Ocean View Room King,1,"2, 2020",Singapore,sg,[List]
+Pre wedding day venue,8,"Bedroom, view and timeless atrium design beauty",,Nicholas,Family,Ocean View Room King,1,"2, 2020",Singapore,sg,[List]
+Exceptional,10,The room was was clean and tidy with a nice view. The staff is very friendly and welcoming.,,Nurul,Couple,Ocean View Room King,3,"27, 2020",Singapore,sg,[List]
+excellent,8,Nice location and friendly service,Earlier check in,洪,Couple,Ocean View Room King,1,"5, 2020",Singapore,sg,[List]
+Wonderful,9,"The view from my room is amazing. The bed, linens and pillow are very comfortable. I have a restful evening.",The Nespresso machine in my room is not working,Nomadhistorian,Family,Ocean Grand King,1,"24, 2020",Singapore,sg,[List]
+Wonderful staycation,10,Convenient high quality pleasant,NA,Joyce,Couple,Ocean Grand King,1,"18, 2020",Singapore,sg,[List]
+Best View In Singapore !,8,"The best view in Singapore if you book a bayside room. Awesome after dark.
+The staff were very very attentive and dinner at Dolce Vita excellent. Breakfast was busy but the service rarely faltered.
+Fantastically imaginative cocktails in Mo Bar too.
+The Pool has some nice touches despite being on the small side. A shame its not open after dark.","Unusually the worst thing about our lovely stay was the room: a bit tatty and in need of an upgrade. Unremarkable.
+And please: free wifi only for club customers: is this 2005 ?!",Russell,Couple,Marina Bay View Room King,1,"11, 2020",United Kingdom,gb,[List]
+Overall i really enjoyed my stay and would recommend couples who needs time alone.,8,The scenery of the deluxe room was excellent and the ambiance was comfortable and cozy. Just like my dream home.,The cabinet fridge design was poorly done as i had to open both cabinet doors to access the fridge.,Yap,Group,Deluxe Room King,1,"7, 2020",Singapore,sg,[List]
+The amazing view and impeccable service made it a very pleasant staycation spot.,10,All of the staff were exceptional. The service was very friendly and attentive. The view was amazing and the room very comfortable.,"Our meal at Dolce Vita was a little disappointing. The pasta was quite bland and a little too al dente for my liking.
+Also the pool is a little on the small side for the size of the hotel. It could be as due to Covid most people were on staycations and perhaps more likely to use the facilities.",Leah,Couple,Ocean View Room King,2,"1, 2020",Singapore,sg,[List]
+excellent stay,10,"the room, food and hotel staff were excellent",nothing.,Viknesh,Couple,Ocean View Room King,2,"31, 2020",Singapore,sg,[List]
+"Great hotel, would absolutely return",8,"Loved the hotel, the calm and quiets space and the staff and pool. Great location in central Singapore.","The hotel is starting to be a little dated,  the bathrooms could use a refresh",Brooke,Couple,Club City Room King,2,"3, 2020",United Kingdom,gb,[List]
+Exceptional,10,Everything,Everything,Suzanne,Couple,Ocean View Room King,3,"28, 2020",United Kingdom,gb,[List]
+"Great location, good rooms",8,Range of breakfast items,Foyer dark and uninviting,Brian,Group,Ocean View Room King,4,"19, 2020",United Kingdom,gb,[List]
+Exceptional,10,Great location being close to marina bay sands and the esplanade. The marina bay view rooms are stunning.we asked for a higher floor as we were celebrating an anniversary and the staff kindly obliged.The food at The cafe is fantastic and the drinks at MO bar are delicious,,Wincm,Couple,Marina Bay View Room King,2,"18, 2020",United Kingdom,gb,[List]
+Excellent,10,Staffs are friendly,Good service,Jin,Couple,Ocean View Room King,1,"16, 2020",Singapore,sg,[List]
+Great hotel,9,Great staff and pool,Our main meal in the italian restaurant included raw fish and a very bloody piece of duck but after telling the staff they did everything possible to make up for it. We sat outside at breakfast but the service was below standard and forced us to sit inside. Room was far too hot even on the lowest setting,Sarah,Group,Deluxe Room Twin,2,"15, 2020",United Kingdom,gb,[List]
+"Quite. Relaxing, Welcoming. Respectfulful. Great views. pool and spa.  MUST STAY.",9,"Fresh with very wide variety. Perfectly cooked, presentation and taste. Excellent alfresco and indoor eating area. Highly recommend.","Only suggestion could be a small coffee, snacks area between meals?? Kettle in room so could find no fault really.",Wladyslaw,Family,Marina Bay View Room King,6,"4, 2020",Australia,au,[List]
+Good,7.5,"The room is nice and good , breakfast so good and too much options",The shower is small and no flexible,Diar,Family,Club Marina Bay Twin,1,"25, 2020",Iraq,iq,[List]
+Exceptional,10,Everything was comfortable,,Noordin,Solo traveler,Ocean Grand King,3,"21, 2020",Hong Kong,hk,[List]
+go for Marina bay club room!,10,"very flexible and generous service for club room , great view from the marina bay room
+perfect place for the first time visitors to Singapore, very good value for money than crowded MBS.",cannot find any..,Jeong,Family,Club Marina Bay Twin,1,"19, 2020",South Korea,kr,[List]
+Exceptional,9.6,"Beautiful and clean and kept immaculate, the pool area gorgeous with breathtaking views of Singapore bay,
+Breakfast in hotel was one of the best I’ve had and the staff were helpful and friendly, actually all staff from check in, housekeeping, pool area, restaurants went over and above to make your stay at this elegant property as smooth and easy as possible!!
+Well done, will definitely be back next time I’m in Singapore.",,Stephen,Group,Ocean View Room King,4,"18, 2020",Australia,au,[List]
+Exceptional,10,Amazing facility friendly staff,,Suhashni,Solo traveler,Marina Bay View Room King,1,"17, 2020",Malaysia,my,[List]
+Magnificent!,10,"The staff were fantastic.  They were extremely professional and very efficient, nothing was too much trouble.  Everyone was friendly and helpful.  Pool staff managed the sun bed situation brilliantly, no upset guests and everyone got a bed.  Well done.","The BBQ for the evening buffet meal was basic, probably not worth bothering about as there was so much food selection inside the restaurant.",Margaret,Family,Marina Bay View Room Twin,4,"13, 2020",United Kingdom,gb,[List]
+Exceptional,9.6,Staff excellent. Great view.,Nil,Gordon,Couple,Marina Bay View Room King,2,"13, 2020",Australia,au,[List]
+Exceptional,9.5,Highly recommend,"Location, staff, facility",Silvana,Group,Marina Bay View Room King,2,"10, 2020",Bulgaria,bg,[List]
+Excellent,8.8,Very good breakfast and cool pool. Staff was very helpful.,Some areas needs refitting.,Kristina,Group,Deluxe Room King,5,"9, 2020",Slovakia,sk,[List]
+Outstanding service and comfort with some superlative food .,10,"The oriental club offered the most exceptional service and food. Truly delicious and spoiling.
+Melt offered a wide range for fussy eaters (I was travelling with one) and very good food and exceptional service. Its chocolate cake and its  ice creams were  Fantastic, as was the warm naan bread.
+The attention to detail by the people who prepared and made up the room was very high. And I was impressed that they didn’t waste a shower hat I had opened but enabled me to use it throughout my stay.","Nothing much.
+If I was going to nit pick I would say that paper straws are used in some parts of the hôtel but not in others, which seems a bit odd as paper straws could be used everywhere.",V,Family,Deluxe Room Twin,4,"8, 2020",United Kingdom,gb,[List]
+Very Good,8,Views. Room size.,Soft pillows,Davina,Family,Marina Bay View Room King,4,"7, 2020",United Kingdom,gb,[List]
+Exceptional,10,"Location is the best! Breakfast is unreal! Fabulous.
+The pool area is the most beautiful in the city. The staff are very professional. Midori from the reception is awesome!
+We really loved everything about the hotel.",Everything was great!,Ivan,Couple,Marina Bay View Room King,3,"5, 2020",Montenegro,me,[List]
+Exceptional,10,Very nice service and location. The pool is amazong with a good view and a lot of sun to relax and tan.,,Thomas,Couple,Ocean View Room King,1,"27, 2019",Switzerland,ch,[List]
+Very Good,8,Services,,Narawon,Couple,Deluxe Room King,2,"17, 2019",Thailand,th,[List]
+Exceptional,10,"Very professional staff, clean comfortable, modern and elegant",,Gerald,Solo traveler,Club Marina Bay King,4,"14, 2019",Singapore,sg,[List]
+Convenient locations and friendly helpful staff.,8,"Excellent varieties of breakfast.
+And very convenient location to get around the marina Bay Area.","Nothing unless you want to spend money.
+Lighting switches/ bathrooms tubes/tabs ( not the tiling, which are excellent ).
+Lounge furniture...
+All those things thT requires capitals.",Nancy,Family,City Suite Twin,3,"9, 2019",Australia,au,[List]
+Exception service with high attention to detail. Superb.,10,Exceptional service and attention to detail. Excellent and plentiful dining options. Great spa experience and pool area.,Nothing this is really one of our favourite hotels in the world and we have high standards.,Sarah,Group,Marina Bay View Room Twin,4,"4, 2019",United Arab Emirates,ae,[List]
+Very Good,8,,A pity there was no shop,Sally,Couple,Ocean View Room King,3,"2, 2019",United Kingdom,gb,[List]
+Fantastic,10,Second time back to this hotel and will alway return when in Singapore. Could not fault anything. The staff were amazing especially in the Club Lounge where we always book. Would always recommend this hotel.,,Alison,Family,Club Marina Bay King,3,"19, 2019",United Kingdom,gb,[List]
+Great experience - top class,10,"„can-do“-attitude, nothing was impossible","We arrived quite late and our bags weren’t taken to the room but after I complained about it, they made more than up for it",Jorn-andre,Couple,Club Marina Bay King,3,"13, 2019",Germany,de,[List]
+Great location in Marina Bay and a short walk to major attractions around the Bay.,10,"Short walk to Marina Bay Sands, Garden by the Bay, Merlion and shopping malls. Club level rooms definitely worth paying for the extra amenities in the Club Lounge. Friendly staff; great service.",Nothing...couldn't have been more perfect!,Cathy,Couple,Club Marina Bay King,3,"6, 2019",United States of America,us,[List]
+Exceptional,10,Loved the whole experience of staying at this property. More so it's proximity to all the locations.,Nothing to dislike,Sanil,Couple,Ocean View Room King,1,"30, 2022",India,in,[List]
+will stay again definitely,10,"fantastic location, great facilities and dining",no bathrobes available for purchase- they were amazing,Amanda,Solo traveler,Marina Bay View Room King,5,"30, 2022",Australia,au,[List]
+"I would like to commend the service staff, from the reception desk to the housekeeping team to the in room dining servic",10,"I absolutely enjoyed the bathroom with its separate shower and bathtub and the wide windows, also the Herman Miller chair.",The entrance is quite hard to find if it’s someone’s first time travelling by public transportation. And would be even better if there’s Netflix/YouTube on the TV provided.,Supeng,Group,Ocean View Room King,2,"29, 2022",Singapore,sg,[List]
+nice to get away from my neck of the woods,8,,noisy bathroom and powder room pipes all day and night after usage. broken hairdryer and coffee machine,Khoo,Family,Marina Bay Suite King,2,"23, 2022",Singapore,sg,[List]
+Superb service and hotel.,10,I travel extensively.  The staff at this hotel are exceptional.  They remember me throughout the stay and provided truly superb service.  I am always sceptical of comments like ‘it was like being welcomed home’ but it genuinely feels like that every time.,Nothing,Andrew,Group,Premier King Room,4,"21, 2022",Australia,au,[List]
+"we had such a fabulous stay , thank you and we hope to see you again :)",10,"everything . the view from our room was amazing, the restaurants and bars, the staff were all so lovely especially Gunnesan ! The service at the gym",the food at Teppanya was absolutely delicious but unfortunately there was no ambiance with the ultra bright lighting,Penny,Couple,Marina Bay View Room King,5,"21, 2022",Australia,au,[List]
+"Location, easy accessible to transport and visit sites",8,Good breakfast.,"Location, accessible to all major attractions with in city.",Jovins,Family,Ocean Grand King,4,"18, 2022",United States of America,us,[List]
+Very Good,8,Good location to appreciate the fantastic view of Marina bay. Breakfast is nice. The only down side is that the furniture is a bit old.,,Yang,Couple,Marina Bay View Room King,2,"15, 2022",Singapore,sg,[List]
+Exceptional,10,We had the most wonderful experience in MO. The satff were so friendly and amazing. The hotel is so clean and room service was just top notch. The breakfast is so delicious and delightful. The location is so close to all the known destinations in the heart of Singapore. Highly recommended. We definitely will choose MO again if we visited SG.,,Abdallah,Family,City Suite King,6,"9, 2022",Australia,au,[List]
+I had an enjoyable staycation and was happy to celebrate my wedding anniversary at the hotel.,8,The room is spacious and hotel location is good. The breakfast is very good. The hotel has arranged a cake and beverages for my wedding anniversary celebration. Keep up the good service!,Insufficient of staffs at the reception and guest got to queue. There is room for improvement in this area.,Grace,Couple,Marina Bay View Room King,1,"8, 2022",Singapore,sg,[List]
+Exceptional,10,"Super friendly staff, breakfast and the view",,Andries,Couple,Marina Bay View Room Twin,3,"7, 2022",Australia,au,[List]
+"Amazing !!!! Truly ""World Class Service""",10,Great breakfast and location. Service world class,Room size and overall value for money at £300 per night !,Neil,Couple,Marina Bay View Room King,7,"6, 2022",United Kingdom,gb,[List]
+World-class hotel in the heart of Singapore.,10,"Room was luxurious and all needs were catered for. Staff were friendly, well-trained and helpful. Breakfast and room service had excellent variety and reasonably high quality. Location was accessible to and from major financial, retail and transport hubs. The spa service is excellent.",Nothing.,Duc-huy,Family,Marina Bay View Room King,4,"5, 2022",Australia,au,[List]
+Exceptional,10,"Very nice staff .
+Great view of mbs.",No bidet 😄,Pam,Couple,Marina Bay View Room King,1,"4, 2022",Philippines,ph,[List]
+"Excellent value for money - very attentive, friendly and helpful staff",9,"Location at Marina, comfort of beds, super equipped fitness centre, swimming pool allowing swim training, quality and diversity of food, extremely friendly and super helpful personnel (in particular fitness center, swimming pool and Melt Café), view on the bay, good laundry services (but no shoe cleaning services), the head chef Santos Kumar for his commendable attention to clients.","Only minor points: room equipment a bit ageing, some room equipment not working (e.g hairdresser), a few issues with housekeeping (room repeatedly not done on time even if indicated for clean-up for a long time), in-room service not available after 10PM (have to rely on external delivery services such as Grab)",Bertrand,Solo traveler,Ocean View Room King,4,"4, 2022",Switzerland,ch,[List]
+Great!,8,Breakfast and view,Swimming pool to be open by 9 or 10 pm…,Masumi,Solo traveler,Ocean View Room King,7,"4, 2022",Japan,jp,[List]
+overall good,10,service was fantastic,"a little aged , was stuck in the bathroom because sliding door couldn’t open",Joanne,Couple,Marina Bay View Room King,4,"3, 2022",Malaysia,my,[List]
+Very Good,8,"Great location, stunning pool, gym, bar and delicious breakfast. Very comfy beds although room/bathroom a little dated",We were incorrectly given a twin room instead of a king size room. Called reception as soon as we realised and waited 20 mins to be called back with the new room. Got fed up with waiting so just went out for the day but they had prepared a king room on a higher floor (with an even better view) when we returned later that night,Jodie,Couple,Marina Bay View Room King,3,"3, 2022",Hong Kong,hk,[List]
+Perfect!,10,Everything! One of the best hotel buffet breakfasts in the world.,,Michael,Couple,Marina Bay View Room King,3,"2, 2022",New Zealand,nz,[List]
+Amazing Customer service,10,"One of the best hotels in Singapore, with amazing customer service, views and facilities. The pool area was great and would recommend this hotel to anyone wanting a great stay in Singapore.",,Saleh,Couple,Marina Bay View Room King,2,"30, 2022",Australia,au,[List]
+Exceptional,10,"This is one of my favourite hotels in the world because the staff are second to none when it comes to guests. Without such great and caring staff it would just be a building. The quality, attentiveness and attention  to detail make all the difference.",Nothing,Lyndy,Couple,Marina Bay View Room King,6,"30, 2022",Australia,au,[List]
+Exceptional,10,"Booked the City Suite for a birthday staycation with 3 friends (4 persons in room).
+Warm and friendly check-in and housekeeping staff. Had a great night and we enjoyed the buffet breakfast.",,Patch76,Group,City Suite King,1,"18, 2022",Singapore,sg,[List]
+"The team took note of my daughter’s birthday, decorated the room with balloons, gave her a lovely mini chocolate cake n",8,"great location, near shopping, lots of eating places",,Nicole,Family,City Suite King,2,"17, 2022",Singapore,sg,[List]
+Fantastic location and service,10,"Location, room, breakfast and courtes of the staff.
+Very helpful and supportive. 
+Very impressed",,Serena,Family,Premier King Room,3,"16, 2022",,,[List]
+Fantastic get away that we both enjoyed immensely.,9,Mortons restaurant dining was exceptional. The view from the room over the marina bay was superb,There was no whisk glasses & the room was missing milk for coffee (although there was a kettle & coffee).,Grantley,Couple,Marina Bay View Room King,5,"14, 2022",Australia,au,[List]
+Enjoyable and hope to have the opportunity of returning sooner rather than later.,8,"Room after stall relocated, breakfast, hotel location, staff efforts to celebrate special occasion.","Rooms and hotel looking a bit dated, nothing changed since we last stayed at the hotel when Singapore hosted their first GP. 
+We also felt that the introduction of mid-afternoon (1-hr) of small savoury bites and sweet deserts would really make a difference around the pool when considering that this is a 5 star hotel with ample of the same suggestions on display at breakfast.",Tony,Couple,Marina Bay View Room King,4,"12, 2022",United Kingdom,gb,[List]
+The most wonderful honeymoon.,10,"Staff were amazing. 
+Views and location perfect. 
+Hospitality was impeccable 
+We were made to feel very special. 
+COVID testing facility easy to use. 
+We would recommend the hotel to everyone 
+Thank you for making our honeymoon so special",I would not change anything,Steve,Couple,Ocean View Room King,2,"10, 2022",United Kingdom,gb,[List]
+great location,8,"location, bicycle and chinese restaurant",furniture looked a little bit old,Miguel,Family,City Suite King,3,"8, 2022",Venezuela,ve,[List]
+"Don't even think about it, just book here no regret",10,"I already miss it , I wish I stayed a few more days","Hard to say because everyone was so nice but if anything didn't allow late check out I guess they were all booked out, nevertheless i know where I will be staying when I return. Thanks mandarin oriental I will remember my stay forever",John,Family,Premier King Room,2,"7, 2022",Australia,au,[List]
+"Awesome time with Mandarin Oriental, Singapore",10,"kind employees, the good location, nice breakfast",Swimming pool is too short (it ends 7 pm),Kyumduk,Group,Marina Bay View Room Twin,1,"7, 2022",South Korea,kr,[List]
+Great,9,Room was excellent and staff very helpful and welcoming. Great architecture and furnishing. Super bar.,Breakfasts could be higher quality - more variety and better ingredients.,Maxwell,Family,Ocean View Room Twin,5,"2, 2022",United Kingdom,gb,[List]
+"very friendly and comfy stay, would recommend it and deff go back there!",8,"Location, pool, MO Bar, friendliness of staff was amazing! Overall very clean and super silent which was amazing. Staff was accommodating and helped us a lot.","Check-in was very slow and we were waiting for the luggages for about 30 min until somebody brought them and after we phoned them 3 times.
+The breakfast. To be exact the way of having breakfast. I know due to Covid it’s hard but we just didn’t like that we had to wait every time and ask for what we wanted, we like to walk around and just get our stuff. This is obviously not to be blamed on the hotel. SG has rules and they have to follow them, but the food and quality itself was amazing",Jacopo,Family,Marina Bay View Room King,4,"1, 2022",Singapore,sg,[List]
+Amazing week in the heart of Singapore,9,"The location of MO is great. Three interconnected malls; Marina Square, Millenia Walk and Suntec City. MRT hub “City Hall” within walking distance means you have Singapore in the palm of your hand.
+The Hotel is amazing and it’s the staff that makes it even more amazing. Friendly and helpful. We felt it was our home away from home.",Let me think …,Chastity,Couple,Marina Bay View Room King,7,"27, 2022",Netherlands,nl,[List]
+Exceptional,10,"The view from room is spectacular - morning, day and night.  To top that, this hotel has a team of excellent dedicated staff, everyone of them in every departments.   However, have to name a few: Isabel you were wonderful even before we check-in and up to check-out day, you are a jewel.   Katya, thank you for your continued and patient services especially with the WIFI.  You know the hotel well and show good leadership.
+Breakfast was adequate, however,  everyday, everything is the same.  A little variety can be easily accommodated, example, change one or two type of fruits (tropical fruits are in abundance in Singapore, promote them please).  Also get rid of the dumplings (little chicken pau), nothing authentic in taste.   
+Love the location, love the offer of using hotel bicycles to explore beautiful nearby sites.
+Already made recommendations to friends and relatives to stay here.","Invited 6 of our relatives in Singapore to lunch at Cherry Gardens.  Whole experience below expectation - dim sum ordinary, service so slow.",K,Couple,Ocean View Room King,4,"25, 2022",Netherlands,nl,[List]
+Exceptional,10,Everything,,Alice,Family,Ocean View Room King,6,"24, 2022",Australia,au,[List]
+Very Good,8,"the mattress needs to be changed as already too soft, middle part already sinking, not too comfortable for older age.","backache as it sinks on the centre.
+breakfast needs more varieties.",Evelyn,Family,City Suite Twin,5,"22, 2022",Indonesia,id,[List]
+"Home away from home, only better!",10,"The service was impeccable from the moment we stepped foot inside the hotel. We were given an early check-in and late check-out for no extra charge to accommodate our early arrival into and late flight out of Singapore. Staff was friendly and willing to help throughout the hotel - service from everyone across the hotel from Reception, to Bars and Restaurant, to Gym and Poolside, to Housekeeping was absolutely exceptional. They really took time to get to know our preferences and remember our names, which gave everything a special personal touch. The hotel was perfectly located within a very short walk of Marina Bay, many malls, a Hawker centre right opposite, and into other areas. We would go back in a heartbeat and the only sad thing about our stay was leaving!",It is slightly dated in terms of decor and you can especially tell by the conditions of the bathrooms. Nothing that takes anything away from our stay but it's the kind of things you would notice when you're paying that much for a stay!,Ziqi,Couple,Deluxe Room King,8,"18, 2022",United Kingdom,gb,[List]
+Exceptional,10,The view was very nice and the enjoyed the amenity from Diptyque. It was my birthday staycation and the staffs were very sweet to congrats me.,,Haruna,Group,Marina Bay View Room Twin,1,"18, 2022",Singapore,sg,[List]
+nice quality in Singapore,8,"good breakfast, nice meal in pool restaurant also, comfy bed amd pilows","swimming pool was cold temperature, no nice view, no balcony in our suite, hotel a bit old, need renovation.",Zuzana,Group,City Suite King,1,"9, 2022",Czech Republic,cz,[List]
+A luxurious stay in Central Singapore,10,Stunning location overlooking Marina Bat and close to all the tourist hotspots,,Jennifer,Family,Marina Bay Suite Twin,3,"4, 2022",United Kingdom,gb,[List]
+Enjoy our room very much. Love our staycation.!,9,"We booked a City Suite room as it is my wife birthday. Was suprise with a complementary birthday cakes and some assorted kuehs, drinks and some balloons. The room is very spacious and clean. Its consist of a living room area and bedroom with 2 toilets. One with bathtubs.The shopping centre (Marina Square ) is just next to our hotel which is very convenient for us to get our food and shopping. We enjoyed our stay very much.",The bed. Its too soft for us but i maybe we are not used to it. But i think some people might like it.,Jalil,Family,City Suite King,2,"27, 2022",Singapore,sg,[List]
+Fabulous views if you book a bay view room,8,If you book a bay view room then the view is spectacular and this was our main reason for booking this hotel.,"The rooms are getting a little bit tired... And I'm afraid smelt slightly ""musty"". The robes felt slightly damp... As though they needed airing. I think this is because you obviously can't open windows to air the room. Also the aircon couldnt be turned down any lower than 18.5 and it felt a little too warm for us, we like to sleep in a cool room and although we slept OK I would have preferred it it we could turn the aircon down a bit more. It's expensive, and the niggles would matter, but the view is fabulous and probably makes up for the rest.",Janet,Couple,Marina Bay View Room King,5,"23, 2022",United Kingdom,gb,[List]
+Exceptional,10,"- location to many shopping malls 
+- professionalism of staff",Nil,Sharon,Family,City Suite King,3,"19, 2022",Singapore,sg,[List]
+Good for family with young adult children,8,Good for family. Spacious though looks can be upgraded,"No bidet.
+Tv in the room not working
+Toilet wall not cleaned properly",Lalaine,Family,City Suite Twin,1,"17, 2022",Singapore,sg,[List]
+Exceptional,10,Staff and reception to porter very friendly,Every thing was perfect,Kantilal,Couple,Ocean View Room King,2,"14, 2022",United Kingdom,gb,[List]
+Wonderful,9,"Good room size for 3 adults (grand view room) with a great view! Convenient locatoon, right next to Marina Square.","I wish there were halal food choices, and I wished we were at a higher floor.",Rosminah,Family,Ocean Grand Twin,1,"13, 2022",Singapore,sg,[List]
+Perfect stay for families.,10,Friendly hotel staff.Very nice view of the room facing singapore flyer and east coast beach,NIL,Mohamed,Family,Ocean View Room King,1,"13, 2022",Singapore,sg,[List]
+Great views of Singapore skyline,9,"Spent two days here going through VTL quarantine, which luckily ended fast so I could enjoy the hotel amenities. Needless to say the hotel aged unfavorably over these harsh times for the hospitality industry. Nevertheless it is still a great place without any comfort missing. My room had essential views of the CBD and MBS, which is pretty amazing by itself. Rooms size, layout and comfort are on par with the 5 star status, although I personally dislike carpet floors. I really enjoyed the pool area with its patios and yet again that great view, very Instagram-able. The staff I interacted with was welcoming and efficient. Overall, a very decent hotel while taking into consideration the room rates are just a fraction of MOs elsewhere.",,Ondrej,Solo traveler,Marina Bay View Room King,2,"2, 2022",Switzerland,ch,[List]
+Wonderful,9,"comfortable beds, attentive service and central location.",starting to look a bit dated. rooms/bathrooms could perhaps have an uplift to modernise.,Anna,Family,Premier King Room,4,"22, 2022",Jersey,je,[List]
+like,10,like,likes,Chong,Couple,Ocean View Room King,2,"6, 2022",Singapore,sg,[List]
+Our Stay during NDP 2022 Preview,10,"The room and the view that overlooks Marina Bay and the helpful and friendly staff who acknowledged several of our requests especially Lizbeth, Katya and Jeff. Thank You!",,Nur,Family,Marina Bay View Room Twin,1,"31, 2022",Singapore,sg,[List]
+great to stay for business,8,"room, clean, location, staff, breakfast","no facilities for kids.
+spa treatments are too expensive.",Abdulhameed,Family,City Suite King,4,"28, 2022",United Arab Emirates,ae,[List]
+The hotel was a highlight of our stay in Singapore and we are very pleased we decided to stay there.,10,"The staff were very accommodating and helpful - the breakfast staff very quickly learnt our names and greeted us each morning with a cheerful smile.  The Cherry Gardens Restaurant was superb - setting, staff attention and the food!",Nothing to complain about at all!,Kaye,Couple,Ocean View Room Twin,7,"28, 2022",Australia,au,[List]
+Very Good,8,Good view of floating platform and NDP rehearsal,,Andrea,Family,Marina Bay View Room Twin,1,"28, 2022",Singapore,sg,[List]
+excellent hotel. lovely room. friendly staff. would highly recommend,9,the view from our room was excellent,queuing up for breakfast,Carol,Couple,Ocean View Room King,5,"27, 2022",Australia,au,[List]
+Wonderful,9,Staff excellent and very informative. Excellent choices at breakfast.,Hotel a little bit tired. Breakfast queue on a weekend was quite long. Took 30 mins on one day.,Neil,Couple,Ocean View Room King,7,"26, 2022",United Arab Emirates,ae,[List]
+"excellent location and facilities, highly recommended.",9,location and facilities. bike hire was brilliant for the family.,no 24hr room service,Nicholas,Family,City Suite King,5,"26, 2022",United Kingdom,gb,[List]
+Blade Runner-aesthetic in the heart of Singapore,10,"Friendliest staff imaginable, super cool sleek Blade Runner-aesthetic design throughout the hotel. Best view in town and sophisticated high-end drinks at the bar. 
+They went the extra mile and decorated our room because it was our honeymoon. We are so happy that we spent our first nights here!",-,Victor,Couple,Marina Bay View Room King,2,"25, 2022",Sweden,se,[List]
+Wonderful,9,"the hotel is beautiful and very clean 🧽 
+staff very friendly and helpful",,Agnieszka,Family,City Suite King,2,"24, 2022",Cyprus,cy,[List]
+Exceptional,10,"We had a lovely stay, staff are friendly and helpful, service is impeccable",,Julie,Family,Marina Bay View Room King,2,"23, 2022",Australia,au,[List]
+"Great hotel, perfect location. awesome breakfast and swimming pool",9,Location of this hotel was fantastic.,n/a,Marcin,Family,City Suite Twin,2,"23, 2022",Australia,au,[List]
+very conveniate position to Sun City,10,very charming,nothing,Zaferoula,Family,Ocean View Room Twin,1,"19, 2022",Australia,au,[List]
+Very Good,8,Very Good breakfast and good location --next to The Marina Square. It's very comfortable in City Suite Twin for 4 person.,"Late check in, however the problem can be handled and solved.",Chokchai,Family,City Suite Twin,2,"18, 2022",Thailand,th,[List]
+"Wonderful service, breakfast, location and view from room was spectacular.",9,"Excellent service, breakfast and close to attractions. View from room was amazing. The pool area was a fantastic place to escape the heat.",The decor in the hotel was beautifully done however it felt quite dark. Access to wifi via signing up for program was a little cheeky. should be free and easy access to wifi.,Bernadette,Group,Ocean View Room Twin,5,"18, 2022",Australia,au,[List]
+Very Good,8,"Nice staff and helpful / especially at melt 
+Feel welcome and nice , 
+Location is good to go any place around. Room is good.","No turn down in room. 
+Far from mrt but easy to take bus or walk . 
+At front there is no space too muvh for take a sit or wait.
+Some electric plug in room need to fix",Noom065,Family,City Suite Twin,2,"17, 2022",Thailand,th,[List]
+Would certainly recommend if staying in Singapore,8,Room was very comfortable for three of us. Well air-conditioned which is essential in Singapore. The room service menu although expensive was delicious. Great central location.,The tea at breakfast was poor.,William,Family,City Suite Twin,4,"14, 2022",United Kingdom,gb,[List]
+very comfortable. would definitely return.,9,clean and very come. great location. great breakfast!,n/a,Suzanne,Couple,Ocean View Room King,3,"13, 2022",United States of America,us,[List]
+A Breathtaking View Of The Marina Bay & The Fireworks!,10,"When booking the hotel room, I indicated that I wanted to have a good view of the fireworks from the NDP rehearsal. The staff emailed us suggesting to get a room with Marina Bay View instead of Ocean view. I appreciate the proactiveness of the staff. We had a breathtaking view of the Marina Bay & the fireworks! 
+Also, when we entered the room, they left us wine/champagne & some kuih. We can't consume it so we called the staff to have it back. We didn't expect them to apologise and replace it with chilled orange juice.
+Also, even though the restaurant do not have halal option, there are many halal certified restaurants and fast food outlet at Marina Square just beside the hotel. It's very convenient.",,Nurhakeem,Couple,Ocean View Room King,1,"11, 2022",Singapore,sg,[List]
+Great location for 1st time short holiday in Singapore,9,"Excellent location for first time, weekend holiday from UAE to Singapore.  Malls, marina Bay sands, restaurants,  bars etc all in short walking distance.   Short taxi ride to areas like Little India and Chinatown. Nice way of the bay from our bedroom.  All staff very helpful and friendly.  Early check in and late check-out were accommodated with no fuss and no charge.  Breakfast buffet good with a wide selection of cuisines. We enjoyed sitting outside for breakfast looking at the greenery.  Large comfortable bed.","Coming from UAE where we are spoiled with numerous excellent newish hotels, this property felt a little older and therefore the bathroom for instance is not as modern as some funkier hotels. No bidet, and the shower head in the walk-in was fixed to the wall.  However the location, relaxed ambience, very comfortable bed, and well trained staff ensured that we enjoyed our short trip.",Michael,Couple,Marina Bay View Room King,2,"11, 2022",United Kingdom,gb,[List]
+Excellent and memorable!,9,Location of the room as it faced the NDP floating platform.,I was only able to check in very late at 6pm.,Diana,Family,Marina Bay Suite King,1,"10, 2022",Singapore,sg,[List]
+amazing hotel,9,"perfect location very impressive fit out and highly attentive staff. buffet is to die for, incredible food and hotel, make sure you get the view of the flyer and Hyatt from your hotel room","make sure you double check your bill - we were overcharged by $600 compared to the rates we secured on booking.com - it was resolved ok, but still, we shouldn’t have to check",Rob,Family,Premier Twin Room,2,"8, 2022",Australia,au,[List]
+Very Good,8,,"It was a comfortable and cozy stay at the hotel, unfortunately during my stay there was a preparation for National Day Parade near the hotel... so it was crowded and noisy.",Susanti,Family,Premier King Room,2,"8, 2022",Indonesia,id,[List]
+Can’t wait to come back to Singapore and stay at Mandarin Oriental again!,10,"The staff was amazing, the facilities fantastic, the room was roomy and clean. We had a teenager on a fold out bed and they slept very comfortably.  It is conveniently located near Marina Bay Sands and the Gardens by the Bay. We used the free hotel bikes to get to the gardens. Though hot it was extremely convenient. We ate at the Cherry Garden hotel restaurant and the meal was exceptional.  Cannot praise the staff highly enough.",,Lisa,Family,Premier Twin Room,2,"7, 2022",New Zealand,nz,[List]
+All,10,Fantastic!,Children screaming and running in hallway at night,Tara,Family,Marina Bay View Room King,3,"7, 2022",Australia,au,[List]
+Wonderful,9,strategic place,,Anggreini,Couple,Ocean View Room King,1,"30, 2022",Indonesia,id,[List]
+Exceptional,10,Breakfast buffet was spectacular with an incredible variety of food for all appetites.,L,Jane,Family,City Suite King,3,"2, 2022",United States of America,us,[List]
+"Great hotel, very friendly service personnel, great experience!",10,Very nice and friedly team. Great hotel!,,Moritz,Solo traveler,Club City Room Twin,4,"18, 2022",Germany,de,[List]
+Excellent,10,"The hotel is exceptional, incredibly elegant",I am not so keen on the location,Liz,Solo traveler,Club Marina Bay King,3,"16, 2022",Australia,au,[List]
+Exceptional,10,"The staff was great. The receptionists were very helpful. The room was clean and bright, and room service was always on time. Will be coming back.",Halal Food Option. But luckily the shopping Mall is just next door.. So no big issue to get Halal Food.,Norazura,Family,Ocean View Room King,2,"12, 2022",Singapore,sg,[List]
+Wonderful staycay,9,"The room was big and adequately accommodate my family of 5. questions 
+Questions raised were answered promptly via WhatsApp which was convenient for me.","As an improvement, to cater halal room service menu?",Inndra,Family,City Suite Twin,2,"10, 2022",Singapore,sg,[List]
+Recommend,8,The manager and the concierge was 10+,,Cristea,Couple,City Suite Twin,2,"9, 2022",Romania,ro,[List]
+Fantastic accommodations.,10,"Very well located. Near to shopping malls, place of leisure and recreation. The room is big for me and my family and very clean. The swimming pools is good amd very scenic.",It is a pity the restaurant is not halal-certified.,Muhammad,Family,City Suite Twin,2,"7, 2022",Singapore,sg,[List]
+Will stay again,9,Melt Breakfast was superb,The entry point from the shopping centre to the hotel,Cherilyn,Family,Marina Bay View Room King,2,"6, 2022",Singapore,sg,[List]
+Just Stay Here!!,10,"Service was second to none. Staff are outstanding from start to finish. 
+Chinese Resturant onsite is superb and the staff were so attentive, Had the set menu and would highly recommend it","The Japanese Resturant is a disappointment  for the same money we spent in the Chinese the night before the difference was night and day. told the set menu not available but you can  buy all of the individual parts to it from the menu but it costs twice as much. would avoid, massive waste of money.",James,Couple,Deluxe Room King,2,"6, 2022",United Kingdom,gb,[List]
+"Good hotel, well located, lovely views",9,"This was our third stay at the Mandarin Singapore and we like the hotel for its location, the lovely view of MBS and the harbour, and relatively easy access to several nearby attractions and malls. The room is very well equipped, the a/c works brilliantly well and it's a perfectly functional and easy stay. The concierge were always busy but were helpful in securing a great dim sum lunch reservation.","The breakfast here remains great, although this time the Asian selection was the same for all three days and the staff struggled with the large numbers of guests, so slightly disappointed compared to our previous visits. In addition, the corridors can be busy and noisy and the room did not feel quiet. Getting taxi's was also a struggle during our stay.",Pp-,Couple,Marina Bay View Room King,3,"2, 2022",United Kingdom,gb,[List]
+"Excellent in everyday, especially the staffs are exceptional",9,Food and amenities,,Xiao,Family,Ocean View Room King,5,"26, 2022",New Zealand,nz,[List]
+If you only have one or two nights in Singapore stay in a Bay view room at this hotel !,9,"The location is absolutely superb, just across the street from the Bay promenade - you can walk to everything from there. Our room was not as indicated on the booking, however after a discussion with the front desk they were able to rectify and give us the Marina View suite which I cannot recommend enough - just stunning with breathtaking views from both windows & balcony of the Bay, the lights and the sunset and the MBS hotel. The room accessories & toileteries were first class and the breakfast buffett was plentiful, extremely broad catering to all tastes. Even received a small cake for my birthday!",,Voula,Family,Marina Bay View Room King,1,"25, 2022",United Arab Emirates,ae,[List]
+"Great location, very good service, great pool",9,"Breakfast was very good, great selection and very good service",Morton’s bar looked great but very limited opening times,Davy,Family,City Suite King,2,"19, 2022",Switzerland,ch,[List]
+Exceptional,10,I am glad my request have been granted. Kudos to you guys 👍👍👍👍👍,Nothing that I didn't like for this hotel.,Mohamad,Family,Marina Bay View Room Twin,1,"14, 2022",Singapore,sg,[List]
+The view of the sea made it all worthwhile,9,The view!!,Couldn’t see the fireworks!,Sally,Family,Ocean View Room King,2,"10, 2022",Singapore,sg,[List]
+Very Good,8,The view,NIL,Epuliza,Family,Ocean View Room Twin,1,"10, 2022",Singapore,sg,[List]
+Very Good,8,It faces the ocean and platform where we got to see the NDP & fireworks clearly.,NIL,Epuliza,Family,Ocean View Room King,1,"10, 2022",Singapore,sg,[List]
+Great place to stay in Singapore!,10,Walking distance to a lot of landmarks. Room had a fantastic view. Hotel staff very professional.,Pillows too soft,Susan,Couple,Marina Bay View Room King,3,"9, 2022",Australia,au,[List]
+Exceptional,10,location was perfect and stuff were very friendly and well trained. breakfast buffet had variety food and drinks to choose. we will stay there again when we go back to Singapore!,,Toshiko,Family,City Suite King,4,"8, 2022",Australia,au,[List]
+"superb hotel, excellent staff, can’t rave enough about this hotel",10,"beautiful hotel, great food, awesome staff, and so well located",nothing,Bruce,Couple,Marina Bay View Room King,3,"6, 2022",New Zealand,nz,[List]
+Good experience to discover mandarin oriental,10,The stuff was every friendly and polite. The most thing I love there was the lemon backed cheesecake I be never eat like on my life😭😍,"The breakfasts was fantastic but it’s should contain more kind of cheese. and most of my days there, there was waiting for the eggs line to order so the hotel should put at least 2 person to manage the situation.",Hani,Family,Marina Bay View Room Twin,4,"5, 2022",Qatar,qa,[List]
+"beautiful stay our family enjoyed the bikes, pool, buffet and the magnificent location",10,"buffet breakfast, location & staff",it requires a refurb,Melannie,Family,City Suite King,2,"5, 2022",Australia,au,[List]
+Overall excellent stay,10,The room was a really good size and the bed was super comfortable. The bathroom was very clean. The  breakfast had international and local offerings and the quality of the food was very good. All the staff were friendly and most helpful. I would definitely recommend this hotel.,,Tom,Family,City Suite King,3,"4, 2022",Belgium,be,[List]
+Happy as usual,8,I felt facilities were a little tired. Particularly around the pool. Awning and restaurant need an update.,Awning around pool need a good clean,Barry,Couple,Ocean View Room King,1,"1, 2022",Australia,au,[List]
+"good view, good location, friendly staff makes a great staycation.",8,"The marina bay room view is awesome. unfortunately i have a low floor but still great view! 
+Attentive staff at the pool makes pool time awesome too!",have to queue 20 minutes for breakfast and late checkout only at 1pm.,Evon,Group,Marina Bay View Room King,1,"31, 2022",Singapore,sg,[List]
