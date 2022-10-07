@@ -1,4 +1,4 @@
-﻿Column1.userReviews.title,Column1.userReviews.score,Column1.userReviews.positive,Column1.userReviews.negative,Column1.userReviews.guestName,Column1.userReviews.travellerType,Column1.userReviews.room,Column1.userReviews.nightsStay,Column1.userReviews.date,Column1.userReviews.country,Column1.userReviews.countryCode,Column1.userReviews.photos
+﻿title,score,positive,negative,guestName,travellerType,room,nightsStay,date,country,countryCode,photos
 Exceptional,10,excellent in every moment of our stay,too shiny 😍,Fabrizio,Couple,Deluxe Twin,1,"9, 2022",Italy,it,[List]
 Loved every bit of it.,10,Amazing hotel with amazing staff.,Nothing,Afaq,Family,Deluxe King Harbor View Room,1,"9, 2022",Pakistan,pk,[List]
 Exceptional,10,Wonderful view and Super excellent Service!,,Catherine,Family,Deluxe Twin Garden View Room,1,"9, 2022",United States of America,us,[List]
@@ -261,7 +261,7 @@ Excellent,8.8,"Lugar impresionante! Vistas increíbles! Piscina mundialmente fam
 Exceptional,9.6,"+ Huoneen näköala, siisteys ja palvelu
 + infinity pool katolla
 + Erinomainen sijainti
-+ Food courtissa paljon edullisia eri maiden ruokatiskejä",- melko kallis paikka,Sami,Family,Deluxe Twin City View Room (3 People),4,"1, 2020",Finland,fi,[List]
++ Food courtissa paljon edullisia eri maiden ruokatiskejä",#NAME?,Sami,Family,Deluxe Twin City View Room (3 People),4,"1, 2020",Finland,fi,[List]
 Exceptional,10,"Widok z hotelu, basen infinity pool, wspaniałą obsluga",Nie ma takiej rzeczy,Dariusz,Couple,Deluxe Twin City View Room,2,"1, 2020",Poland,pl,[List]
 Wonderful,9,"Der Infinitipool super, sauber und die Aussicht überwältigend. Personal sehr freundlich und alles gut organisiert es gab sogar einen Poolfotograf Bilder waren sehr schön aber die Preise für die Bilder ziemlich teuer 3 Bilder  umgerechnet 80€","Es gab nichts zu meckern aber für die Zimmerpreise mehr erwartet günstigeres Frühstück für Hotelgäste,  Kaffeemaschine im Zimmer und nicht nur Wasserkocher am Balkon eine Sitzgelegenheit das man die Aussicht auch im Sitzen genießen kann.",Eva,Family,Deluxe King Garden View Room,3,"30, 2019",Germany,de,[List]
 Exceptional,9.6,"・やはりロケーションが素晴らしい！
@@ -449,7 +449,7 @@ Disappointing,4,수영장,"름 내부 시설, 침대",Dayeong,Couple,Deluxe King
 Non all'altezza della reputazione e del suo prezzo!,7.1,Offre agli ospiti ingresso all'Infinity Pool e allo Sky Observation Deck. Vista mozzafiato dalle stanze ai piani superiori sul Garden by the Bay,"Lunghissima coda al check-in. La stanza Deluxe 30esimo piano, vista giardini: molto comune e sopratutto carente nella manutenzione. L'aria condizionata molto, molto rumorosa. Le piante sul balcone erano tutte morte rinsecchite: orribili. I rubinetti del lavello del bagno perdevano acqua. Gli accappatoi in cotone non erano stirati: ruvidi e spieghazzati.",Barbara,Couple,Deluxe Twin Garden View Room,1,"17, 2019",Italy,it,[List]
 Good,7.5,,,Saleh,Couple,Deluxe King Sky View,1,"16, 2019",Saudi Arabia,sa,[List]
 Pleasant,6.7,Das Hotel in Singapur. Nur so kommt man in „den“ Pool. Ausblick.,Für den Preis ein no-go. Toilette stinkt. Aufzüge teilweise kaputt. Anstehen für das Extra-gebuchte Frühstück 30 Minuten zum Preis von 40€ pro Person. Unfreundliche Massenabfertigung.,Katja,Group,Deluxe King,1,"14, 2019",Germany,de,[List]
-Muito abaixo do que esperava,6.2,- Vista e localização,"- NUNCA mais irei reservar hotel no site da Booking: o preço anunciado é bem menor que o preço que o hotel cobrou (cerca de 30% a mais). No site diz que vc pode reservar o hotel e só pagar quando for se hospedar, mas exigem um cartão de crédito (prefiro reservar por outros sites onde nunca tive que deixar o número do meu cartão sendo que serei cobrado só no hotel). Primeira e ÚLTIMA vez que reservo hotel pela Booking.
+Muito abaixo do que esperava,6.2,#NAME?,"- NUNCA mais irei reservar hotel no site da Booking: o preço anunciado é bem menor que o preço que o hotel cobrou (cerca de 30% a mais). No site diz que vc pode reservar o hotel e só pagar quando for se hospedar, mas exigem um cartão de crédito (prefiro reservar por outros sites onde nunca tive que deixar o número do meu cartão sendo que serei cobrado só no hotel). Primeira e ÚLTIMA vez que reservo hotel pela Booking.
 - Péssimo custo-benefício: a verdade é que vc encontra hotéis bem melhores e com muito mais comodidade/ sentimento de exclusividade/ atenção pelo mesmo preço;
 - Demora no check-in
 - Outra verdade: as pessoas só vão lá por conta da piscina. Mas sinceramente, não vale a pena pagar tão caro por uma selfie. A piscina está cheia o tempo todo de gente não querendo fazer o óbvio, que é nadar e curtir a água e a vista, mas sim disputar espaço por selfies.
@@ -5171,7 +5171,7 @@ Exceptional,10,"Шикарный бассейн и бар на крыше оте
 Atemberaubendes Hotel mit Wahnsinnsaussicht in super Lage,9.2,"- Kostenloses Upgrade in den 47. Stock ( gebucht 19.-39. )
 - Aussicht und Lage traumhaft
 - Pool atemberaubend jedoch für maximal 30 Minuten da zu viele Selfie/ Photo - Jäger
-- Liegen genug vorhanden ( 2. Reihe )",- nichts erwähnenswertes,Schmitzlinho,Couple,Deluxe King City View Room,2,"19, 2019",Germany,de,[List]
+- Liegen genug vorhanden ( 2. Reihe )",#NAME?,Schmitzlinho,Couple,Deluxe King City View Room,2,"19, 2019",Germany,de,[List]
 楼顶的游泳池让人难忘,8.3,早餐一般，位置不错,前台服务员的亲和力可以提升,Mei,Family,Deluxe King Harbor View Room (3 People),2,"19, 2019",China,cn,[List]
 いい思い出になった,7.9,チェックインの際、親切に対応してくれた。,値段が高い,Yoshio,Couple,Deluxe Twin,1,"19, 2019",Japan,jp,[List]
 Exceptional,10,"Брали отель буквально на один день, чтобы поплавать в самом знаменитом бассейне Сингапура. Красивый просторный номер (и это самый дешёвый простой), отзывчивый и вышколенный персонал, ну и бассейн действительно стоит того, чтобы в нем поплавать)",,Юлия,Couple,Deluxe King,1,"19, 2019",Russia,ru,[List]
@@ -5300,7 +5300,7 @@ Wonderful,9.2,,,Sarit,Family,Deluxe Twin Garden View Room,1,"2, 2019",Israel,il,
 Excellent,8.8,"- Sehr schöne Zimmer mit super Ausblick
 - Der Infinitypool ist ein absoluter Traum 
 - Zimmer war immer super sauber 
-- Freundliches Personal","- Preis ist sehr hoch , zwar hat man eine super Ausblick aus dem Zimmer ( Premier Zimmer mit Stadtblick ) jedoch ist der Preis nicht ganz gerechtfertigt, dies weis man aber wenn man wenn dieses Hotel bucht",Vivien,Couple,Premier King City View Room,2,"1, 2019",Germany,de,[List]
+- Freundliches Personal",#NAME?,Vivien,Couple,Premier King City View Room,2,"1, 2019",Germany,de,[List]
 Exceptional,10,Camera semplicemente fantastica.,,Michela,Couple,Premier King City View Room,1,"1, 2019",Italy,it,[List]
 Wonderful,9.2,房间大 位置好,,Xiuyun,Family,Deluxe Twin,1,"1, 2019",China,cn,[List]
 Exceptional,9.6,Direi che è stato tutto perfetto. Avevamo la stanza al sesto piano. Non è altissimo ma c'era una bella veduta. Bagno in piscina con vista super.,,Redsval,Couple,Deluxe King,1,"1, 2019",Italy,it,[List]
@@ -5451,7 +5451,7 @@ Good,7.9,インフィニティプールがとても良かった,巨大すぎて�
 インフィニティープール行くならこのホテル,8.8,いつも通りの豪華さ、日本人スタッフのフロントデスクがあるので、そちらで話しながら色々と頼むと良いですよ。プールは家族が初めてだったのでこのホテルを選びました。,相変わらず、人が多いプール、Ｆ１開催日は高くて予約できる金額では無い。・。。。,にしぼん,Family,Deluxe King City View Room,1,"14, 2019",Japan,jp,[List]
 Отличный отдых,9.2,Шикарный бассейн. Отличный вид из окна.,Дороговато,Iurii,Couple,Premier Twin,1,"14, 2019",Russia,ru,[List]
 Excelente experiencia,10,"La increible vista desde la piscina infinita junto al bar. La ubicacion estupenda, siempre hay algo sorprendente alrededor del hotel. La estacion de metro debajo del hotel. Excelente habitacion, muy comoda, eficiencia en el check out, la seguridad.",Nada,Jean,Couple,Deluxe King,1,"14, 2019",Peru,pe,[List]
-Wonderful,9.2,很多娛樂設施，住這裡不需安排其他行程，可以悠閒放鬆很棒👍,淋浴間設計不佳，水容易溢出來,May2321,Group,Deluxe Twin City View Room,1,"14, 2019",Taiwan,tw,[List]
+Wonderful,9.2,很多娛樂設施，住這裡不需安排其他行程，可以悠閒放鬆很棒👍,淋浴間設計不佳，水容易溢出來,May-21,Group,Deluxe Twin City View Room,1,"14, 2019",Taiwan,tw,[List]
 Wonderful,9.2,"아침식사 좋았지만 가격대비 너무 비싼것 같음.
 얼리 체크인이 되어서 좋았고 룸 컨디션도 아주 좋았음.
 수영장도 좋고 직원들이 매우 친절함.",가격빼곤 없음.,Da,Group,Family Studio,1,"14, 2019",South Korea,kr,[List]
@@ -8976,7 +8976,7 @@ One night stay,9.2,"- Clean, modern room
 - Plenty of luxury amenities
 - Slippers and robe provided
 - Easy access infinity pool
-- Early check in (very fortunate our room was ready early)",- Quite a basic room with standard decor. (But I guess that’s not the sole reason of staying at MBS),My,Couple,Deluxe King Garden View Room,1,"27, 2019",United Kingdom,gb,[List]
+- Early check in (very fortunate our room was ready early)",#NAME?,My,Couple,Deluxe King Garden View Room,1,"27, 2019",United Kingdom,gb,[List]
 Fantastic Hotel,9.2,"Everything, i mean its pretty expensive which is a downside. But if you want luxury, then you get what you pay for? PS get to the pool early for a good spot, it gets busy quick",N/A,Freddie,Solo traveler,Special Offer - Deluxe King Harbor View Room,3,"27, 2019",United Kingdom,gb,[List]
 Good. Satify.,10,Room view and shopping mall next to it,"The pool is so crowded, not as private as others. I may prefer the quiet relax luxury one",Ngoc,Family,Deluxe Twin Garden View Room,2,"26, 2019",Vietnam,vn,[List]
 Wonderful,9.2,Great location and facilities. Staff are fantastic. Definitely worth a stay if you are in Singapore.,It’s a huge place! The pool is a tourist attraction and very crowded. It’s basically human soup from about midday onwards so is not very relaxing,Anna,Family,Premier King Garden View Room,2,"26, 2019",United Kingdom,gb,[List]
@@ -9197,7 +9197,7 @@ Exceptional,10,"- well situated @the Marina
 - swimming pool on skydeck
 - quality of meals was excellent
 - nicely furnished
-- very kind & helpful staff",- nothing,Christine,Family,Deluxe Twin City View Room (3 People),7,"6, 2019",Switzerland,ch,[List]
+- very kind & helpful staff",#NAME?,Christine,Family,Deluxe Twin City View Room (3 People),7,"6, 2019",Switzerland,ch,[List]
 it's amazing. Thanks yo Marian Bay Sands hotel,10,"I booked a lower floor room (under 10th floor)but when I checked in, the reception upgrated to 51th floor for my booking. Wow all people in my family were so happy, the view's so amazing. My family had many special moments at here. These sunrise views are from 51th Tower 3.",I check in Tower 3. it doesn't have waiting area when customers wait to check in.,Khuat,Family,Deluxe Twin Garden View Room,1,"6, 2019",Vietnam,vn,[List]
 Exceptional,10,The pool is stunning,It’s really really big,Mickaël,Couple,Deluxe Twin Garden View Room,1,"6, 2019",France,fr,[List]
 Exceptional,10,"Everything, pool and view are amazing",,Maria,Family,Deluxe King Garden View Room,1,"6, 2019",Australia,au,[List]
@@ -9298,7 +9298,7 @@ We had such an amazing stay. Location is great and staff always happy to help.
 We had room on 50th floor overlooking the gardens and had great view",The pool was cold,Michael,Couple,Deluxe King,1,"21, 2019",United Kingdom,gb,[List]
 It was an excellent vacation though. The crews are courteous and specially our service crew Lin Qui,10,I like the bread and butter pudding at Rise Buffet Breakfast. It was really excellent pudding.,I suppose we should have come in other months. It always rain early morning or afternoon. We did not enjoy it so much because of the weather.,Cecilia,Family,Family 1 Bedroom,4,"20, 2019",Philippines,ph,[List]
 Bucket list ++,9.6,"Comfortable bedding, beautiful view, amazing facilities. But THAT pool...",N/a,Janine,Group,Deluxe Twin,1,"20, 2019",Australia,au,[List]
-10/10,10,"Everything,  worth the money,  view,  food, staff, service, everything is exceptional!",Nothing!,K,Couple,Deluxe King City View Room,1,"20, 2019",United Kingdom,gb,[List]
+10-Oct,10,"Everything,  worth the money,  view,  food, staff, service, everything is exceptional!",Nothing!,K,Couple,Deluxe King City View Room,1,"20, 2019",United Kingdom,gb,[List]
 best experience ever!!!,10,everything!!!,nothing,Maria,Couple,Deluxe King,1,"19, 2019",Italy,it,[List]
 Exceptional,9.6,,Elevator to 55th floor stops a lot. There should be a nonstop one.,Jie,Family,Family Studio,1,"19, 2019",United States of America,us,[List]
 worth the price!,9,the staff who politely assist us in our needs,,Sherina,Family,Deluxe King Room - Lower Floor (3 People),1,"19, 2019",Japan,jp,[List]
