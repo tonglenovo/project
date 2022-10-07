@@ -152,6 +152,11 @@ def havingBadWordList(list, badWord):
         return containBadKeyword
     else:
         return sortBadKeywordOut
+
+def test_function(list):
+    a={}
+    b=countList(list)
+    a['hotel']=b
     
 def number_of_star(list,num):
     reviews_one = {'reviews':[], 'score':[],'hotel':[],'date':[],'country':[],'room':[],'title':[],'travellerType':[]}
@@ -199,14 +204,14 @@ def number_of_star(list,num):
             reviews_four['room'].append(list['room'][i])
             reviews_four['travellerType'].append(list['travellerType'][i])
         elif a < 6:
-            reviews_four['reviews'].append(list['reviews'][i])
-            reviews_four['score'].append(list['score'][i])
-            reviews_four['hotel'].append(list['hotel'][i])
-            reviews_four['title'].append(list['title'][i])
-            reviews_four['date'].append(list['date'][i])
-            reviews_four['country'].append(list['country'][i])
-            reviews_four['room'].append(list['room'][i])
-            reviews_four['travellerType'].append(list['travellerType'][i])
+            reviews_five['reviews'].append(list['reviews'][i])
+            reviews_five['score'].append(list['score'][i])
+            reviews_five['hotel'].append(list['hotel'][i])
+            reviews_five['title'].append(list['title'][i])
+            reviews_five['date'].append(list['date'][i])
+            reviews_five['country'].append(list['country'][i])
+            reviews_five['room'].append(list['room'][i])
+            reviews_five['travellerType'].append(list['travellerType'][i])
     if num == 1:
         return reviews_one
     if num == 2:
@@ -250,7 +255,7 @@ def showKeywordChart(keywordList,title):
     plt.show()
     df2.to_csv('result/'+title+'.csv', encoding='utf-8-sig',index=False)
 
-def dictToCsv(dict_list,filename):
+def dictToCsv(dict_list):
     reviews=[]
     score=[]
     hotel=[]
@@ -271,5 +276,65 @@ def dictToCsv(dict_list,filename):
         travellerType.append(dict_list['travellerType'][i])
     allList = list(zip(reviews,score,hotel,date,country,room,title,travellerType))
     hr_df_1 = pd.DataFrame(allList, columns = ['reviews', 'score','hotel','date','country','room','title','travellerType'])
-    hr_df_1.to_csv('result/'+filename+'.csv', encoding='utf-8-sig',index=False)
+    # hr_df_1.to_csv('result/'+filename+'.csv', encoding='utf-8-sig',index=False)
+    return hr_df_1
+
+def reviewsByHotelAndRate(listName,hotelName,Rate):
+    getHotel = {'reviews':[], 'score':[],'hotel':[],'date':[],'country':[],'room':[],'title':[],'travellerType':[]}
+    for b in Rate:
+        a = number_of_star(listName,b)
+        for i in range(0,len(a['hotel'])):
+            for j in range(0,len(hotelName)):
+                if a['hotel'][i] == hotelName[j]:
+                    getHotel['reviews'].append(listName['reviews'][i])
+                    getHotel['score'].append(listName['score'][i])
+                    getHotel['hotel'].append(listName['hotel'][i])
+                    getHotel['date'].append(listName['date'][i])
+                    getHotel['country'].append(listName['country'][i])
+                    getHotel['room'].append(listName['room'][i])
+                    getHotel['title'].append(listName['title'][i])
+                    getHotel['travellerType'].append(listName['travellerType'][i])
+    return getHotel
+
     
+
+def sortByHotelName(listName,hotelName,rate):
+    getHotel = {'reviews':[], 'score':[],'hotel':[],'date':[],'country':[],'room':[],'title':[],'travellerType':[]}
+    for i in range(0,len(listName['hotel'])):
+        for j in range(0,len(hotelName)):
+            if hotelName[j] == listName['hotel'][i]:
+                getHotel['reviews'].append(listName['reviews'][i])
+                getHotel['score'].append(listName['score'][i])
+                getHotel['hotel'].append(listName['hotel'][i])
+                getHotel['date'].append(listName['date'][i])
+                getHotel['country'].append(listName['country'][i])
+                getHotel['room'].append(listName['room'][i])
+                getHotel['title'].append(listName['title'][i])
+                getHotel['travellerType'].append(listName['travellerType'][i])
+
+    d={}
+    title=[]
+    hotel=[]
+    total_count=[]
+    for i in rate:
+        a = number_of_star(getHotel,i)
+        b = countList(a)
+        s = str(i)+" Star"
+        d[s] = b
+    for i in d:
+        for k in d[i]:
+            title.append(i)
+            hotel.append(k)
+        for j in d[i].values():
+            total_count.append(j)
+    allList = list(zip(title,hotel,total_count))
+    hr_df_1 = pd.DataFrame(allList, columns = ['title','hotel','total_count'])
+    print(hr_df_1)
+    # a = countList(getHotel)
+    # print
+    # b = number_of_star(getHotel,5)
+    # c = countList(b)
+    # print(c)
+    
+    # df = pd.DataFrame(list(a.items()),columns=['Hotel Name','Count'])
+    # print(df)
