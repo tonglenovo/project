@@ -281,6 +281,8 @@ def dictToCsv(dict_list):
 
 def reviewsByHotelAndRate(listName,hotelName,Rate):
     getHotel = {'reviews':[], 'score':[],'hotel':[],'date':[],'country':[],'room':[],'title':[],'travellerType':[]}
+    print(hotelName)
+    print(Rate)
     for b in Rate:
         a = number_of_star(listName,b)
         for i in range(0,len(a['hotel'])):
