@@ -1,4 +1,5 @@
 import csv
+from turtle import width
 from numpy import positive
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -6,6 +7,11 @@ import seaborn as sns
 import spacy
 from spacy.language import Language
 from spacy_langdetect import LanguageDetector
+import numpy as np
+from wordcloud import WordCloud,STOPWORDS
+import matplotlib.pyplot as plt
+import PIL.Image
+
 
 nlp = spacy.load('en_core_web_sm')
 @Language.factory('language_detector')
@@ -17,7 +23,7 @@ hotel_name = ['Pan Pacific Hotel','Marina Bay Sands Hotel','Mandarin Oriental','
 reviews = {'reviews':[], 'score':[],'hotel':[],'date':[],'country':[],'room':[],'title':[],'travellerType':[]}
 test = {'reviews':[], 'score':[],'hotel':[],'date':[],'country':[],'room':[],'title':[],'travellerType':[]}
 badKeyword = ['bad','dirty','no','not','empty','boring','raining','small','unusual','slanted',"don't",'dislike','unfair','unfriendly','rude','terrible','overpriced','awful','overcrowded','crowded','expensive']
-
+# {'MBS':{'reviews':[],'score:'[]}, 'Pan':{'reviews':[]}}
 def readCSV(fileName,hotelName,state):
     file_name=open('csv/'+fileName+'.csv','r',encoding='utf-8', errors='ignore')
     file = csv.DictReader(file_name)
@@ -194,7 +200,7 @@ def number_of_star(list,num):
             reviews_three['country'].append(list['country'][i])
             reviews_three['room'].append(list['room'][i])
             reviews_three['travellerType'].append(list['travellerType'][i])
-        elif a < 5:
+        elif a < 4.6:
             reviews_four['reviews'].append(list['reviews'][i])
             reviews_four['score'].append(list['score'][i])
             reviews_four['hotel'].append(list['hotel'][i])
@@ -279,32 +285,12 @@ def dictToCsv(dict_list):
     # hr_df_1.to_csv('result/'+filename+'.csv', encoding='utf-8-sig',index=False)
     return hr_df_1
 
-def reviewsByHotelAndRate(listName,hotelName,Rate):
-    getHotel = {'reviews':[], 'score':[],'hotel':[],'date':[],'country':[],'room':[],'title':[],'travellerType':[]}
+def getHotelChoice(listName,hotelName):
     print(hotelName)
-    print(Rate)
-    for b in Rate:
-        a = number_of_star(listName,b)
-        for i in range(0,len(a['hotel'])):
-            for j in range(0,len(hotelName)):
-                if a['hotel'][i] == hotelName[j]:
-                    getHotel['reviews'].append(listName['reviews'][i])
-                    getHotel['score'].append(listName['score'][i])
-                    getHotel['hotel'].append(listName['hotel'][i])
-                    getHotel['date'].append(listName['date'][i])
-                    getHotel['country'].append(listName['country'][i])
-                    getHotel['room'].append(listName['room'][i])
-                    getHotel['title'].append(listName['title'][i])
-                    getHotel['travellerType'].append(listName['travellerType'][i])
-    return getHotel
-
-    
-
-def sortByHotelName(listName,hotelName,rate):
     getHotel = {'reviews':[], 'score':[],'hotel':[],'date':[],'country':[],'room':[],'title':[],'travellerType':[]}
     for i in range(0,len(listName['hotel'])):
         for j in range(0,len(hotelName)):
-            if hotelName[j] == listName['hotel'][i]:
+            if(listName['hotel'][i] == hotelName[j]):
                 getHotel['reviews'].append(listName['reviews'][i])
                 getHotel['score'].append(listName['score'][i])
                 getHotel['hotel'].append(listName['hotel'][i])
@@ -313,25 +299,111 @@ def sortByHotelName(listName,hotelName,rate):
                 getHotel['room'].append(listName['room'][i])
                 getHotel['title'].append(listName['title'][i])
                 getHotel['travellerType'].append(listName['travellerType'][i])
+    return getHotel
+
+def reviewsByHotelAndRate(listName,hotelName,Rate):
+    gethotelList = getHotelChoice(listName,hotelName)
+    rateReview = {'reviews':[], 'score':[],'hotel':[],'date':[],'country':[],'room':[],'title':[],'travellerType':[]}
+    print(Rate)
+    # for b in Rate:
+    #     a = number_of_star(listName,b)
+    #     for i in range(0,len(a['hotel'])):
+    #         for j in range(0,len(hotelName)):
+    #             if a['hotel'][i] == hotelName[j]:
+    #                 getHotel['reviews'].append(listName['reviews'][i])
+    #                 getHotel['score'].append(listName['score'][i])
+    #                 getHotel['hotel'].append(listName['hotel'][i])
+    #                 getHotel['date'].append(listName['date'][i])
+    #                 getHotel['country'].append(listName['country'][i])
+    #                 getHotel['room'].append(listName['room'][i])
+    #                 getHotel['title'].append(listName['title'][i])
+    #                 getHotel['travellerType'].append(listName['travellerType'][i])
+    for i in Rate:
+        a = number_of_star(gethotelList,i)
+        for j in range(0,len(a['score'])):
+            rateReview['reviews'].append(a['reviews'][j])
+            rateReview['score'].append(a['score'][j])
+            rateReview['hotel'].append(a['hotel'][j])
+            rateReview['date'].append(a['date'][j])
+            rateReview['country'].append(a['country'][j])
+            rateReview['room'].append(a['room'][j])
+            rateReview['title'].append(a['title'][j])
+            rateReview['travellerType'].append(a['travellerType'][j])
+    return rateReview
+
+def sortByHotelName(listName,hotelName,rate):
+    gethotelList = getHotelChoice(listName,hotelName)
 
     d={}
-    title=[]
-    hotel=[]
-    total_count=[]
+    title =[]
     for i in rate:
-        a = number_of_star(getHotel,i)
+        a = number_of_star(gethotelList,i)
         b = countList(a)
         s = str(i)+" Star"
         d[s] = b
-    for i in d:
-        for k in d[i]:
-            title.append(i)
-            hotel.append(k)
-        for j in d[i].values():
-            total_count.append(j)
-    allList = list(zip(title,hotel,total_count))
-    hr_df_1 = pd.DataFrame(allList, columns = ['title','hotel','total_count'])
-    print(hr_df_1)
+    
+    for i in d.keys():
+        for j in d[i].keys():
+            if j not in title:
+                title.append(j)
+    print(d)
+    
+    df = pd.DataFrame.from_dict(d)
+    print(df)
+    size=np.arange(len(hotelName))
+    size1=np.arange(len(hotelName))
+    w=0.1
+    test =[]
+    status=False
+    #df.to_csv('result/df.csv', encoding='utf-8-sig',index=False)
+    if(len(rate) == 1):
+        s = str(rate[0])+" Star"
+        test.append(s)
+        
+        plt.bar(size,df[s],width=w)
+        plt.xticks(size,title)
+        plt.legend(test,loc=len(rate))
+        plt.show()
+    if(len(rate) > 1):
+        for i in range(0,len(rate)):
+            s = str(rate[i])+" Star"
+            test.append(s)
+            if i==0:
+                plt.bar(size,df[s],width=w)
+            elif i==5:
+                status = True
+            else:
+                plt.bar(size1,df[s],width=w)
+            size1= size1+w
+
+            
+        if status:
+            plt.xticks(ticks=size,labels=title,rotation=30) 
+        else:
+            plt.xticks(ticks=size,labels=title) 
+        plt.legend(test,loc='upper right')
+        plt.show()
+        
+    # for i in rate:
+    #     a = number_of_star(getHotel,i)
+    #     b = countList(a)
+    #     s = str(i)+" Star"
+    #     d[s] = b
+    # for i in d:
+    #     title.append(i)
+    #     for k in d[i]:
+    #         hotel.append(k)
+    #     for j in d[i].values():
+    #         total_count.append(j)
+    # print(d)
+    # print(title)
+    # print(hotel)
+    # print(total_count)
+    # allList = list(zip(title,hotel,total_count))
+    # hr_df_1 = pd.DataFrame(allList, columns = ['title','hotel','total_count'])
+    # print(hr_df_1)
+
+
     # a = countList(getHotel)
     # print
     # b = number_of_star(getHotel,5)
@@ -340,3 +412,35 @@ def sortByHotelName(listName,hotelName,rate):
     
     # df = pd.DataFrame(list(a.items()),columns=['Hotel Name','Count'])
     # print(df)
+
+def final():
+    #load data from csv
+    combinedReviews = loadReviewsList()
+
+    #remove empty inside the data
+    clearEmptyList = filterEmptyList(combinedReviews,False)
+
+    #remove reviews that contain negative keyword
+    sortBadKeywordOut = havingBadWordList(clearEmptyList,False)
+    return sortBadKeywordOut
+
+def wordCloud(listName,hotelName,Rate):
+    intRate = [int(i) for i in Rate]
+    word = []
+    for b in intRate:
+        a = number_of_star(listName,b)
+        for i in range(0,len(a['hotel'])):
+            for j in range(0,len(hotelName)):
+                if a['hotel'][i] == hotelName[j]:
+                    b = a['reviews'][i].lower().split()
+                    for k in b:
+                        word.append(k)
+
+                    
+    image_mask = np.array(PIL.Image.open("art/cloud.png"))
+    tester =','.join(word)
+    wc = WordCloud(stopwords=STOPWORDS,
+    mask=image_mask,background_color="white",contour_color="black",contour_width=3,min_font_size=3).generate(tester)
+    plt.imshow(wc)
+    plt.axis("off")
+    plt.show()  

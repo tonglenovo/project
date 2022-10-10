@@ -2,6 +2,8 @@ import csv
 import tkinter as tk
 from function import *
 from tkinter import *
+from pandasgui import show
+
 master = Tk()
 master.title('Hotel Selection: Reviews')
 master.geometry("500x200")
@@ -45,18 +47,24 @@ def wordmap(): #redundant, must be a better way to do this
          print('Testing: nothing to see here')
 
 def combined():
+   # Hotel selection
+   hotelChoice = hotel()
+   # Rate selection
+   ratingChoice = rating()
     #listName use sortBadKeywordOut as It filter the empty response and negative keyword.
     #hotelName is base on the check box Hotel A, Hotel B, Hotel C
     #Rate is base on the check box 5 Star, 4 Star, 3 Star
-    #reviewsByHotelAndRate(listName,hotelName,Rate):
+   result = reviewsByHotelAndRate(sortBadKeywordOut,hotelChoice,ratingChoice)
+   
+    #result['reviews'] to get all the reviews after filter the condition that is selected
 
-   print(hotel()+rating()) #PLACEHOLDER ONLY!
-   #Here, it should filter to hotels already selected
-   for i in rating(): #This is to see which ratings were selected
-      if i ==1:
-         print(i) #if the rating is selected, it should pull out the corresponding rating of the hotel.
-      else: 
-         print('nothing')
+   # print(hotel()+rating()) #PLACEHOLDER ONLY!
+   # #Here, it should filter to hotels already selected
+   # for i in rating(): #This is to see which ratings were selected
+   #    if i ==1:
+   #       print(i) #if the rating is selected, it should pull out the corresponding rating of the hotel.
+   #    else: 
+   #       print('nothing')
 
 def chart():
     hotelChoice = hotel()
