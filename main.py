@@ -1,26 +1,17 @@
-import csv
 import tkinter as tk
 from function import *
 from tkinter import *
+from tkinter import messagebox
 from pandasgui import show
 
-master = Tk()
+master = tk.Tk()
 master.title('Hotel Selection: Reviews')
-master.geometry("500x200")
+master.resizable(0, 0)
+master.geometry("550x200")
 
-#load data from csv
-combinedReviews = loadReviewsList()
-#remove empty inside the data
-clearEmptyList = filterEmptyList(combinedReviews,False)
-#remove reviews that contain negative keyword
-sortBadKeywordOut = havingBadWordList(clearEmptyList,False)
-
-#Store checkbox selected value
+finalList = final()
 hotelCheckBox = []
 starCheckBox = []
-
-#def var_states(): #for reference only
-   #print("Star rating 5: %d,\nStar rating 4: %d, \nStar rating 3: %d, \nStar rating 2: %d,\nStar rating 1: %d"% (var1.get(), var2.get(),var3.get(),var4.get(),var5.get()))
 
 def rating(): #This is to check which variables are ticked(True), then Select the data
    ratingChoice = []
@@ -33,45 +24,96 @@ def rating(): #This is to check which variables are ticked(True), then Select th
 def hotel(): #This is to check which variables are ticked(True), then select the data based on input
    hotelChoice = []
    for var in hotelCheckBox:
-        value = var.get()
-        if value:
+         value = var.get()
+         if value:
             hotelChoice.append(value)
    return hotelChoice
 
-def wordmap(): #redundant, must be a better way to do this
-   List2 = [var6.get(), var7.get(), var8.get(), var9.get(), var10.get()]
-   for i in List2:
+def checkEmpty():
+   state = False
+   if(len(hotel()) == 0 and len(rating()) == 0):
+      messagebox.showerror('Error',"Please select a rating")
+      messagebox.showerror('Error',"Please select a hotel")
+   elif(len(rating()) == 0):
+      messagebox.showerror('Error',"Please select a rating")
+   elif(len(hotel()) == 0):
+      messagebox.showerror('Error',"Please select a hotel")
+   else:
+      state = True
+   return state
+
+def wordmap():
+   list2 = [var6.get(), var7.get(), var8.get(), var9.get(), var10.get(),var11.get(),var12.get(),var13.get(),var14.get()]
+   for i in list2:
       if i == 1:
          print('testing: make wordmap')
       else:
-         print('Testing: nothing to see here')
+         print('Testing: no wordmap')
+   window2 = Toplevel()  # this creates the window
+   window2.title('Wordmap')
+   window2.geometry("400x100")
+   label2 = tk.Label(window2,text='Wordmap')
+   label2.place(x=10, y=10)
 
 def combined():
-   # Hotel selection
-   hotelChoice = hotel()
-   # Rate selection
-   ratingChoice = rating()
-    #listName use sortBadKeywordOut as It filter the empty response and negative keyword.
-    #hotelName is base on the check box Hotel A, Hotel B, Hotel C
-    #Rate is base on the check box 5 Star, 4 Star, 3 Star
-   result = reviewsByHotelAndRate(sortBadKeywordOut,hotelChoice,ratingChoice)
-   
-    #result['reviews'] to get all the reviews after filter the condition that is selected
+   # list2 = [var6.get(), var7.get(), var8.get(), var9.get(), var10.get(),var11.get(),var12.get(),var13.get(),var14.get()]
+   # hotellist1 = []
+   # for i in list2:
+   #    if i == 1:
+   #       hotellist1.append(1)
+   #    else:
+   #       hotellist1.append(0)
 
-   # print(hotel()+rating()) #PLACEHOLDER ONLY!
-   # #Here, it should filter to hotels already selected
-   # for i in rating(): #This is to see which ratings were selected
+   # list1 = [var1.get(), var2.get(), var3.get(), var4.get(), var5.get()]
+   # ratinglist1 = []
+   # for j in list1:
+   #    if j ==1:
+   #       ratinglist1.append(1)
+   #    else:
+   #       ratinglist1.append(0)
+
+   # for i in hotellist1:
    #    if i ==1:
-   #       print(i) #if the rating is selected, it should pull out the corresponding rating of the hotel.
-   #    else: 
-   #       print('nothing')
+   #          for k in ratinglist1:
+   #             if k ==1:
+   #                print(i,k)
+   #             else:
+   #                print('Rating not Selected')
+   #    else:
+   #       print('Hotel Not Selected')
+
+   # window1 = Toplevel()  # this creates the window
+   # window1.title('Hotel Reviews')
+   # window1.geometry("400x100")
+   # label1 = tk.Label(window1, text='hotel reviews')  # window1 prevents overwriting into primary window
+   # label1.place(x=10, y=10)
+   keyword = entry.get() #make the entry a variable
+   hotelChoice = hotel()
+   ratingChoice = rating()
+   result = reviewsByHotelAndRate(finalList,hotelChoice,ratingChoice)
+
+
+def keywords():
+   keyword = entry.get() #make the entry a variable
+   # use searchByKeyword to get the list of keyword that yours had enter.
+   # keyword = entry.get() #make the entry a variable
+   # window3 = Toplevel()  # this creates the window
+   # window3.title('Keyword Map')
+   # window3.geometry("400x100")
+   # label3 = tk.Label(window3, text=keyword) #so whatever is entered will appear
+   # label3.place(x=10, y=10)
 
 def chart():
-    hotelChoice = hotel()
-    ratingChoice = rating()
-    sortByHotelName(sortBadKeywordOut,hotelChoice,ratingChoice)
-#    a = reviewsByHotelAndRate(sortBadKeywordOut,hotelChoice,ratingChoice)
-#    print(len(a['hotel']))
+   keyword = entry.get() #make the entry a variable
+   if(checkEmpty()):
+      hotelChoice = hotel()
+      ratingChoice = rating()
+    
+            # print(value)
+      sortByHotelName(finalList,hotelChoice,ratingChoice,keyword)
+     
+
+
 
 #This section is for the ratings
 Label(master, text="Select the rating(s) you wish to see").grid(row=0)
@@ -84,24 +126,59 @@ Checkbutton(master, text='3 Stars',variable=starCheckBox[2], onvalue="3", offval
 Checkbutton(master, text='2 Stars',variable=starCheckBox[3], onvalue="2", offvalue="").place(x=300,y=20)
 Checkbutton(master, text='1 Stars',variable=starCheckBox[4], onvalue="1", offvalue="").place(x=400,y=20)
 
+# var1 = IntVar()
+# Checkbutton(master, text="5 Stars", variable=var1).place(x=0,y=20)
+# var2 = IntVar()
+# Checkbutton(master, text="4 Stars", variable=var2).place(x=100, y=20)
+# var3 = IntVar()
+# Checkbutton(master, text="3 Stars", variable=var3).place(x=200,y=20)
+# var4 = IntVar()
+# Checkbutton(master, text="2 Stars", variable=var4).place(x=300,y=20)
+# var5 = IntVar()
+# Checkbutton(master, text="1 Star", variable=var5).place(x=400,y=20)
 
 Label(master, text="Select the Hotel(s)").place(x=0,y=60)
-for i in range(5):
+for i in range(9):
     option = StringVar(value="")
     hotelCheckBox.append(option)
-Checkbutton(master, text='Pan Pacific Hotel',variable=hotelCheckBox[0], onvalue="Pan Pacific Hotel", offvalue="").place(x=0,y=80)
-Checkbutton(master, text='Hotel B',variable=hotelCheckBox[1], onvalue="Hotel B", offvalue="").place(x=150,y=80)
-Checkbutton(master, text='Hotel C',variable=hotelCheckBox[2], onvalue="Hotel C", offvalue="").place(x=250,y=80)
-Checkbutton(master, text='Hotel D',variable=hotelCheckBox[3], onvalue="Hotel D", offvalue="").place(x=350,y=80)
-Checkbutton(master, text='MBS', variable=hotelCheckBox[4], onvalue="Marina Bay Sands Hotel", offvalue="").place(x=0,y=100)
+Checkbutton(master, text='MBS', variable=hotelCheckBox[0], onvalue="Marina Bay Sands Hotel", offvalue="").place(x=0,y=80)
+Checkbutton(master, text='Pan Pacific', variable=hotelCheckBox[1], onvalue="Pan Pacific Hotel", offvalue="").place(x=100,y=80)
+Checkbutton(master, text='Mandarin Oriental', variable=hotelCheckBox[2], onvalue="Mandarin Oriental", offvalue="").place(x=200,y=80)
+Checkbutton(master, text='Hotel Fort Canning', variable=hotelCheckBox[3], onvalue="Hotel Fort Canning", offvalue="").place(x=300,y=80)
+Checkbutton(master, text='JW Marriott', variable=hotelCheckBox[4], onvalue="JW Marriott Hotel", offvalue="").place(x=430,y=80)
+Checkbutton(master, text='Shangri-La', variable=hotelCheckBox[5], onvalue="Shangri-La Singapore", offvalue="").place(x=0,y=100)
+Checkbutton(master, text='The Fullerton', variable=hotelCheckBox[6], onvalue="The Fullerton Hotel", offvalue="").place(x=100,y=100)
+Checkbutton(master, text='Ritz Carlton', variable=hotelCheckBox[7], onvalue="Ritz-Carlton Hotel", offvalue="").place(x=200,y=100)
+Checkbutton(master, text='Four Seasons', variable=hotelCheckBox[8], onvalue="Four Seasons Hotel", offvalue="").place(x=300,y=100)
+# var6 = IntVar()
+# Checkbutton(master, text="MBS", variable=var6).place(x=0,y=80)
+# var7 = IntVar()
+# Checkbutton(master, text="Pan Pacific", variable=var7).place(x=100, y=80)
+# var8 = IntVar()
+# Checkbutton(master, text="Mandarin Oriental", variable=var8).place(x=200,y=80)
+# var9 = IntVar()
+# Checkbutton(master, text="Hotel Fort Canning", variable=var9).place(x=300,y=80)
+# var10 = IntVar()
+# Checkbutton(master, text="JW Marriott", variable=var10).place(x=430,y=80)
+# var11 = IntVar()
+# Checkbutton(master, text="Shangri-La", variable=var11).place(x=0,y=100)
+# var12 = IntVar()
+# Checkbutton(master, text="The Fullerton", variable=var12).place(x=100,y=100)
+# var13 = IntVar()
+# Checkbutton(master, text="Ritz Carlton", variable=var13).place(x=200,y=100)
+# var14 = IntVar()
+# Checkbutton(master, text="Four Seasons", variable=var14).place(x=300,y=100)
 
-Button(master, text='Reviews', command=combined).place(x=150, y=160)#calls upon function var_states
-Button(master, text='Wordmap', command=wordmap).place(x=220, y=160) #calls upon function var_states
-Button(master, text='Chart', command=chart).place(x=310, y=160) #calls upon function var_states
-Button(master, text='Quit', command=master.quit).place(x=380,y=160) #Quit the application
+label = tk.Label(text='Enter keyword:')
+label.place(x=10, y=141)
+input = tk.Label() #Entry field
+entry = tk.Entry()
+entry.place(x=100, y=143)
+entry.bind('<Return>', lambda _: keywords()) ##So that the enter key will perform the keyword search
+
+Button(master, text='Keyword search',command=keywords).place(x=110, y=170)#calls upon function var_states
+Button(master, text='Reviews', command=combined).place(x=300, y=140)#calls upon function var_states
+Button(master, text='Wordmap', command=wordmap).place(x=370, y=140) #calls upon function var_states
+Button(master, text="Chart",command=chart).place(x=450,y=140)#calls upon function var_states
+Button(master, text='Quit', command=master.quit).place(x=500,y=140) #Quit the application
 mainloop()
-#Note: You can use either 1/True or 0/False for these conditions.
-#if var1.get()==True:
-#   print('ok')
-#else:
-#    print('nah')
