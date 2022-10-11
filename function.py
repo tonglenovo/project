@@ -1,4 +1,5 @@
 import csv
+from textwrap import wrap
 from turtle import width
 from numpy import positive
 import pandas as pd
@@ -33,16 +34,17 @@ def readCSV(fileName,hotelName,state):
             # detect_language = doc._.language
             # doc1 = nlp(col['negative'])
             # detect_language1 = doc1._.language
-            # print(detect_language)
+            # print(detect_language['language']=='en')
             # if(detect_language > 0.5 or detect_language1 > 0.5)
             if(col['positive'].isascii() and col['negative'].isascii()):
+            #if(detect_language['language']=='en'):
                 reviews['reviews'].append(col['positive'])
                 reviews['reviews'].append(col['negative'])
                 reviews['hotel'].append(hotelName)
                 reviews['hotel'].append(hotelName)
                 a = float(col['score'])/2
                 reviews['score'].append(round(a,2))
-                reviews['score'].append(round(a,2)) 
+                reviews['score'].append(1.0) 
                 date = col['date'].split()
                 reviews['date'].append(date[1])
                 reviews['date'].append(date[1])
@@ -58,15 +60,19 @@ def readCSV(fileName,hotelName,state):
     else:
         for col in file:
             if(col['Review'].isascii()):
+                t = col['date'].split()
                 reviews['reviews'].append(col['Review'])
                 reviews['hotel'].append(hotelName)
                 a = float(col['Rating'])
                 reviews['score'].append(round(a,2))
                 reviews['title'].append(col['Review title'])
-                reviews['date'].append('')
+                if(len(t) == 0):
+                    reviews['date'].append('')
+                else:
+                    reviews['date'].append(t[1])
                 reviews['country'].append('')
                 reviews['room'].append('')
-                reviews['travellerType'].append('')
+                reviews['travellerType'].append(col['traveller_type'])
         return reviews
     
 def loadReviewsList():
@@ -331,13 +337,14 @@ def reviewsByHotelAndRate(listName,hotelName,Rate):
             rateReview['travellerType'].append(a['travellerType'][j])
     return rateReview
 
-def sortByHotelName(listName,hotelName,rate):
+def sortByHotelName(listName,hotelName,rate,keyword):
+    print(keyword)
     gethotelList = getHotelChoice(listName,hotelName)
-
+    getkeywordList = searchByKeyword(gethotelList, keyword)
     d={}
     title =[]
     for i in rate:
-        a = number_of_star(gethotelList,i)
+        a = number_of_star(getkeywordList,i)
         b = countList(a)
         s = str(i)+" Star"
         d[s] = b
@@ -347,6 +354,7 @@ def sortByHotelName(listName,hotelName,rate):
             if j not in title:
                 title.append(j)
     print(d)
+    title = ['\n'.join(wrap(l,12)) for l in title]
     
     df = pd.DataFrame.from_dict(d)
     print(df)
@@ -354,33 +362,28 @@ def sortByHotelName(listName,hotelName,rate):
     size1=np.arange(len(hotelName))
     w=0.1
     test =[]
-    status=False
     #df.to_csv('result/df.csv', encoding='utf-8-sig',index=False)
     if(len(rate) == 1):
         s = str(rate[0])+" Star"
         test.append(s)
-        
+        plt.figure(figsize=(15,5))
         plt.bar(size,df[s],width=w)
         plt.xticks(size,title)
         plt.legend(test,loc=len(rate))
         plt.show()
     if(len(rate) > 1):
+        # plt.figure(figsize=(15,2))
+        plt.figure(figsize=(15,5))
         for i in range(0,len(rate)):
             s = str(rate[i])+" Star"
             test.append(s)
             if i==0:
                 plt.bar(size,df[s],width=w)
-            elif i==5:
-                status = True
             else:
                 plt.bar(size1,df[s],width=w)
             size1= size1+w
-
-            
-        if status:
-            plt.xticks(ticks=size,labels=title,rotation=30) 
-        else:
-            plt.xticks(ticks=size,labels=title) 
+        
+        plt.xticks(ticks=size,labels=title) 
         plt.legend(test,loc='upper right')
         plt.show()
         
@@ -416,6 +419,7 @@ def sortByHotelName(listName,hotelName,rate):
 def final():
     #load data from csv
     combinedReviews = loadReviewsList()
+    # print('Final: ' + str(len(combinedReviews['reviews'])))
 
     #remove empty inside the data
     clearEmptyList = filterEmptyList(combinedReviews,False)
@@ -444,3 +448,18 @@ def wordCloud(listName,hotelName,Rate):
     plt.imshow(wc)
     plt.axis("off")
     plt.show()  
+
+def searchByKeyword(listName,keyword):
+    getHotel = {'reviews':[], 'score':[],'hotel':[],'date':[],'country':[],'room':[],'title':[],'travellerType':[]}
+    for i in range(0,len(listName['reviews'])):
+        if(keyword in listName['reviews'][i].lower()):
+            getHotel['reviews'].append(listName['reviews'][i])
+            getHotel['score'].append(listName['score'][i])
+            getHotel['hotel'].append(listName['hotel'][i])
+            getHotel['date'].append(listName['date'][i])
+            getHotel['country'].append(listName['country'][i])
+            getHotel['room'].append(listName['room'][i])
+            getHotel['title'].append(listName['title'][i])
+            getHotel['travellerType'].append(listName['travellerType'][i])
+    return getHotel
+        
