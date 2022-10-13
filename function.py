@@ -2,9 +2,7 @@ import csv
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from textwrap import wrap
 from wordcloud import WordCloud,STOPWORDS
-import PIL.Image
 from collections import Counter
 import re
 from nltk.corpus import stopwords
@@ -362,14 +360,13 @@ def displayChart(listName,hotelName,rate,keyword=''):
         plt.legend(test,loc='upper right')
         plt.show()
 
-#This Function will base on GUI selection and return a word cloud chart.
-
 def random_color_func(word=None, font_size=None, position=None,  orientation=None, font_path=None, random_state=None):
     hue = random_state.randint(0,255)
     saturation = 50
     lightness = 40
     return "hsl({}, {}%, {}%)".format(hue, saturation, lightness)
-    
+
+#This Function will base on GUI selection and return a word cloud chart.
 def wordCloud(listName,hotelName,rate):
     intRate = [int(i) for i in rate]
     word = []
@@ -406,5 +403,8 @@ def wordCloud(listName,hotelName,rate):
     plt.figure(figsize=(8, 4))
     plt.imshow(wordcloud, interpolation='bilInear')
     plt.axis('off')
+    # manager = plt.get_current_fig_manager()
+    # manager.full_screen_toggle()
+    wm = plt.get_current_fig_manager()
+    wm.window.state('zoomed')
     plt.show()
- 
