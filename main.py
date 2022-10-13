@@ -9,7 +9,7 @@ master.title('Hotel Selection: Reviews')
 master.resizable(0, 0)
 master.geometry("550x200")
 
-finalList = final()
+finalReviews = finalList()
 hotelCheckBox = []
 starCheckBox = []
 
@@ -32,8 +32,7 @@ def hotel(): #This is to check which variables are ticked(True), then select the
 def checkEmpty():
    state = False
    if(len(hotel()) == 0 and len(rating()) == 0):
-      messagebox.showerror('Error',"Please select a rating")
-      messagebox.showerror('Error',"Please select a hotel")
+      messagebox.showerror('Error',"Please select a rating and a hotel")
    elif(len(rating()) == 0):
       messagebox.showerror('Error',"Please select a rating")
    elif(len(hotel()) == 0):
@@ -43,17 +42,21 @@ def checkEmpty():
    return state
 
 def wordmap():
-   list2 = [var6.get(), var7.get(), var8.get(), var9.get(), var10.get(),var11.get(),var12.get(),var13.get(),var14.get()]
-   for i in list2:
-      if i == 1:
-         print('testing: make wordmap')
-      else:
-         print('Testing: no wordmap')
-   window2 = Toplevel()  # this creates the window
-   window2.title('Wordmap')
-   window2.geometry("400x100")
-   label2 = tk.Label(window2,text='Wordmap')
-   label2.place(x=10, y=10)
+#    list2 = [var6.get(), var7.get(), var8.get(), var9.get(), var10.get(),var11.get(),var12.get(),var13.get(),var14.get()]
+#    for i in list2:
+#       if i == 1:
+#          print('testing: make wordmap')
+#       else:
+#          print('Testing: no wordmap')
+#    window2 = Toplevel()  # this creates the window
+#    window2.title('Wordmap')
+#    window2.geometry("400x100")
+#    label2 = tk.Label(window2,text='Wordmap')
+#    label2.place(x=10, y=10)
+   if (checkEmpty()):
+      hotelChoice = hotel()
+      ratingChoice = rating()
+      wordCloud(finalReviews, hotelChoice,ratingChoice)
 
 def combined():
    # list2 = [var6.get(), var7.get(), var8.get(), var9.get(), var10.get(),var11.get(),var12.get(),var13.get(),var14.get()]
@@ -90,12 +93,26 @@ def combined():
    keyword = entry.get() #make the entry a variable
    hotelChoice = hotel()
    ratingChoice = rating()
-   result = reviewsByHotelAndRate(finalList,hotelChoice,ratingChoice)
-
+   result = reviewsByHotelAndRate(finalReviews,hotelChoice,ratingChoice)
+   if(checkEmpty()):
+         df = pd.DataFrame.from_dict(result)
+         print(df)
+         show(df)
 
 def keywords():
    keyword = entry.get() #make the entry a variable
-   # use searchByKeyword to get the list of keyword that yours had enter.
+   if(checkEmpty()):
+      if (keyword == ''):
+         messagebox.showerror('Error','Please input keyword')
+   
+      else:
+         hotelChoice = hotel()
+         ratingChoice = rating()
+         result = reviewsByHotelAndRate(finalReviews,hotelChoice,ratingChoice)
+         searchResult = searchByKeyword(result,keyword.lower())
+         df = pd.DataFrame.from_dict(searchResult)
+         show(df)
+      
    # keyword = entry.get() #make the entry a variable
    # window3 = Toplevel()  # this creates the window
    # window3.title('Keyword Map')
@@ -104,14 +121,18 @@ def keywords():
    # label3.place(x=10, y=10)
 
 def chart():
+   # With keyword version
    keyword = entry.get() #make the entry a variable
+   # if(checkEmpty()):
+   #    hotelChoice = hotel()
+   #    ratingChoice = rating()
+    
+   #          # print(value)
+   #    sortByHotelName(finalReviews,hotelChoice,ratingChoice,keyword)
    if(checkEmpty()):
       hotelChoice = hotel()
       ratingChoice = rating()
-    
-            # print(value)
-      sortByHotelName(finalList,hotelChoice,ratingChoice,keyword)
-     
+      displayChart(finalReviews,hotelChoice,ratingChoice,keyword)
 
 
 
