@@ -5,7 +5,11 @@ import numpy as np
 from textwrap import wrap
 from wordcloud import WordCloud,STOPWORDS
 import PIL.Image
+from collections import Counter
+import re
+from nltk.corpus import stopwords
 
+commonword = set(stopwords.words('english'))
 hotel_name = ['Pan Pacific Hotel','Marina Bay Sands Hotel','Mandarin Oriental','Hotel Fort Canning','JW Marriott Hotel','Shangri-La Singapore','The Fullerton Hotel','Ritz-Carlton Hotel','Four Seasons Hotel']
 reviews = {'reviews':[], 'score':[],'hotel':[],'date':[],'country':[],'room':[],'title':[],'travellerType':[]}
 checkingEmpty = ['none','na','n/a','nil','-','nothing']
@@ -359,6 +363,13 @@ def displayChart(listName,hotelName,rate,keyword=''):
         plt.show()
 
 #This Function will base on GUI selection and return a word cloud chart.
+
+def random_color_func(word=None, font_size=None, position=None,  orientation=None, font_path=None, random_state=None):
+    hue = random_state.randint(0,255)
+    saturation = 50
+    lightness = 40
+    return "hsl({}, {}%, {}%)".format(hue, saturation, lightness)
+    
 def wordCloud(listName,hotelName,rate):
     intRate = [int(i) for i in rate]
     word = []
@@ -370,39 +381,30 @@ def wordCloud(listName,hotelName,rate):
                     b = a['reviews'][i].lower().split()
                     for k in b:
                         word.append(k)
-    
+    topcount = 50
+    filtertext = filter(lambda w: not w in commonword, word)
+    newtext = ""
+    newlist = []
+    for word in filtertext:
+        res = re.sub(r'[^\w\s]', '', word)
+        newlist.append(res)
+    counter = Counter(newlist)
+    most_common_list = []
+    for c in counter.most_common(int(topcount)):
+        most_common_list.append(c[0])
+    newtext += " ".join(most_common_list) + " "
+    # create the wordcloud object
+    wordcloud = WordCloud(stopwords=STOPWORDS, background_color='white',
+                          collocations=True,
+                          min_word_length=4,
+                          color_func=random_color_func,
+                          collocation_threshold=3).generate(newtext)
 
-                    
-    # image_mask = np.array(PIL.Image.open("art/cloud.png"))
-    tester =','.join(word)
-    #,contour_color="black",contour_width=3,min_font_size=3
-    wc = WordCloud(stopwords=STOPWORDS,
-                    background_color="white"
-                    ).generate(tester)
-    plt.imshow(wc)
-    plt.axis("off")
-    plt.show()  
+    text1_dict = {k: v for k, v in
+                  sorted(wordcloud.process_text(newtext).items(), reverse=True, key=lambda item: item[1])}
 
-
-    reviews=[]
-    score=[]
-    hotel=[]
-    date=[]
-    country=[]
-    room=[]
-    title=[]
-    travellerType = []
-
-    for i in range(0,len(dict_list['hotel'])):
-        reviews.append(dict_list['reviews'][i])
-        score.append(dict_list['score'][i])
-        hotel.append(dict_list['hotel'][i])
-        date.append(dict_list['date'][i])
-        country.append(dict_list['country'][i])
-        room.append(dict_list['room'][i])
-        title.append(dict_list['title'][i])
-        travellerType.append(dict_list['travellerType'][i])
-    allList = list(zip(reviews,score,hotel,date,country,room,title,travellerType))
-    hr_df_1 = pd.DataFrame(allList, columns = ['reviews', 'score','hotel','date','country','room','title','travellerType'])
-    # hr_df_1.to_csv('result/'+filename+'.csv', encoding='utf-8-sig',index=False)
-    return hr_df_1
+    plt.figure(figsize=(8, 4))
+    plt.imshow(wordcloud, interpolation='bilInear')
+    plt.axis('off')
+    plt.show()
+ 

@@ -6,8 +6,9 @@ from pandasgui import show
 
 master = tk.Tk()
 master.title('Hotel Selection: Reviews')
-master.resizable(False, False)
+# master.resizable(False, False)
 master.geometry("550x200")
+master.iconbitmap("art/logo1.ico")
 
 finalReviews = finalList()
 hotelCheckBox = []
@@ -139,6 +140,15 @@ def chart():
       ratingChoice = rating()
       displayChart(finalReviews,hotelChoice,ratingChoice,keyword)
 
+def clear():
+   for i in starCheckBox:
+      i.set(0)
+   for i in hotelCheckBox:
+      i.set(0)
+   
+   entry.delete('0', END)
+
+
 
 
 #This section is for the ratings
@@ -167,7 +177,7 @@ Label(master, text="Select the Hotel(s)").place(x=0,y=60)
 for i in range(9):
     option = StringVar(value="")
     hotelCheckBox.append(option)
-Checkbutton(master, text='MBS', variable=hotelCheckBox[0], onvalue="Marina Bay Sands Hotel", offvalue="").place(x=0,y=80)
+Checkbutton(master, text='Four Seasons', variable=hotelCheckBox[0], onvalue="Four Seasons Hotel", offvalue="").place(x=0,y=80)
 Checkbutton(master, text='Pan Pacific', variable=hotelCheckBox[1], onvalue="Pan Pacific Hotel", offvalue="").place(x=100,y=80)
 Checkbutton(master, text='Mandarin Oriental', variable=hotelCheckBox[2], onvalue="Mandarin Oriental", offvalue="").place(x=200,y=80)
 Checkbutton(master, text='JW Marriott', variable=hotelCheckBox[3], onvalue="JW Marriott Hotel", offvalue="").place(x=330,y=80)
@@ -175,7 +185,7 @@ Checkbutton(master, text='Fort Canning', variable=hotelCheckBox[4], onvalue="Hot
 Checkbutton(master, text='Shangri-La', variable=hotelCheckBox[5], onvalue="Shangri-La Singapore", offvalue="").place(x=0,y=100)
 Checkbutton(master, text='Ritz Carlton', variable=hotelCheckBox[6], onvalue="Ritz-Carlton Hotel", offvalue="").place(x=100,y=100)
 Checkbutton(master, text='The Fullerton', variable=hotelCheckBox[7], onvalue="The Fullerton Hotel", offvalue="").place(x=200,y=100)
-Checkbutton(master, text='Four Seasons', variable=hotelCheckBox[8], onvalue="Four Seasons Hotel", offvalue="").place(x=330,y=100)
+Checkbutton(master, text='Marina Bay Sands', variable=hotelCheckBox[8], onvalue="Marina Bay Sands Hotel", offvalue="").place(x=330,y=100)
 # var6 = IntVar()
 # Checkbutton(master, text="MBS", variable=var6).place(x=0,y=80)
 # var7 = IntVar()
@@ -203,9 +213,9 @@ entry.place(x=100, y=143)
 entry.bind('<Return>', lambda _: keywords()) ##So that the enter key will perform the keyword search
 
 Button(master, text='Keyword search',command=keywords).place(x=110, y=170)#calls upon function var_states
-Button(master, text='Reviews', command=combined).place(x=300, y=140)#calls upon function var_states
-Button(master, text='Wordmap', command=wordmap).place(x=370, y=140) #calls upon function var_states
-Button(master, text="Chart",command=chart).place(x=450,y=140)#calls upon function var_states
-Button(master, text='Quit', command=master.quit).place(x=500,y=140) #Quit the application
-
+Button(master, text='Reviews', command=combined).place(x=250, y=140)#calls upon function var_states
+Button(master, text='Wordmap', command=wordmap).place(x=320, y=140) #calls upon function var_states
+Button(master, text="Chart",command=chart).place(x=400,y=140)#calls upon function var_states
+Button(master, text='Quit', command=master.quit).place(x=500,y=170) #Quit the application
+Button(master, text="Clear all", command=clear).place(x=440, y=170)
 mainloop()
