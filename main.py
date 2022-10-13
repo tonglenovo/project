@@ -102,7 +102,9 @@ def combined():
 def keywords():
    keyword = entry.get() #make the entry a variable
    if(checkEmpty()):
-      if (keyword == ''):
+      keyword = keyword.strip()
+      print(len(keyword))
+      if (len(keyword) == 0):
          messagebox.showerror('Error','Please input keyword')
    
       else:
@@ -165,12 +167,12 @@ for i in range(9):
 Checkbutton(master, text='MBS', variable=hotelCheckBox[0], onvalue="Marina Bay Sands Hotel", offvalue="").place(x=0,y=80)
 Checkbutton(master, text='Pan Pacific', variable=hotelCheckBox[1], onvalue="Pan Pacific Hotel", offvalue="").place(x=100,y=80)
 Checkbutton(master, text='Mandarin Oriental', variable=hotelCheckBox[2], onvalue="Mandarin Oriental", offvalue="").place(x=200,y=80)
-Checkbutton(master, text='Hotel Fort Canning', variable=hotelCheckBox[3], onvalue="Hotel Fort Canning", offvalue="").place(x=300,y=80)
-Checkbutton(master, text='JW Marriott', variable=hotelCheckBox[4], onvalue="JW Marriott Hotel", offvalue="").place(x=430,y=80)
+Checkbutton(master, text='JW Marriott', variable=hotelCheckBox[3], onvalue="JW Marriott Hotel", offvalue="").place(x=330,y=80)
+Checkbutton(master, text='Fort Canning', variable=hotelCheckBox[4], onvalue="Hotel Fort Canning", offvalue="").place(x=430,y=80)
 Checkbutton(master, text='Shangri-La', variable=hotelCheckBox[5], onvalue="Shangri-La Singapore", offvalue="").place(x=0,y=100)
-Checkbutton(master, text='The Fullerton', variable=hotelCheckBox[6], onvalue="The Fullerton Hotel", offvalue="").place(x=100,y=100)
-Checkbutton(master, text='Ritz Carlton', variable=hotelCheckBox[7], onvalue="Ritz-Carlton Hotel", offvalue="").place(x=200,y=100)
-Checkbutton(master, text='Four Seasons', variable=hotelCheckBox[8], onvalue="Four Seasons Hotel", offvalue="").place(x=300,y=100)
+Checkbutton(master, text='Ritz Carlton', variable=hotelCheckBox[6], onvalue="Ritz-Carlton Hotel", offvalue="").place(x=100,y=100)
+Checkbutton(master, text='The Fullerton', variable=hotelCheckBox[7], onvalue="The Fullerton Hotel", offvalue="").place(x=200,y=100)
+Checkbutton(master, text='Four Seasons', variable=hotelCheckBox[8], onvalue="Four Seasons Hotel", offvalue="").place(x=330,y=100)
 # var6 = IntVar()
 # Checkbutton(master, text="MBS", variable=var6).place(x=0,y=80)
 # var7 = IntVar()
