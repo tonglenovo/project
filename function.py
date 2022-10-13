@@ -235,13 +235,13 @@ def finalList():
     filterBad = havingBadWordList(newList, True)
     afterFilterBad = havingBadWordList(newList, False)
 
-    print("Total: " + str(len(getReviews['reviews'])))
-    print("Remove Special: " + str(len(removeSpecial['reviews'])))
-    print("Total Empty: List: " + str(len(getEmpty['reviews'])))
-    print("After Remove Empty Reviews: " + str(len(newList['reviews'])))
-    print("Bad Reviews: " + str(len(filterBad['reviews'])))
-    print("After Remove Bad Reviews: " + str(len(afterFilterBad['reviews'])))
-    print("CountList: " + str(countList(afterFilterBad)))
+    # print("Total: " + str(len(getReviews['reviews'])))
+    # print("Remove Special: " + str(len(removeSpecial['reviews'])))
+    # print("Total Empty: List: " + str(len(getEmpty['reviews'])))
+    # print("After Remove Empty Reviews: " + str(len(newList['reviews'])))
+    # print("Bad Reviews: " + str(len(filterBad['reviews'])))
+    # print("After Remove Bad Reviews: " + str(len(afterFilterBad['reviews'])))
+    # print("CountList: " + str(countList(afterFilterBad)))
 
     # emptyOneStar = number_of_star(getEmpty,1)
     # emptyTwoStar = number_of_star(getEmpty,2)
@@ -370,18 +370,20 @@ def wordCloud(listName,hotelName,rate):
                     b = a['reviews'][i].lower().split()
                     for k in b:
                         word.append(k)
+    
 
                     
-    image_mask = np.array(PIL.Image.open("art/cloud.png"))
+    # image_mask = np.array(PIL.Image.open("art/cloud.png"))
     tester =','.join(word)
     #,contour_color="black",contour_width=3,min_font_size=3
     wc = WordCloud(stopwords=STOPWORDS,
-    mask=image_mask,background_color="white").generate(tester)
+                    background_color="white"
+                    ).generate(tester)
     plt.imshow(wc)
     plt.axis("off")
     plt.show()  
 
-def dictToCsv(dict_list):
+
     reviews=[]
     score=[]
     hotel=[]

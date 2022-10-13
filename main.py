@@ -6,7 +6,7 @@ from pandasgui import show
 
 master = tk.Tk()
 master.title('Hotel Selection: Reviews')
-master.resizable(0, 0)
+master.resizable(False, False)
 master.geometry("550x200")
 
 finalReviews = finalList()
@@ -98,6 +98,8 @@ def combined():
          df = pd.DataFrame.from_dict(result)
          print(df)
          show(df)
+         master.geometry("550x200")
+         
 
 def keywords():
    keyword = entry.get() #make the entry a variable
@@ -114,6 +116,7 @@ def keywords():
          searchResult = searchByKeyword(result,keyword.lower())
          df = pd.DataFrame.from_dict(searchResult)
          show(df)
+         master.geometry("550x200")
       
    # keyword = entry.get() #make the entry a variable
    # window3 = Toplevel()  # this creates the window
@@ -204,4 +207,5 @@ Button(master, text='Reviews', command=combined).place(x=300, y=140)#calls upon 
 Button(master, text='Wordmap', command=wordmap).place(x=370, y=140) #calls upon function var_states
 Button(master, text="Chart",command=chart).place(x=450,y=140)#calls upon function var_states
 Button(master, text='Quit', command=master.quit).place(x=500,y=140) #Quit the application
+
 mainloop()
