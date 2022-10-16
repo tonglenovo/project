@@ -7,6 +7,9 @@ from wordcloud import WordCloud,STOPWORDS
 from collections import Counter
 import re
 from nltk.corpus import stopwords
+from langdetect import detect, detect_langs
+import emoji
+
 
 commonword = set(stopwords.words('english'))
 hotel_name = ['Pan Pacific Hotel','Marina Bay Sands Hotel','Mandarin Oriental','Hotel Fort Canning','JW Marriott Hotel','Shangri-La Singapore','The Fullerton Hotel','Ritz-Carlton Hotel','Four Seasons Hotel']
@@ -409,3 +412,21 @@ def wordCloud(listName,hotelName,rate):
     wm = plt.get_current_fig_manager()
     wm.window.state('zoomed')
     plt.show()
+
+
+def languageDetect(list):
+    clearEmpty = filterEmptyList(list,False)
+    lang = {'reviews':[], 'score':[],'hotel':[],'date':[],'country':[],'room':[],'title':[],'travellerType':[]}
+    for i in range(0,len(clearEmpty['reviews'])):
+        a = emoji.demojize(clearEmpty['reviews'][i])
+        b = str(detect_langs(a)[0]).split(":") 
+        if(b[0] == 'en'):
+            lang['reviews'].append(clearEmpty['reviews'][i])
+            lang['score'].append(clearEmpty['score'][i])
+            lang['hotel'].append(clearEmpty['hotel'][i])
+            lang['date'].append(clearEmpty['date'][i])
+            lang['country'].append(clearEmpty['country'][i])
+            lang['room'].append(clearEmpty['room'][i])
+            lang['title'].append(clearEmpty['title'][i])
+            lang['travellerType'].append(clearEmpty['travellerType'][i])
+    return lang
