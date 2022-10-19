@@ -1,3 +1,19 @@
+######################################
+#pip install textwrap
+#pip install pandas
+#pip install matplotlib
+#pip install numpy
+#pip install wordcloud
+#pip install collections
+#pip install re
+#pip install nltk
+#pip install emoji
+#pip install langdetect
+#pip install pandasgui
+#pip install tkinter
+#python -m nltk.downloader stopwords
+########################################
+
 import csv
 from textwrap import wrap
 import pandas as pd
@@ -7,7 +23,7 @@ from wordcloud import WordCloud,STOPWORDS
 from collections import Counter
 import re
 from nltk.corpus import stopwords
-from langdetect import detect, detect_langs
+from langdetect import  detect_langs
 import emoji
 
 
@@ -343,14 +359,19 @@ def displayChart(listName,hotelName,rate,keyword=''):
     if(len(rate) == 1):
         star = str(rate[0])+" Star"
         legandList.append(star)
-        plt.figure(figsize=(15,5))
+        plt.figure("Chart")
+        # wm = plt.get_current_fig_manager()
+        # wm.window.state('zoomed')
         plt.bar(size,dataFrame[star],width=width_bar)
         plt.xticks(size,title)
         plt.legend(legandList,loc=len(rate))
         plt.show()
     if(len(rate) > 1):
+        plt.figure("Chart")
+        # wm = plt.get_current_fig_manager()
+        # wm.window.state('zoomed')
         # plt.figure(figsize=(15,2))
-        plt.figure(figsize=(15,5))
+        # plt.figure(figsize=(15,5))
         for rating in range(0,len(rate)):
             star = str(rate[rating])+" Star"
             legandList.append(star)
@@ -360,10 +381,11 @@ def displayChart(listName,hotelName,rate,keyword=''):
                 plt.bar(size1,dataFrame[star],width=width_bar)
             size1= size1+width_bar
         
-        plt.xticks(ticks=size,labels=title) 
-        plt.legend(legandList,loc='upper right')
+        plt.figure("Chart")
         wm = plt.get_current_fig_manager()
         wm.window.state('zoomed')
+        plt.xticks(ticks=size,labels=title) 
+        plt.legend(legandList,loc='upper right')
         plt.show()
 
 def random_color_func(word=None, font_size=None, position=None,  orientation=None, font_path=None, random_state=None):
@@ -398,7 +420,7 @@ def wordCloud(listName,hotelName,rate):
     newtext += " ".join(most_common_list) + " "
     # create the wordcloud object
     wordcloud = WordCloud(stopwords=STOPWORDS, background_color='white',
-                          collocations=True,
+                          collocations=False,
                           min_word_length=4,
                           color_func=random_color_func,
                           collocation_threshold=3).generate(newtext)
@@ -406,13 +428,14 @@ def wordCloud(listName,hotelName,rate):
     text1_dict = {k: v for k, v in
                   sorted(wordcloud.process_text(newtext).items(), reverse=True, key=lambda item: item[1])}
 
-    plt.figure(figsize=(8, 4))
+    plt.figure("Wordmap")
+    # plt.figure(figsize=(8, 4))
     plt.imshow(wordcloud, interpolation='bilInear')
     plt.axis('off')
-    # manager = plt.get_current_fig_manager()
-    # manager.full_screen_toggle()
-    wm = plt.get_current_fig_manager()
-    wm.window.state('zoomed')
+    # wm = plt.get_current_fig_manager()
+    # wm.window.state('zoomed')
+
+    
     plt.show()
 
 

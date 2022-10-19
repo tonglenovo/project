@@ -112,10 +112,12 @@ def keywords():
 def chart():
    finalReviews = dataCleaning()
    print(len(finalReviews['reviews']))
+   keyword = entry.get()
    if(checkEmpty()):
+      
       hotelChoice = hotel()
       ratingChoice = rating()
-      displayChart(finalReviews,hotelChoice,ratingChoice)
+      displayChart(finalReviews,hotelChoice,ratingChoice,keyword)
 
 def clear():
    for rating in starCheckBox:
