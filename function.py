@@ -332,6 +332,8 @@ def searchByKeyword(listName,keyword):
 #This function will get GUI selection and return a chart to display in GUI
 def displayChart(listName,hotelName,rate,keyword=''):
     print(keyword)
+    keyword = keyword.strip()
+    keyword = keyword.lower()
     gethotelList = getHotelChoice(listName,hotelName)
     getkeywordList = searchByKeyword(gethotelList, keyword)
     countStarList={}
@@ -360,8 +362,12 @@ def displayChart(listName,hotelName,rate,keyword=''):
         star = str(rate[0])+" Star"
         legandList.append(star)
         plt.figure("Chart")
-        # wm = plt.get_current_fig_manager()
-        # wm.window.state('zoomed')
+        if(len(keyword)!=0):
+            chartTitle = "Keyword: "+keyword
+            print(chartTitle)
+            plt.title(chartTitle)
+        wm = plt.get_current_fig_manager()
+        wm.window.state('zoomed')
         plt.bar(size,dataFrame[star],width=width_bar)
         plt.xticks(size,title)
         plt.legend(legandList,loc=len(rate))
@@ -381,6 +387,10 @@ def displayChart(listName,hotelName,rate,keyword=''):
                 plt.bar(size1,dataFrame[star],width=width_bar)
             size1= size1+width_bar
         
+        if(len(keyword)!=0):
+            chartTitle = "Keyword: "+keyword
+            print(chartTitle)
+            plt.title(chartTitle)
         plt.figure("Chart")
         wm = plt.get_current_fig_manager()
         wm.window.state('zoomed')
