@@ -364,10 +364,9 @@ def displayChart(listName,hotelName,rate,keyword=''):
         plt.figure("Chart")
         if(len(keyword)!=0):
             chartTitle = "Keyword: "+keyword
-            print(chartTitle)
             plt.title(chartTitle)
-        wm = plt.get_current_fig_manager()
-        wm.window.state('zoomed')
+        # wm = plt.get_current_fig_manager()
+        # wm.window.state('zoomed')
         plt.bar(size,dataFrame[star],width=width_bar)
         plt.xticks(size,title)
         plt.legend(legandList,loc=len(rate))
@@ -389,11 +388,10 @@ def displayChart(listName,hotelName,rate,keyword=''):
         
         if(len(keyword)!=0):
             chartTitle = "Keyword: "+keyword
-            print(chartTitle)
             plt.title(chartTitle)
         plt.figure("Chart")
-        wm = plt.get_current_fig_manager()
-        wm.window.state('zoomed')
+        # wm = plt.get_current_fig_manager()
+        # wm.window.state('zoomed')
         plt.xticks(ticks=size,labels=title) 
         plt.legend(legandList,loc='upper right')
         plt.show()

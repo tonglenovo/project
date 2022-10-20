@@ -30,7 +30,13 @@ def hotel(): #This is to check which variables are ticked(True), then select the
          if value:
             hotelChoice.append(value)
    return hotelChoice
+###
 
+'''
+#This is to check which variable are selected(True), then select the data based on input
+'''
+
+###
 def cleanOption():
    cleanChoice = []
    for filtering in cleaningSelection:
@@ -107,7 +113,7 @@ def keywords():
          searchResult = searchByKeyword(result,keyword.lower())
          dataFrame = pd.DataFrame.from_dict(searchResult)
          show(dataFrame)
-         master.geometry("550x200")
+         master.geometry("550x300")
 
 def chart():
    finalReviews = dataCleaning()
