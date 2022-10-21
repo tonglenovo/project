@@ -113,7 +113,7 @@ This is function of the button base on keyword and display reviews,wordmap and c
 """
 def keywords():
    finalReviews = dataCleaning()
-   keyword = entry.get() #make the entry a variable
+   keyword = entry.get()
    if(checkEmpty()):
       keyword = keyword.strip()
       if (len(keyword) == 0):
@@ -159,7 +159,6 @@ for i in range(2):
 Checkbutton(master, text='Empty', variable=cleaningSelection[0], onvalue="1", offvalue="").place(x=0,y=20)
 Checkbutton(master, text='Only English', variable=cleaningSelection[1], onvalue="2", offvalue="").place(x=100,y=20)
 
-#This section is for the ratings
 Label(master, text="Select the rating(s) you wish to see").place(x=0,y=60)
 for i in range(5):
     option = StringVar(value="")
@@ -186,16 +185,16 @@ Checkbutton(master, text='The Fullerton', variable=hotelCheckBox[8], onvalue="Th
 
 label = tk.Label(text='Enter keyword:')
 label.place(x=10, y=201)
-input = tk.Label() #Entry field
+input = tk.Label() 
 entry = tk.Entry()
 entry.place(x=100, y=203)
-entry.bind('<Return>', lambda _: keywords()) ##So that the enter key will perform the keyword search
+entry.bind('<Return>', lambda _: keywords()) 
 
-Button(master, text='Keyword search',command=keywords).place(x=110, y=230)#calls upon function var_states
-Button(master, text='Reviews', command=combined).place(x=250, y=203)#calls upon function var_states
-Button(master, text='Wordmap', command=wordmap).place(x=320, y=203) #calls upon function var_states
-Button(master, text="Chart",command=chart).place(x=400,y=203)#calls upon function var_states
+Button(master, text='Keyword search',command=keywords).place(x=110, y=230)
+Button(master, text='Reviews', command=combined).place(x=250, y=203)
+Button(master, text='Wordmap', command=wordmap).place(x=320, y=203) 
+Button(master, text="Chart",command=chart).place(x=400,y=203)
 Button(master, text="Clear all", command=clear).place(x=440, y=270)
-Button(master, text='Quit', command=master.quit).place(x=500,y=270) #Quit the application
+Button(master, text='Quit', command=master.quit).place(x=500,y=270) 
 
 mainloop()
