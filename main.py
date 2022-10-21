@@ -147,7 +147,7 @@ def clear():
    for hotel in hotelCheckBox:
       hotel.set(0)
    for filtering in cleaningSelection:
-      filtering.set(0)
+      filtering.set("")
    
    entry.delete('0', END)
 

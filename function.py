@@ -300,7 +300,7 @@ def displayChart(listName,hotelName,rate,keyword=''):
         plt.show()
 
 """
-This function will return color with bright color
+This function will return color with dark color
 """
 def random_color_func(word=None, font_size=None, position=None,  orientation=None, font_path=None, random_state=None):
     hue = random_state.randint(0,255)
